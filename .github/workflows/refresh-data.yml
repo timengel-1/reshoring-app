@@ -20,9 +20,10 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
 
       - name: Install Python dependencies
-        run: pip install requests openpyxl
+        run: pip install -r scripts/requirements.txt
 
       - name: Refresh data
         run: python scripts/process_data.py
