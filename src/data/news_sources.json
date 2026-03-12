@@ -1,4 +1,31 @@
 {
+  "BRN": [
+    {
+      "name": "Borneo Bulletin",
+      "url": "https://borneobulletin.com.bn",
+      "type": "general"
+    },
+    {
+      "name": "Media Permata",
+      "url": "https://mediapermata.com.bn",
+      "type": "general"
+    },
+    {
+      "name": "Brudirect",
+      "url": "https://www.brudirect.com",
+      "type": "general"
+    },
+    {
+      "name": "Pelita Brunei",
+      "url": "https://pelitabrunei.gov.bn",
+      "type": "government"
+    },
+    {
+      "name": "The Bruneian",
+      "url": "https://thebruneian.news",
+      "type": "business"
+    }
+  ],
   "USA": [
     {
       "name": "Wall Street Journal",
