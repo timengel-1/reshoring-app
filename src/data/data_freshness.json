@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-12T02:39:55Z",
+  "generated_utc": "2026-03-12T03:05:01Z",
   "sources": {
     "bready": {
       "label": "World Bank B-READY",
@@ -10,7 +10,7 @@
     "wgi": {
       "label": "World Bank Governance Indicators",
       "year": 2023,
-      "coverage": 0,
+      "coverage": 205,
       "url": "https://info.worldbank.org/governance/wgi/"
     },
     "trade": {
