@@ -84,6 +84,17 @@ export interface NewsSource {
   type: 'general' | 'financial' | 'business' | 'government';
 }
 
+export interface BusinessLink {
+  name: string;
+  url: string | null;
+}
+
+export interface BusinessLinks {
+  us_embassy?: BusinessLink;
+  us_guide?: BusinessLink;
+  invest_agency?: BusinessLink;
+}
+
 export interface FilterState {
   region: string;
   incomeLevel: string;

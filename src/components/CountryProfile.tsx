@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react'
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
-import { Country, NewsSource } from '../types'
+import { Country, NewsSource, BusinessLinks } from '../types'
 import { getScoreColor, getScoreLabel } from './ScoreBar'
 import ScoreBreakdownBar, { ScoreBreakdownLegend } from './ScoreBreakdownBar'
 import newsSources from '../data/news_sources.json'
 import newsRegional from '../data/news_regional.json'
+import businessLinksData from '../data/business_links.json'
 
 interface TradeNewsItem {
   title: string
@@ -491,6 +492,71 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
             </div>
           </div>
         ) : null
+      })()}
+
+      {/* Business Setup Resources */}
+      {(() => {
+        const links = (businessLinksData as Record<string, BusinessLinks>)[country.code]
+        if (!links) return null
+
+        const items = [
+          links.us_embassy && {
+            icon: '🏛️',
+            label: 'U.S. Embassy',
+            sub: 'Commercial section — help for US businesses',
+            ...links.us_embassy,
+          },
+          links.us_guide && {
+            icon: '📋',
+            label: links.us_guide.name,
+            sub: 'trade.gov Country Commercial Guide',
+            ...links.us_guide,
+          },
+          links.invest_agency && {
+            icon: '🏢',
+            label: links.invest_agency.name,
+            sub: 'Host country invest agency / ministry of commerce',
+            ...links.invest_agency,
+          },
+        ].filter(Boolean) as Array<{ icon: string; label: string; sub: string; url: string | null }>
+
+        if (!items.length) return null
+
+        return (
+          <div className="p-4 border-b border-gray-800">
+            <h3 className="text-gray-400 text-xs uppercase tracking-wider mb-3">Business Setup Resources</h3>
+            <div className="space-y-2">
+              {items.map(item =>
+                item.url ? (
+                  <a
+                    key={item.label}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start gap-3 bg-gray-800 hover:bg-gray-700 rounded-lg px-3 py-2.5 transition-colors group"
+                  >
+                    <span className="text-lg flex-shrink-0 mt-0.5">{item.icon}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="text-gray-200 text-xs font-medium group-hover:text-white leading-snug">{item.label}</div>
+                      <div className="text-gray-600 text-xs mt-0.5">{item.sub}</div>
+                    </div>
+                    <svg className="w-3 h-3 text-gray-600 group-hover:text-gray-400 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                ) : (
+                  <div key={item.label} className="flex items-start gap-3 bg-gray-800 rounded-lg px-3 py-2.5 opacity-50">
+                    <span className="text-lg flex-shrink-0 mt-0.5">{item.icon}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="text-gray-400 text-xs font-medium leading-snug">{item.label}</div>
+                      <div className="text-gray-600 text-xs mt-0.5">{item.sub}</div>
+                    </div>
+                  </div>
+                )
+              )}
+            </div>
+          </div>
+        )
       })()}
 
       {/* Actions */}
