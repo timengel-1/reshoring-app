@@ -283,21 +283,36 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
           <div className="grid grid-cols-2 gap-3 mb-3">
             {[
               {
-                label: 'Avg Applied Tariff',
+                label: 'Applied Tariff',
                 sub: 'weighted mean',
                 value: country.trade.tariff_rate_weighted_mean,
                 avg: GLOBAL_AVG.tariff_weighted,
                 suffix: '%',
-                // Lower is better for import access
                 goodIfLow: true,
               },
               {
-                label: 'Avg Applied Tariff',
+                label: 'Applied Tariff',
                 sub: 'simple mean',
                 value: country.trade.tariff_rate_simple_mean,
                 avg: GLOBAL_AVG.tariff_simple,
                 suffix: '%',
                 goodIfLow: true,
+              },
+              {
+                label: 'Bound Tariff',
+                sub: 'WTO ceiling (simple mean)',
+                value: country.trade.tariff_bound_mean,
+                avg: null,
+                suffix: '%',
+                goodIfLow: null,
+              },
+              {
+                label: 'Tariff Overhang',
+                sub: 'bound − applied (policy risk)',
+                value: country.trade.tariff_overhang,
+                avg: null,
+                suffix: ' pp',
+                goodIfLow: null,
               },
               {
                 label: 'Trade Openness',
@@ -311,16 +326,22 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
               <div key={item.label + item.sub} className="bg-gray-800 rounded-lg p-2.5">
                 <div className="text-gray-500 text-xs">{item.label}</div>
                 <div className="text-gray-600 text-xs">{item.sub}</div>
-                {item.value !== null ? (
+                {item.value !== null && item.value !== undefined ? (
                   <>
                     <div className="text-white text-sm font-semibold mt-1">
                       {item.value.toFixed(1)}{item.suffix}
                     </div>
-                    <div className="text-xs mt-0.5" style={{
-                      color: (item.goodIfLow ? item.value <= item.avg : item.value >= item.avg) ? '#22c55e' : '#f97316'
-                    }}>
-                      {(item.goodIfLow ? item.value <= item.avg : item.value >= item.avg) ? '▲' : '▼'} vs {item.avg.toFixed(1)} avg
-                    </div>
+                    {item.avg !== null && item.goodIfLow !== null ? (
+                      <div className="text-xs mt-0.5" style={{
+                        color: (item.goodIfLow ? item.value <= item.avg : item.value >= item.avg) ? '#22c55e' : '#f97316'
+                      }}>
+                        {(item.goodIfLow ? item.value <= item.avg : item.value >= item.avg) ? '▲' : '▼'} vs {item.avg.toFixed(1)} avg
+                      </div>
+                    ) : item.label === 'Tariff Overhang' ? (
+                      <div className="text-xs mt-0.5" style={{ color: item.value > 20 ? '#f97316' : item.value > 10 ? '#eab308' : '#22c55e' }}>
+                        {item.value > 20 ? 'High policy risk' : item.value > 10 ? 'Moderate risk' : 'Low risk'}
+                      </div>
+                    ) : null}
                   </>
                 ) : (
                   <div className="text-gray-600 text-sm mt-1">–</div>

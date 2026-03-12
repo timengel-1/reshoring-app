@@ -18,9 +18,10 @@ warnings.filterwarnings("ignore")
 import openpyxl
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-BASE     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE, "src", "data")
-BREADY   = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "B-READY-2025-PILLAR-TOPIC-SCORES.xlsx")
+BASE        = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR    = os.path.join(BASE, "src", "data")
+BREADY      = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "B-READY-2025-PILLAR-TOPIC-SCORES.xlsx")
+WTO_API_KEY = os.environ.get("WTO_API_KEY")   # optional — see scripts/WTO_SETUP.md
 
 os.makedirs(DATA_DIR, exist_ok=True)
 
@@ -191,6 +192,45 @@ for indicator, key in trade_indicators.items():
     if yr: trade_years[key] = yr
     time.sleep(0.3)
 
+# ── Step 3.6: WTO Bound Tariff Data (optional) ────────────────────────────────
+wto_bound_data = {}
+
+if WTO_API_KEY:
+    print("Fetching WTO bound tariff data (API key found)...")
+
+    def wto_fetch_bound(codes, year=2022):
+        """Fetch WTO simple-mean bound tariff for a batch of countries."""
+        batch = ",".join(codes)
+        url = (
+            f"https://api.wto.org/statistics/tariff/bound"
+            f"?reporterCode={batch}&year={year}&format=json"
+        )
+        try:
+            r = requests.get(url, timeout=20,
+                             headers={"Authorization": f"Bearer {WTO_API_KEY}"})
+            if r.status_code == 200:
+                result = {}
+                for item in r.json().get("Dataset", []):
+                    c = item.get("reporterISO3")
+                    v = item.get("value")
+                    if c and v is not None:
+                        result[str(c)] = float(v)
+                return result
+        except Exception as e:
+            print(f"  Warning: WTO fetch failed: {e}")
+        return {}
+
+    # Batch countries to stay within rate limits (600 req/day free tier)
+    all_codes_list = list(all_codes)
+    for i in range(0, len(all_codes_list), 15):
+        batch = all_codes_list[i:i+15]
+        wto_bound_data.update(wto_fetch_bound(batch))
+        time.sleep(0.5)
+
+    print(f"  {len(wto_bound_data)} countries have WTO bound tariff data")
+else:
+    print("  WTO_API_KEY not set — skipping WTO bound tariffs (see scripts/WTO_SETUP.md)")
+
 # Also fetch country metadata (region, income level)
 print("  Fetching country metadata...")
 try:
@@ -337,12 +377,13 @@ for code in all_iso3:
     fdi         = econ_data.get("fdi_pct_gdp", {}).get(code)
     tax_rate    = corporate_tax.get(code)
 
-    tariff_wmean = trade_data.get("tariff_rate_weighted_mean", {}).get(code)
-    tariff_smean = trade_data.get("tariff_rate_simple_mean", {}).get(code)
-    trade_gdp    = trade_data.get("trade_pct_gdp", {}).get(code)
-    exports_usd  = trade_data.get("merchandise_exports_usd", {}).get(code)
-    imports_usd  = trade_data.get("merchandise_imports_usd", {}).get(code)
-    lpi          = trade_data.get("logistics_performance_index", {}).get(code)
+    tariff_wmean  = trade_data.get("tariff_rate_weighted_mean", {}).get(code)
+    tariff_smean  = trade_data.get("tariff_rate_simple_mean", {}).get(code)
+    trade_gdp     = trade_data.get("trade_pct_gdp", {}).get(code)
+    exports_usd   = trade_data.get("merchandise_exports_usd", {}).get(code)
+    imports_usd   = trade_data.get("merchandise_imports_usd", {}).get(code)
+    lpi           = trade_data.get("logistics_performance_index", {}).get(code)
+    tariff_bound  = wto_bound_data.get(code)   # WTO MFN bound tariff simple mean
 
     # ── Composite Viability Score (0-100) ──────────────────────────────────
     # Default weights (adjustable in app):
@@ -413,6 +454,9 @@ for code in all_iso3:
         "trade": {
             "tariff_rate_weighted_mean": round(tariff_wmean, 1) if tariff_wmean else None,
             "tariff_rate_simple_mean":   round(tariff_smean, 1) if tariff_smean else None,
+            "tariff_bound_mean":         round(tariff_bound, 1) if tariff_bound else None,
+            "tariff_overhang":           round(tariff_bound - tariff_smean, 1)
+                                         if (tariff_bound and tariff_smean) else None,
             "trade_pct_gdp":             round(trade_gdp, 1) if trade_gdp else None,
             "merchandise_exports_usd":   round(exports_usd) if exports_usd else None,
             "merchandise_imports_usd":   round(imports_usd) if imports_usd else None,
@@ -474,6 +518,14 @@ freshness = {
         },
     }
 }
+
+if wto_bound_data:
+    freshness["sources"]["wto"] = {
+        "label": "WTO Bound Tariff Database",
+        "year": 2022,
+        "coverage": len(wto_bound_data),
+        "url": "https://apiportal.wto.org/"
+    }
 freshness_path = os.path.join(DATA_DIR, "data_freshness.json")
 with open(freshness_path, "w") as f:
     json.dump(freshness, f, indent=2)

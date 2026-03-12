@@ -28,6 +28,8 @@ export interface BreadyData {
 export interface TradeData {
   tariff_rate_weighted_mean: number | null;
   tariff_rate_simple_mean: number | null;
+  tariff_bound_mean: number | null;
+  tariff_overhang: number | null;
   trade_pct_gdp: number | null;
   merchandise_exports_usd: number | null;
   merchandise_imports_usd: number | null;

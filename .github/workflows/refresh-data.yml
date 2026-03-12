@@ -27,6 +27,8 @@ jobs:
 
       - name: Refresh data
         run: python scripts/process_data.py
+        env:
+          WTO_API_KEY: ${{ secrets.WTO_API_KEY }}   # optional — set to enable WTO bound tariff data
 
       - name: Commit updated data
         run: |
