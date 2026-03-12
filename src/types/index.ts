@@ -57,6 +57,8 @@ export interface EconomicData {
   fdi_pct_gdp: number | null;
   corporate_tax_rate: number | null;
   cpi_score: number | null;
+  birth_rate: number | null;
+  birth_rate_history: [number, number][];  // [[year, value], ...]
 }
 
 export interface Country {

@@ -52,6 +52,41 @@ def wb_fetch(indicator, date="2020:2024"):
         print(f"  Warning: could not fetch {indicator}: {e}")
         return {}, None
 
+def wb_fetch_history(indicator, date="2000:2024", per_page=500):
+    """Fetch all annual values for an indicator. Returns {code: [[year, value], ...]}."""
+    result = {}
+    page = 1
+    while True:
+        url = (f"https://api.worldbank.org/v2/country/all/indicator/{indicator}"
+               f"?format=json&date={date}&per_page={per_page}&page={page}")
+        try:
+            r = requests.get(url, timeout=30)
+            r.raise_for_status()
+            data = r.json()
+            if len(data) < 2 or not data[1]:
+                break
+            for item in data[1]:
+                code = item.get("countryiso3code")
+                value = item.get("value")
+                year_str = item.get("date")
+                if code and value is not None and year_str:
+                    try:
+                        year = int(year_str)
+                        result.setdefault(code, []).append([year, round(value, 1)])
+                    except:
+                        pass
+            total_pages = data[0].get("pages", 1)
+            if page >= total_pages:
+                break
+            page += 1
+            time.sleep(0.3)
+        except Exception as e:
+            print(f"  Warning: history fetch failed (page {page}): {e}")
+            break
+    for code in result:
+        result[code].sort(key=lambda x: x[0])
+    return result
+
 def normalize_wgi(val):
     """Normalize WGI score from -2.5..2.5 to 0..100."""
     if val is None:
@@ -160,7 +195,9 @@ econ_indicators = {
     "SP.POP.TOTL":           "population",
     "BX.KLT.DINV.WD.GD.ZS": "fdi_pct_gdp",
     "IC.BUS.EASE.XQ":        "ease_of_business_rank",
+    "SP.DYN.CBRT.IN":        "birth_rate",    # crude birth rate per 1,000 people
 }
+
 
 econ_data = {}
 econ_years = {}
@@ -170,6 +207,11 @@ for indicator, key in econ_indicators.items():
     econ_data[key] = raw
     if yr: econ_years[key] = yr
     time.sleep(0.3)
+
+# Fetch birth rate history (2000-2024) for sparkline chart
+print("  Fetching birth rate history (2000–2024)...")
+birth_rate_history = wb_fetch_history("SP.DYN.CBRT.IN", date="2000:2024")
+print(f"  {len(birth_rate_history)} countries have birth rate history")
 
 # ── Step 3.5: Trade & Logistics Indicators ────────────────────────────────────
 print("Fetching trade and logistics data...")
@@ -450,6 +492,8 @@ for code in all_iso3:
             "fdi_pct_gdp":      round(fdi, 2) if fdi else None,
             "corporate_tax_rate": tax_rate,
             "cpi_score":        cpi_score,
+            "birth_rate":         round(econ_data.get("birth_rate", {}).get(code, None) or 0, 1) or None,
+            "birth_rate_history": birth_rate_history.get(code, []),
         },
         "trade": {
             "tariff_rate_weighted_mean": round(tariff_wmean, 1) if tariff_wmean else None,

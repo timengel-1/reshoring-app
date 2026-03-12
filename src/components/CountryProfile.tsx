@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 import { Country, NewsSource } from '../types'
 import { getScoreColor, getScoreLabel } from './ScoreBar'
 import ScoreBreakdownBar, { ScoreBreakdownLegend } from './ScoreBreakdownBar'
@@ -243,6 +244,56 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
           ))}
         </div>
       </div>
+
+      {/* Birth Rate Trend */}
+      {country.economic.birth_rate !== null && (
+        <div className="p-4 border-b border-gray-800">
+          <div className="flex items-baseline justify-between mb-3">
+            <h3 className="text-gray-400 text-xs uppercase tracking-wider">Birth Rate Trend</h3>
+            <span className="text-gray-500 text-xs">per 1,000 people · 2000–2024</span>
+          </div>
+          <div className="flex items-end gap-3 mb-3">
+            <span className="text-2xl font-bold text-white">
+              {fmt(country.economic.birth_rate, 1)}
+            </span>
+            <span className="text-gray-500 text-sm mb-0.5">per 1,000 (latest)</span>
+            {country.economic.birth_rate_history.length >= 2 && (() => {
+              const first = country.economic.birth_rate_history[0][1]
+              const last  = country.economic.birth_rate_history[country.economic.birth_rate_history.length - 1][1]
+              const delta = last - first
+              return (
+                <span className="text-xs mb-0.5" style={{ color: delta < 0 ? '#f97316' : '#22c55e' }}>
+                  {delta > 0 ? '+' : ''}{delta.toFixed(1)} since {country.economic.birth_rate_history[0][0]}
+                </span>
+              )
+            })()}
+          </div>
+          {country.economic.birth_rate_history.length > 1 && (
+            <ResponsiveContainer width="100%" height={80}>
+              <AreaChart
+                data={country.economic.birth_rate_history.map(([year, value]) => ({ year, value }))}
+                margin={{ top: 4, right: 4, left: 0, bottom: 0 }}
+              >
+                <defs>
+                  <linearGradient id="birthGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%"  stopColor="#3b82f6" stopOpacity={0.3} />
+                    <stop offset="95%" stopColor="#3b82f6" stopOpacity={0}   />
+                  </linearGradient>
+                </defs>
+                <XAxis dataKey="year" tick={{ fill: '#4b5563', fontSize: 10 }} tickLine={false} axisLine={false} interval="preserveStartEnd" />
+                <YAxis hide domain={['auto', 'auto']} />
+                <Tooltip
+                  contentStyle={{ background: '#1f2937', border: '1px solid #374151', borderRadius: 6, fontSize: 11 }}
+                  labelStyle={{ color: '#9ca3af' }}
+                  itemStyle={{ color: '#60a5fa' }}
+                  formatter={(v: number) => [`${v.toFixed(1)} /1k`, 'Birth rate']}
+                />
+                <Area type="monotone" dataKey="value" stroke="#3b82f6" strokeWidth={1.5} fill="url(#birthGrad)" dot={false} />
+              </AreaChart>
+            </ResponsiveContainer>
+          )}
+        </div>
+      )}
 
       {/* Trade & Market Access */}
       {country.trade && (
