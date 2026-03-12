@@ -1,0 +1,35 @@
+{
+  "generated_utc": "2026-03-12T02:39:55Z",
+  "sources": {
+    "bready": {
+      "label": "World Bank B-READY",
+      "year": 2025,
+      "coverage": 101,
+      "url": "https://www.worldbank.org/en/programs/business-enabling-environment"
+    },
+    "wgi": {
+      "label": "World Bank Governance Indicators",
+      "year": 2023,
+      "coverage": 0,
+      "url": "https://info.worldbank.org/governance/wgi/"
+    },
+    "trade": {
+      "label": "World Bank Trade & Tariff Data",
+      "year": 2022,
+      "coverage": 139,
+      "url": "https://wits.worldbank.org/"
+    },
+    "lpi": {
+      "label": "World Bank Logistics Performance Index",
+      "year": 2022,
+      "coverage": 138,
+      "url": "https://lpi.worldbank.org/"
+    },
+    "economic": {
+      "label": "World Bank Economic Indicators",
+      "year": 2024,
+      "coverage": 192,
+      "url": "https://data.worldbank.org/"
+    }
+  }
+}

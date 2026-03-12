@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  background: #0d1b2a !important;
+  cursor: crosshair !important;
+}
+
+.leaflet-interactive {
+  cursor: crosshair !important;
+}
+
+.leaflet-grab {
+  cursor: crosshair !important;
+}
+
+.leaflet-tile {
+  filter: brightness(0.8) saturate(0.7);
+}
+
+.country-tooltip {
+  background: #1e2535 !important;
+  border: 1px solid #374151 !important;
+  color: #f9fafb !important;
+  font-size: 13px !important;
+  border-radius: 6px !important;
+  padding: 6px 10px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #1e2535;
+  border: 1px solid #374151;
+  color: #f9fafb;
+  border-radius: 8px;
+}
+
+.leaflet-popup-tip {
+  background: #1e2535;
+}
+
+/* City marker labels */
+.leaflet-tooltip.city-label {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #F9FAFB;
+  font-size: 10px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-shadow: 0 1px 3px #000, 0 0 6px #000;
+  padding: 0;
+  pointer-events: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4B5563;
+}

@@ -1,0 +1,49 @@
+name: Refresh World Bank Data
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday at 6am UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # Allow committing updated data files
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install requests openpyxl
+
+      - name: Refresh data
+        run: python scripts/process_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/countries.json src/data/data_freshness.json
+          git diff --staged --quiet && echo "No data changes." || (
+            git commit -m "chore: refresh World Bank data $(date -u +%Y-%m-%d)"
+            git push
+          )
+
+      - name: Deploy to Vercel
+        if: success()
+        run: |
+          npm install -g vercel
+          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+          vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}

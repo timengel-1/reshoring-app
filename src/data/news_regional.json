@@ -1,0 +1,121 @@
+{
+  "Europe & Central Asia": [
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    },
+    {
+      "name": "Euronews Business",
+      "url": "https://www.euronews.com/next/",
+      "type": "financial"
+    },
+    {
+      "name": "Politico Europe",
+      "url": "https://www.politico.eu",
+      "type": "general"
+    }
+  ],
+  "East Asia & Pacific": [
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    },
+    {
+      "name": "Nikkei Asia",
+      "url": "https://asia.nikkei.com",
+      "type": "financial"
+    },
+    {
+      "name": "Asia Times",
+      "url": "https://asiatimes.com",
+      "type": "general"
+    }
+  ],
+  "South Asia": [
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    },
+    {
+      "name": "The Print",
+      "url": "https://theprint.in",
+      "type": "general"
+    },
+    {
+      "name": "Asia Times",
+      "url": "https://asiatimes.com",
+      "type": "general"
+    }
+  ],
+  "Latin America & Caribbean": [
+    {
+      "name": "Reuters (Latin America)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    },
+    {
+      "name": "Latin Finance",
+      "url": "https://latinfinance.com",
+      "type": "financial"
+    },
+    {
+      "name": "Americas Quarterly",
+      "url": "https://www.americasquarterly.org",
+      "type": "general"
+    }
+  ],
+  "Middle East & North Africa": [
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    },
+    {
+      "name": "Al Jazeera English",
+      "url": "https://www.aljazeera.com",
+      "type": "general"
+    },
+    {
+      "name": "MEED",
+      "url": "https://www.meed.com",
+      "type": "financial"
+    }
+  ],
+  "Sub-Saharan Africa": [
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    },
+    {
+      "name": "AllAfrica",
+      "url": "https://allafrica.com",
+      "type": "general"
+    },
+    {
+      "name": "African Business",
+      "url": "https://african.business",
+      "type": "financial"
+    }
+  ],
+  "North America": [
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "type": "financial"
+    },
+    {
+      "name": "Wall Street Journal",
+      "url": "https://www.wsj.com",
+      "type": "financial"
+    }
+  ]
+}
