@@ -1,8 +1,16 @@
+import { useState, useEffect } from 'react'
 import { Country, NewsSource } from '../types'
 import { getScoreColor, getScoreLabel } from './ScoreBar'
 import ScoreBreakdownBar, { ScoreBreakdownLegend } from './ScoreBreakdownBar'
 import newsSources from '../data/news_sources.json'
 import newsRegional from '../data/news_regional.json'
+
+interface TradeNewsItem {
+  title: string
+  url: string
+  domain: string
+  date: string | null
+}
 
 interface CountryProfileProps {
   country: Country;
@@ -75,6 +83,19 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
   const score = country.overall_score
   const scoreColor = getScoreColor(score)
   const scoreLabel = getScoreLabel(score)
+
+  const [tradeNews, setTradeNews] = useState<TradeNewsItem[]>([])
+  const [newsLoading, setNewsLoading] = useState(false)
+
+  useEffect(() => {
+    setTradeNews([])
+    setNewsLoading(true)
+    fetch(`/api/news?country=${encodeURIComponent(country.name)}`)
+      .then(r => r.ok ? r.json() : [])
+      .then((items: TradeNewsItem[]) => setTradeNews(items))
+      .catch(() => setTradeNews([]))
+      .finally(() => setNewsLoading(false))
+  }, [country.code])
 
   return (
     <div className="w-96 bg-gray-900 border-l border-gray-800 flex flex-col h-full overflow-y-auto">
@@ -309,6 +330,63 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
           </div>
         </div>
       )}
+
+      {/* Trade Intelligence — live GDELT headlines */}
+      <div className="p-4 border-b border-gray-800">
+        <div className="flex items-center justify-between mb-3">
+          <h3 className="text-gray-400 text-xs uppercase tracking-wider">Trade Intelligence</h3>
+          <div className="flex items-center gap-1.5 text-gray-600 text-xs">
+            <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+            Live
+          </div>
+        </div>
+
+        {newsLoading && (
+          <div className="space-y-2">
+            {[1, 2, 3].map(i => (
+              <div key={i} className="bg-gray-800 rounded-lg p-3 animate-pulse">
+                <div className="h-3 bg-gray-700 rounded w-5/6 mb-1.5" />
+                <div className="h-3 bg-gray-700 rounded w-3/4" />
+                <div className="h-2 bg-gray-700 rounded w-1/3 mt-2" />
+              </div>
+            ))}
+          </div>
+        )}
+
+        {!newsLoading && tradeNews.length === 0 && (
+          <p className="text-gray-600 text-xs">No recent trade news found.</p>
+        )}
+
+        {!newsLoading && tradeNews.length > 0 && (
+          <div className="space-y-2">
+            {tradeNews.map((item, i) => (
+              <a
+                key={i}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-gray-800 hover:bg-gray-700 rounded-lg p-3 transition-colors group"
+              >
+                <p className="text-gray-200 text-xs font-medium group-hover:text-white leading-snug line-clamp-2">
+                  {item.title}
+                </p>
+                <div className="flex items-center gap-2 mt-1.5">
+                  <span className="text-gray-500 text-xs truncate">{item.domain}</span>
+                  {item.date && (
+                    <>
+                      <span className="text-gray-700 text-xs">·</span>
+                      <span className="text-gray-600 text-xs flex-shrink-0">{item.date}</span>
+                    </>
+                  )}
+                  <svg className="w-3 h-3 text-gray-600 group-hover:text-gray-400 ml-auto flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
 
       {/* News sources */}
       {(() => {
