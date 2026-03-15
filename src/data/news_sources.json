@@ -1828,5 +1828,1826 @@
       "url": "https://www.reuters.com/world/africa/",
       "type": "general"
     }
+  ],
+  "URY": [
+    {
+      "name": "El País Uruguay",
+      "url": "https://www.elpais.com.uy",
+      "type": "general"
+    },
+    {
+      "name": "El Observador",
+      "url": "https://www.elobservador.com.uy",
+      "type": "general"
+    },
+    {
+      "name": "Búsqueda",
+      "url": "https://www.busqueda.com.uy",
+      "type": "financial"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "BOL": [
+    {
+      "name": "El Deber",
+      "url": "https://eldeber.com.bo",
+      "type": "general"
+    },
+    {
+      "name": "Página Siete",
+      "url": "https://www.paginasiete.bo",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "PRY": [
+    {
+      "name": "ABC Color",
+      "url": "https://www.abc.com.py",
+      "type": "general"
+    },
+    {
+      "name": "Última Hora",
+      "url": "https://www.ultimahora.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "ECU": [
+    {
+      "name": "El Comercio",
+      "url": "https://www.elcomercio.com",
+      "type": "general"
+    },
+    {
+      "name": "El Universo",
+      "url": "https://www.eluniverso.com",
+      "type": "general"
+    },
+    {
+      "name": "Primicias",
+      "url": "https://www.primicias.ec",
+      "type": "financial"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "CRI": [
+    {
+      "name": "The Tico Times",
+      "url": "https://ticotimes.net",
+      "type": "general"
+    },
+    {
+      "name": "La Nación CR",
+      "url": "https://www.nacion.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "PAN": [
+    {
+      "name": "La Prensa Panamá",
+      "url": "https://www.prensa.com",
+      "type": "general"
+    },
+    {
+      "name": "TVN Noticias",
+      "url": "https://www.tvn-2.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "SLV": [
+    {
+      "name": "El Faro",
+      "url": "https://elfaro.net",
+      "type": "general"
+    },
+    {
+      "name": "La Prensa Gráfica",
+      "url": "https://www.laprensagrafica.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "GTM": [
+    {
+      "name": "Prensa Libre",
+      "url": "https://www.prensalibre.com",
+      "type": "general"
+    },
+    {
+      "name": "El Periódico GT",
+      "url": "https://www.elperiodico.com.gt",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "HND": [
+    {
+      "name": "La Prensa Honduras",
+      "url": "https://www.laprensa.hn",
+      "type": "general"
+    },
+    {
+      "name": "El Heraldo",
+      "url": "https://www.elheraldo.hn",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "NIC": [
+    {
+      "name": "Confidencial",
+      "url": "https://www.confidencial.digital",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "DOM": [
+    {
+      "name": "Listín Diario",
+      "url": "https://listindiario.com",
+      "type": "general"
+    },
+    {
+      "name": "Diario Libre",
+      "url": "https://www.diariolibre.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "HTI": [
+    {
+      "name": "Le Nouvelliste",
+      "url": "https://lenouvelliste.com",
+      "type": "general"
+    },
+    {
+      "name": "Haiti Info Projet",
+      "url": "https://www.haitilibre.com/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "JAM": [
+    {
+      "name": "Jamaica Gleaner",
+      "url": "https://jamaica-gleaner.com",
+      "type": "general"
+    },
+    {
+      "name": "Jamaica Observer",
+      "url": "https://www.jamaicaobserver.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "TTO": [
+    {
+      "name": "Trinidad Express",
+      "url": "https://trinidadexpress.com",
+      "type": "general"
+    },
+    {
+      "name": "Guardian Media TT",
+      "url": "https://www.guardian.co.tt",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "GUY": [
+    {
+      "name": "Stabroek News",
+      "url": "https://www.stabroeknews.com",
+      "type": "general"
+    },
+    {
+      "name": "Kaieteur News",
+      "url": "https://www.kaieteurnewsonline.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "SUR": [
+    {
+      "name": "Suriname Herald",
+      "url": "https://www.surinaamseherald.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "VEN": [
+    {
+      "name": "El Nacional",
+      "url": "https://www.el-nacional.com",
+      "type": "general"
+    },
+    {
+      "name": "Tal Cual",
+      "url": "https://talcualdigital.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "CUB": [
+    {
+      "name": "14ymedio",
+      "url": "https://www.14ymedio.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "BLZ": [
+    {
+      "name": "Amandala",
+      "url": "https://amandala.com.bz",
+      "type": "general"
+    },
+    {
+      "name": "Channel 5 Belize",
+      "url": "https://edition.channel5belize.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "BHS": [
+    {
+      "name": "Nassau Guardian",
+      "url": "https://thenassauguardian.com",
+      "type": "general"
+    },
+    {
+      "name": "Tribune 242",
+      "url": "https://www.tribune242.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "ATG": [
+    {
+      "name": "Antigua Observer",
+      "url": "https://www.antiguaobserver.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "BRB": [
+    {
+      "name": "Barbados Nation",
+      "url": "https://www.nationnews.com",
+      "type": "general"
+    },
+    {
+      "name": "Barbados Today",
+      "url": "https://barbadostoday.bb",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "GRD": [
+    {
+      "name": "Now Grenada",
+      "url": "https://www.nowgrenada.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "KNA": [
+    {
+      "name": "SKNVibes",
+      "url": "https://www.sknvibes.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "LCA": [
+    {
+      "name": "St. Lucia Times",
+      "url": "https://stluciatimes.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "VCT": [
+    {
+      "name": "iWitness News SVG",
+      "url": "https://iwnsvg.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "DMA": [
+    {
+      "name": "Dominica News Online",
+      "url": "https://dominicanewsonline.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "ABW": [
+    {
+      "name": "Aruba Today",
+      "url": "https://arubatodaynews.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "CUW": [
+    {
+      "name": "Curaçao Chronicle",
+      "url": "https://curacaochronicle.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "SXM": [
+    {
+      "name": "The Daily Herald SXM",
+      "url": "https://www.thedailyherald.sx",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "TCA": [
+    {
+      "name": "Turks & Caicos Sun",
+      "url": "https://suntci.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "CYM": [
+    {
+      "name": "Cayman Compass",
+      "url": "https://www.caymancompass.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "BMU": [
+    {
+      "name": "Royal Gazette Bermuda",
+      "url": "https://www.royalgazette.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "PRI": [
+    {
+      "name": "El Nuevo Día",
+      "url": "https://www.elnuevodia.com",
+      "type": "general"
+    },
+    {
+      "name": "Puerto Rico Report",
+      "url": "https://www.puertoricoreport.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "VGB": [
+    {
+      "name": "BVI Beacon",
+      "url": "https://www.bvibeacon.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "VIR": [
+    {
+      "name": "VI Daily News",
+      "url": "https://www.vidailynews.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Americas)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "MAF": [
+    {
+      "name": "Saint Martin News",
+      "url": "https://www.sxmislandtime.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Caribbean)",
+      "url": "https://www.reuters.com/world/americas/",
+      "type": "general"
+    }
+  ],
+  "AUT": [
+    {
+      "name": "Der Standard (EN)",
+      "url": "https://www.derstandard.at/international",
+      "type": "general"
+    },
+    {
+      "name": "Austria Business Agency",
+      "url": "https://news.wko.at",
+      "type": "business"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "BEL": [
+    {
+      "name": "The Brussels Times",
+      "url": "https://www.brusselstimes.com",
+      "type": "general"
+    },
+    {
+      "name": "L'Echo",
+      "url": "https://lecho.be",
+      "type": "financial"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "LUX": [
+    {
+      "name": "Luxembourg Times",
+      "url": "https://www.luxtimes.lu",
+      "type": "general"
+    },
+    {
+      "name": "Paperjam",
+      "url": "https://paperjam.lu/en",
+      "type": "business"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "LIE": [
+    {
+      "name": "Liechtensteiner Vaterland",
+      "url": "https://www.vaterland.li",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "AND": [
+    {
+      "name": "El Periòdic Andorra",
+      "url": "https://www.elperiodic.ad",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "MCO": [
+    {
+      "name": "Monaco Tribune",
+      "url": "https://www.monaco-tribune.com/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "SMR": [
+    {
+      "name": "San Marino RTV (EN)",
+      "url": "https://www.sanmarinortv.sm/news/english/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "LTU": [
+    {
+      "name": "LRT English",
+      "url": "https://www.lrt.lt/en",
+      "type": "general"
+    },
+    {
+      "name": "Verslo Žinios",
+      "url": "https://www.vz.lt",
+      "type": "business"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "LVA": [
+    {
+      "name": "LSM.lv (EN)",
+      "url": "https://eng.lsm.lv",
+      "type": "general"
+    },
+    {
+      "name": "The Baltic Times",
+      "url": "https://www.baltictimes.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "EST": [
+    {
+      "name": "ERR News",
+      "url": "https://news.err.ee",
+      "type": "general"
+    },
+    {
+      "name": "Äripäev (EN)",
+      "url": "https://www.aripaev.ee/en",
+      "type": "business"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "BGR": [
+    {
+      "name": "Sofia Globe",
+      "url": "https://sofiaglobe.com",
+      "type": "general"
+    },
+    {
+      "name": "Novinite",
+      "url": "https://www.novinite.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "HRV": [
+    {
+      "name": "Total Croatia News",
+      "url": "https://www.total-croatia-news.com",
+      "type": "general"
+    },
+    {
+      "name": "Croatia Week",
+      "url": "https://www.croatiaweek.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "SVN": [
+    {
+      "name": "Slovenia Times",
+      "url": "https://www.sloveniatimes.com",
+      "type": "general"
+    },
+    {
+      "name": "STA (EN)",
+      "url": "https://www.sta.si/en",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "SVK": [
+    {
+      "name": "The Slovak Spectator",
+      "url": "https://spectator.sme.sk",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "MKD": [
+    {
+      "name": "Republika (EN)",
+      "url": "https://republika.mk/en/",
+      "type": "general"
+    },
+    {
+      "name": "MIA News Agency",
+      "url": "https://mia.mk/en",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "ALB": [
+    {
+      "name": "Albania Daily News",
+      "url": "https://www.albaniadailynews.com",
+      "type": "general"
+    },
+    {
+      "name": "Exit News",
+      "url": "https://exit.al/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "BIH": [
+    {
+      "name": "Balkan Insight (BiH)",
+      "url": "https://balkaninsight.com/category/Bosnia/",
+      "type": "general"
+    },
+    {
+      "name": "N1 Bosnia (EN)",
+      "url": "https://n1info.ba/english/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "SRB": [
+    {
+      "name": "N1 Serbia (EN)",
+      "url": "https://n1info.rs/english/",
+      "type": "general"
+    },
+    {
+      "name": "Balkan Insight (Serbia)",
+      "url": "https://balkaninsight.com/category/Serbia/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "MNE": [
+    {
+      "name": "CdM (EN)",
+      "url": "https://www.cdm.me/english/",
+      "type": "general"
+    },
+    {
+      "name": "Balkan Insight (Montenegro)",
+      "url": "https://balkaninsight.com/category/Montenegro/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "XKX": [
+    {
+      "name": "Kosovo 2.0",
+      "url": "https://kosovotwopointzero.com/en/",
+      "type": "general"
+    },
+    {
+      "name": "Balkan Insight (Kosovo)",
+      "url": "https://balkaninsight.com/category/Kosovo/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "MDA": [
+    {
+      "name": "Moldova.org (EN)",
+      "url": "https://www.moldova.org/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "BLR": [
+    {
+      "name": "Nexta (EN)",
+      "url": "https://nexta.tv/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "GEO": [
+    {
+      "name": "Civil Georgia",
+      "url": "https://civil.ge/en",
+      "type": "general"
+    },
+    {
+      "name": "Agenda.ge",
+      "url": "https://agenda.ge",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "ARM": [
+    {
+      "name": "Mediamax (EN)",
+      "url": "https://mediamax.am/en/",
+      "type": "general"
+    },
+    {
+      "name": "Armenpress (EN)",
+      "url": "https://armenpress.am/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "AZE": [
+    {
+      "name": "Azernews",
+      "url": "https://www.azernews.az",
+      "type": "general"
+    },
+    {
+      "name": "Trend News Agency",
+      "url": "https://en.trend.az",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "KGZ": [
+    {
+      "name": "24.kg (EN)",
+      "url": "https://24.kg/english/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Central Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "TJK": [
+    {
+      "name": "Asia-Plus (EN)",
+      "url": "https://asiaplustj.info/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Central Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "TKM": [
+    {
+      "name": "Türkmenistan.ru (EN)",
+      "url": "https://turkmenistan.ru/?q=en/node/1",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Central Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "UZB": [
+    {
+      "name": "Kun.uz (EN)",
+      "url": "https://kun.uz/en/",
+      "type": "general"
+    },
+    {
+      "name": "Spot Business News",
+      "url": "https://www.spot.uz/en/",
+      "type": "business"
+    },
+    {
+      "name": "Reuters (Central Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "ISL": [
+    {
+      "name": "Iceland Review",
+      "url": "https://www.icelandreview.com",
+      "type": "general"
+    },
+    {
+      "name": "Morgunblaðið (EN)",
+      "url": "https://www.mbl.is/english/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "FRO": [
+    {
+      "name": "Faroese News",
+      "url": "https://in.fo/news",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "GRL": [
+    {
+      "name": "Sermitsiaq (EN)",
+      "url": "https://sermitsiaq.ag/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "IMN": [
+    {
+      "name": "Isle of Man Today",
+      "url": "https://www.iomtoday.co.im",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "GIB": [
+    {
+      "name": "Gibraltar Chronicle",
+      "url": "https://www.chronicle.gi",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "CHI": [
+    {
+      "name": "Bailiwick Express",
+      "url": "https://www.bailiwickexpress.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "CYP": [
+    {
+      "name": "Cyprus Mail",
+      "url": "https://cyprus-mail.com",
+      "type": "general"
+    },
+    {
+      "name": "Financial Mirror (CY)",
+      "url": "https://www.financialmirror.com",
+      "type": "financial"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "MLT": [
+    {
+      "name": "Times of Malta",
+      "url": "https://timesofmalta.com",
+      "type": "general"
+    },
+    {
+      "name": "Malta Business Weekly",
+      "url": "https://businesstoday.com.mt",
+      "type": "business"
+    },
+    {
+      "name": "Reuters (Europe)",
+      "url": "https://www.reuters.com/world/europe/",
+      "type": "general"
+    }
+  ],
+  "KWT": [
+    {
+      "name": "Kuwait Times",
+      "url": "https://www.kuwaittimes.com",
+      "type": "general"
+    },
+    {
+      "name": "Arab Times Kuwait",
+      "url": "https://arabtimesonline.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "OMN": [
+    {
+      "name": "Muscat Daily",
+      "url": "https://muscatdaily.com",
+      "type": "general"
+    },
+    {
+      "name": "Times of Oman",
+      "url": "https://timesofoman.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "QAT": [
+    {
+      "name": "Qatar Tribune",
+      "url": "https://www.qatar-tribune.com",
+      "type": "general"
+    },
+    {
+      "name": "The Peninsula Qatar",
+      "url": "https://thepeninsulaqatar.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "BHR": [
+    {
+      "name": "Gulf Daily News",
+      "url": "https://www.gulf-daily-news.com",
+      "type": "general"
+    },
+    {
+      "name": "Bahrain News Agency",
+      "url": "https://www.bna.bh/en/",
+      "type": "government"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "JOR": [
+    {
+      "name": "Jordan Times",
+      "url": "https://www.jordantimes.com",
+      "type": "general"
+    },
+    {
+      "name": "Ammon News (EN)",
+      "url": "https://en.ammonnews.net",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "LBN": [
+    {
+      "name": "L'Orient Today",
+      "url": "https://today.lorientlejour.com",
+      "type": "general"
+    },
+    {
+      "name": "The Daily Star Lebanon",
+      "url": "https://www.dailystar.com.lb",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "IRQ": [
+    {
+      "name": "Rudaw (EN)",
+      "url": "https://www.rudaw.net/english",
+      "type": "general"
+    },
+    {
+      "name": "Iraq Oil Report",
+      "url": "https://www.iraqoilreport.com",
+      "type": "financial"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "SYR": [
+    {
+      "name": "Syria Direct",
+      "url": "https://syriadirect.org",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "AFG": [
+    {
+      "name": "TOLO News",
+      "url": "https://tolonews.com",
+      "type": "general"
+    },
+    {
+      "name": "Ariana News",
+      "url": "https://www.ariananews.af/english/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "DJI": [
+    {
+      "name": "La Nation (DJ)",
+      "url": "https://www.lanation.dj",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "PSE": [
+    {
+      "name": "Haaretz (EN)",
+      "url": "https://www.haaretz.com",
+      "type": "general"
+    },
+    {
+      "name": "Ma'an News Agency",
+      "url": "https://www.maannews.com/english/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "YEM": [
+    {
+      "name": "Yemen Monitor",
+      "url": "https://yemenmonitor.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Middle East)",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "type": "general"
+    }
+  ],
+  "GAB": [
+    {
+      "name": "Gabon Media Time (EN)",
+      "url": "https://gabonmediatime.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "GNQ": [
+    {
+      "name": "Equatorial Guinea Report",
+      "url": "https://www.equatorialguineareport.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "CAF": [
+    {
+      "name": "Corbeau News Centrafrique (FR)",
+      "url": "https://www.corbeaunews-centrafrique.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "BDI": [
+    {
+      "name": "Iwacu English",
+      "url": "https://www.iwacu-burundi.org/english/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "COM": [
+    {
+      "name": "HZK-Presse",
+      "url": "https://hzk-presse.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "CPV": [
+    {
+      "name": "InforPress Cape Verde (EN)",
+      "url": "https://www.inforpress.cv",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "ERI": [
+    {
+      "name": "Shabait (EN)",
+      "url": "https://www.shabait.com/category/english/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "GNB": [
+    {
+      "name": "JN Guinea-Bissau (PT)",
+      "url": "https://jornalnoticias.gw",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "MRT": [
+    {
+      "name": "Cridem (FR)",
+      "url": "https://www.cridem.org",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "NER": [
+    {
+      "name": "Niger Express (FR)",
+      "url": "https://nigerexpress.info",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "SOM": [
+    {
+      "name": "Garowe Online",
+      "url": "https://www.garoweonline.com/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "STP": [
+    {
+      "name": "Téla Nón (PT)",
+      "url": "https://www.telanon.info",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "SYC": [
+    {
+      "name": "Seychelles News Agency",
+      "url": "https://www.seychellesnewsagency.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Africa)",
+      "url": "https://www.reuters.com/world/africa/",
+      "type": "general"
+    }
+  ],
+  "TWN": [
+    {
+      "name": "Taipei Times",
+      "url": "https://www.taipeitimes.com",
+      "type": "general"
+    },
+    {
+      "name": "Focus Taiwan",
+      "url": "https://focustaiwan.tw",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "MAC": [
+    {
+      "name": "Macau Business",
+      "url": "https://www.macaubusiness.com",
+      "type": "business"
+    },
+    {
+      "name": "Macau Daily Times",
+      "url": "https://www.macaudailytimes.com.mo",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "MNG": [
+    {
+      "name": "UB Post",
+      "url": "https://www.ubpost.mn/en/",
+      "type": "general"
+    },
+    {
+      "name": "The UB Tribune",
+      "url": "https://www.theub.mn",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "MMR": [
+    {
+      "name": "Irrawaddy",
+      "url": "https://www.irrawaddy.com",
+      "type": "general"
+    },
+    {
+      "name": "Myanmar Now",
+      "url": "https://myanmar-now.org/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "KHM": [
+    {
+      "name": "Phnom Penh Post",
+      "url": "https://www.phnompenhpost.com",
+      "type": "general"
+    },
+    {
+      "name": "Khmer Times",
+      "url": "https://www.khmertimeskh.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "LAO": [
+    {
+      "name": "Vientiane Times",
+      "url": "https://www.vientianetimes.org.la",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "TLS": [
+    {
+      "name": "Timor-Leste News Agency",
+      "url": "https://tatoli.tl/en/",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "PNG": [
+    {
+      "name": "Post-Courier PNG",
+      "url": "https://postcourier.com.pg",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "FJI": [
+    {
+      "name": "Fiji Times",
+      "url": "https://www.fijitimes.com",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "FSM": [
+    {
+      "name": "Pacific Islands Report",
+      "url": "https://www.pireport.org",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "SLB": [
+    {
+      "name": "Solomon Star",
+      "url": "https://www.solomonstarnews.com",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "VUT": [
+    {
+      "name": "Daily Post Vanuatu",
+      "url": "https://www.dailypost.vu",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "WSM": [
+    {
+      "name": "Samoa Observer",
+      "url": "https://www.samoaobserver.ws",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "TON": [
+    {
+      "name": "Matangi Tonga",
+      "url": "https://matangitonga.to",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "KIR": [
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "TUV": [
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "NRU": [
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "PLW": [
+    {
+      "name": "Island Times Palau",
+      "url": "https://islandtimes.org",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "MHL": [
+    {
+      "name": "Marshall Islands Journal",
+      "url": "https://marshallislandsjournal.com",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "NCL": [
+    {
+      "name": "Les Nouvelles Calédoniennes (FR)",
+      "url": "https://www.lnc.nc",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "PYF": [
+    {
+      "name": "Radio1 Tahiti (FR)",
+      "url": "https://www.radio1.pf",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "GUM": [
+    {
+      "name": "Pacific Daily News Guam",
+      "url": "https://www.guampdn.com",
+      "type": "general"
+    }
+  ],
+  "MNP": [
+    {
+      "name": "Saipan Tribune",
+      "url": "https://www.saipantribune.com",
+      "type": "general"
+    }
+  ],
+  "ASM": [
+    {
+      "name": "Samoa News",
+      "url": "https://www.samoanews.com",
+      "type": "general"
+    },
+    {
+      "name": "RNZ Pacific",
+      "url": "https://www.rnz.co.nz/international/pacific-news",
+      "type": "general"
+    }
+  ],
+  "PRK": [
+    {
+      "name": "NK News (EN)",
+      "url": "https://www.nknews.org",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "LKA": [
+    {
+      "name": "Daily Mirror LK",
+      "url": "https://www.dailymirror.lk",
+      "type": "general"
+    },
+    {
+      "name": "Daily FT Sri Lanka",
+      "url": "https://www.ft.lk",
+      "type": "financial"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "NPL": [
+    {
+      "name": "Kathmandu Post",
+      "url": "https://kathmandupost.com",
+      "type": "general"
+    },
+    {
+      "name": "MyRepublica",
+      "url": "https://myrepublica.nagariknetwork.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "BTN": [
+    {
+      "name": "Kuensel",
+      "url": "https://kuenselonline.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
+  ],
+  "MDV": [
+    {
+      "name": "Maldives Independent",
+      "url": "https://maldivesindependent.com",
+      "type": "general"
+    },
+    {
+      "name": "Mihaaru (EN)",
+      "url": "https://en.mihaaru.com",
+      "type": "general"
+    },
+    {
+      "name": "Reuters (Asia)",
+      "url": "https://www.reuters.com/world/asia-pacific/",
+      "type": "general"
+    }
   ]
 }

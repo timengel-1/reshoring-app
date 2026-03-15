@@ -25,6 +25,39 @@ export interface BreadyData {
   business_insolvency: number | null;
 }
 
+export interface TariffSector {
+  weighted_mean: number | null;
+  simple_mean: number | null;
+}
+
+export interface TariffSectors {
+  agriculture_food: TariffSector;
+  textiles_apparel: TariffSector;
+  base_metals: TariffSector;
+  chemicals: TariffSector;
+  machinery_electrical: TariffSector;
+  transportation: TariffSector;
+  wood_paper: TariffSector;
+  stone_glass: TariffSector;
+}
+
+export type IndustryCategory =
+  | 'automotive'
+  | 'aerospace_defense'
+  | 'electronics'
+  | 'textiles_apparel'
+  | 'food_beverage'
+  | 'chemicals'
+  | 'metals_materials'
+  | 'medical_devices'
+  | 'consumer_goods'
+  | 'energy'
+  | 'general_manufacturing'
+
+export interface UserPreferences {
+  industry: IndustryCategory | null;
+}
+
 export interface TradeData {
   tariff_rate_weighted_mean: number | null;
   tariff_rate_simple_mean: number | null;
@@ -35,6 +68,8 @@ export interface TradeData {
   merchandise_imports_usd: number | null;
   trade_balance_usd: number | null;
   logistics_performance_index: number | null;
+  tariff_sectors: TariffSectors | null;
+  export_tariff_weighted_mean: number | null;
 }
 
 export interface DataSource {
@@ -95,10 +130,13 @@ export interface BusinessLinks {
   invest_agency?: BusinessLink;
 }
 
+export type ITARStatus = 'five_eyes' | 'nato' | 'ally' | 'neutral' | 'caution' | 'restricted';
+
 export interface FilterState {
   region: string;
   incomeLevel: string;
   minScore: number;
   maxScore: number;
   sortBy: ScoreCategory;
+  itarStatus: string;
 }

@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react'
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
-import { Country, NewsSource, BusinessLinks } from '../types'
+import { Country, NewsSource, BusinessLinks, UserPreferences, TariffSectors } from '../types'
+import { INDUSTRY_TARIFF_MAP, SECTOR_LABELS } from '../utils/industryTariffMap'
 import { getScoreColor, getScoreLabel } from './ScoreBar'
 import ScoreBreakdownBar, { ScoreBreakdownLegend } from './ScoreBreakdownBar'
+import CountryReport from './CountryReport'
+import { getITARBadge } from '../utils/itarStatus'
 import newsSources from '../data/news_sources.json'
 import newsRegional from '../data/news_regional.json'
 import businessLinksData from '../data/business_links.json'
@@ -19,6 +22,8 @@ interface CountryProfileProps {
   onClose: () => void;
   onAddToCompare: (country: Country) => void;
   isInCompare: boolean;
+  userPrefs: UserPreferences;
+  onUpdatePrefs: (prefs: UserPreferences) => void;
 }
 
 // Pre-computed global averages (206 countries with scores)
@@ -81,13 +86,31 @@ function getNewsSources(country: Country): NewsSource[] {
   return []
 }
 
-export default function CountryProfile({ country, onClose, onAddToCompare, isInCompare }: CountryProfileProps) {
+function getTariffColor(pct: number | null | undefined): string {
+  if (pct === null || pct === undefined) return '#6b7280'
+  if (pct < 5) return '#22c55e'
+  if (pct < 15) return '#eab308'
+  return '#ef4444'
+}
+
+export default function CountryProfile({ country, onClose, onAddToCompare, isInCompare, userPrefs, onUpdatePrefs }: CountryProfileProps) {
   const score = country.overall_score
   const scoreColor = getScoreColor(score)
   const scoreLabel = getScoreLabel(score)
 
   const [tradeNews, setTradeNews] = useState<TradeNewsItem[]>([])
   const [newsLoading, setNewsLoading] = useState(false)
+  const [showReport, setShowReport] = useState(false)
+  const [copied, setCopied] = useState(false)
+  const [showAllSectors, setShowAllSectors] = useState(false)
+
+  function handleShare() {
+    const url = `${window.location.origin}${window.location.pathname}?country=${country.code}`
+    navigator.clipboard.writeText(url).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }
 
   useEffect(() => {
     setTradeNews([])
@@ -103,17 +126,39 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
     <div className="w-96 bg-gray-900 border-l border-gray-800 flex flex-col h-full overflow-y-auto">
 
       {/* Header */}
-      <div className="p-4 border-b border-gray-800 flex items-start justify-between">
-        <div>
-          <h2 className="text-lg font-bold text-white">{country.name}</h2>
-          <div className="flex items-center gap-2 mt-1">
-            <span className="text-gray-500 text-xs">{country.region}</span>
-            <span className="text-gray-700">·</span>
-            <span className="text-gray-500 text-xs">{country.income_level}</span>
+      {(() => {
+        const itar = getITARBadge(country.code)
+        return (
+          <div className="p-4 border-b border-gray-800 flex items-start justify-between">
+            <div className="flex-1 min-w-0 pr-2">
+              <h2 className="text-lg font-bold text-white">{country.name}</h2>
+              <div className="flex items-center gap-2 mt-1 flex-wrap">
+                <span className="text-gray-500 text-xs">{country.region}</span>
+                <span className="text-gray-700">·</span>
+                <span className="text-gray-500 text-xs">{country.income_level}</span>
+              </div>
+              {/* ITAR / Allied Status Badge */}
+              <div className="mt-2">
+                <span
+                  title={itar.description}
+                  className={`inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-xs font-medium ${itar.bgColor} ${itar.textColor} cursor-help`}
+                >
+                  <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${itar.dotColor}`} />
+                  {itar.label}
+                </span>
+                {(itar.status === 'caution' || itar.status === 'restricted') && (
+                  <p className="text-xs text-gray-600 mt-1 leading-snug">
+                    {itar.status === 'restricted'
+                      ? 'ITAR restrictions likely apply — legal review required.'
+                      : 'Significant export control restrictions — consult legal counsel.'}
+                  </p>
+                )}
+              </div>
+            </div>
+            <button onClick={onClose} className="text-gray-500 hover:text-gray-300 text-xl leading-none mt-1 flex-shrink-0">×</button>
           </div>
-        </div>
-        <button onClick={onClose} className="text-gray-500 hover:text-gray-300 text-xl leading-none mt-1">×</button>
-      </div>
+        )
+      })()}
 
       {/* Overall score */}
       <div className="p-4 border-b border-gray-800">
@@ -331,7 +376,7 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
             )
           })()}
 
-          {/* Tariff rates */}
+          {/* Summary tariff row */}
           <div className="grid grid-cols-2 gap-3 mb-3">
             {[
               {
@@ -401,6 +446,178 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
               </div>
             ))}
           </div>
+
+          {/* US Regime Warning */}
+          <div className="flex items-start gap-2 bg-yellow-950/40 border border-yellow-900/60 rounded-lg px-3 py-2.5 mb-4">
+            <span className="text-yellow-500 text-xs flex-shrink-0 mt-0.5">⚠</span>
+            <p className="text-yellow-200/70 text-xs leading-snug">
+              US-applied tariff rates reflect 2022 data and may not reflect current policy.{' '}
+              <a
+                href="https://hts.usitc.gov"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-yellow-400 underline hover:text-yellow-300"
+              >
+                View current US Harmonized Tariff Schedule →
+              </a>
+            </p>
+          </div>
+
+          {/* Sector Tariff Section */}
+          {(() => {
+            const sectors = country.trade.tariff_sectors
+            const industry = userPrefs.industry
+            const industryDef = industry ? INDUSTRY_TARIFF_MAP[industry] : null
+
+            if (industryDef && sectors) {
+              // Industry-filtered view: 3 cards
+              const renderSectorList = (keys: (keyof TariffSectors)[], useExport = false) => {
+                if (useExport) {
+                  const xprt = country.trade.export_tariff_weighted_mean
+                  return (
+                    <div className="space-y-1.5">
+                      {keys.map(key => {
+                        const val = sectors[key]?.weighted_mean
+                        return (
+                          <div key={key} className="flex items-center justify-between gap-2">
+                            <span className="text-gray-400 text-xs truncate">{SECTOR_LABELS[key]}</span>
+                            <span className="text-xs font-medium tabular-nums flex-shrink-0" style={{ color: getTariffColor(val) }}>
+                              {val !== null && val !== undefined ? `${val.toFixed(1)}%` : '—'}
+                            </span>
+                          </div>
+                        )
+                      })}
+                      <div className="flex items-center justify-between gap-2 pt-1 border-t border-gray-700">
+                        <span className="text-gray-400 text-xs">Export tariff</span>
+                        <span className="text-xs font-medium tabular-nums flex-shrink-0" style={{ color: getTariffColor(xprt) }}>
+                          {xprt !== null && xprt !== undefined ? `${xprt.toFixed(1)}%` : '—'}
+                        </span>
+                      </div>
+                    </div>
+                  )
+                }
+                return (
+                  <div className="space-y-1.5">
+                    {keys.map(key => {
+                      const val = sectors[key]?.weighted_mean
+                      return (
+                        <div key={key} className="flex items-center justify-between gap-2">
+                          <span className="text-gray-400 text-xs truncate">{SECTOR_LABELS[key]}</span>
+                          <span className="text-xs font-medium tabular-nums flex-shrink-0" style={{ color: getTariffColor(val) }}>
+                            {val !== null && val !== undefined ? `${val.toFixed(1)}%` : '—'}
+                          </span>
+                        </div>
+                      )
+                    })}
+                  </div>
+                )
+              }
+
+              return (
+                <div className="mb-3">
+                  <div className="flex items-center justify-between mb-2">
+                    <h4 className="text-gray-300 text-xs font-medium">Tariff Exposure — {industryDef.label}</h4>
+                    <div className="flex items-center gap-2 text-xs text-gray-600">
+                      <span className="text-green-500">■</span>&lt;5%
+                      <span className="text-yellow-500">■</span>5-15%
+                      <span className="text-red-500">■</span>&gt;15%
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-3 gap-2">
+                    {[
+                      { title: 'Raw Materials', keys: industryDef.raw_materials, useExport: false },
+                      { title: 'Key Components', keys: industryDef.components, useExport: false },
+                      { title: 'Finished Goods', keys: industryDef.finished_goods, useExport: true },
+                    ].map(card => (
+                      <div key={card.title} className="bg-gray-800 rounded-lg p-2.5">
+                        <div className="text-gray-500 text-xs mb-2 font-medium">{card.title}</div>
+                        {renderSectorList(card.keys, card.useExport)}
+                      </div>
+                    ))}
+                  </div>
+                  {!showAllSectors && (
+                    <button
+                      onClick={() => setShowAllSectors(true)}
+                      className="mt-2 text-xs text-gray-600 hover:text-gray-400 w-full text-center"
+                    >
+                      View all sectors ↓
+                    </button>
+                  )}
+                </div>
+              )
+            }
+
+            // No industry set — CTA + full sector grid
+            return (
+              <div className="mb-3">
+                {!industry && (
+                  <button
+                    onClick={() => onUpdatePrefs({ ...userPrefs, industry: 'general_manufacturing' })}
+                    className="w-full mb-3 px-3 py-2 bg-indigo-900/30 border border-indigo-800/60 rounded-lg text-xs text-indigo-300 hover:bg-indigo-900/50 transition-colors text-left"
+                  >
+                    Set your industry to see relevant tariff exposure →
+                  </button>
+                )}
+              </div>
+            )
+          })()}
+
+          {/* All-sectors grid (shown when no industry set, or after "View all" toggle) */}
+          {(country.trade.tariff_sectors && (!userPrefs.industry || showAllSectors)) && (() => {
+            const sectors = country.trade.tariff_sectors!
+            return (
+              <div>
+                {showAllSectors && (
+                  <div className="flex items-center justify-between mb-2">
+                    <h4 className="text-gray-400 text-xs font-medium uppercase tracking-wider">All Sectors</h4>
+                    <button onClick={() => setShowAllSectors(false)} className="text-xs text-gray-600 hover:text-gray-400">
+                      Collapse ↑
+                    </button>
+                  </div>
+                )}
+                {!userPrefs.industry && (
+                  <h4 className="text-gray-400 text-xs font-medium uppercase tracking-wider mb-2">Import Tariffs by Sector</h4>
+                )}
+                <div className="grid grid-cols-2 gap-2">
+                  {(Object.keys(SECTOR_LABELS) as (keyof TariffSectors)[]).map(key => {
+                    const val = sectors[key]?.weighted_mean
+                    return (
+                      <div key={key} className="bg-gray-800 rounded-lg p-2.5">
+                        <div className="text-gray-500 text-xs leading-snug">{SECTOR_LABELS[key]}</div>
+                        <div className="text-sm font-semibold mt-1" style={{ color: getTariffColor(val) }}>
+                          {val !== null && val !== undefined ? `${val.toFixed(1)}%` : '—'}
+                        </div>
+                        {val === null || val === undefined ? (
+                          <div className="text-gray-700 text-xs">No WITS data</div>
+                        ) : null}
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            )
+          })()}
+
+          {/* Export tariff callout */}
+          {(() => {
+            const xprt = country.trade.export_tariff_weighted_mean
+            if (xprt !== null && xprt !== undefined && xprt > 0) {
+              return (
+                <div className="mt-3 bg-orange-950/30 border border-orange-900/50 rounded-lg p-2.5">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-orange-300 text-xs font-medium">Export Tariff</span>
+                    <span className="text-orange-300 text-sm font-bold">{xprt.toFixed(1)}%</span>
+                  </div>
+                  <p className="text-gray-500 text-xs leading-snug">
+                    This country charges {xprt.toFixed(1)}% on exports — common in commodity-exporting nations. Factor into cost-of-goods analysis.
+                  </p>
+                </div>
+              )
+            }
+            return (
+              <p className="text-gray-700 text-xs mt-2">No significant export tariffs reported.</p>
+            )
+          })()}
         </div>
       )}
 
@@ -560,18 +777,58 @@ export default function CountryProfile({ country, onClose, onAddToCompare, isInC
       })()}
 
       {/* Actions */}
-      <div className="p-4 mt-auto">
+      <div className="p-4 mt-auto space-y-2">
         <button
-          onClick={() => onAddToCompare(country)}
-          className={`w-full py-2 rounded-lg text-sm font-medium transition-colors ${
-            isInCompare
-              ? 'bg-gray-700 text-gray-400 cursor-default'
-              : 'bg-blue-600 hover:bg-blue-700 text-white'
-          }`}
+          onClick={() => setShowReport(true)}
+          className="w-full py-2 rounded-lg text-sm font-medium transition-colors bg-emerald-700 hover:bg-emerald-600 text-white flex items-center justify-center gap-2"
         >
-          {isInCompare ? 'Added to Compare' : 'Add to Compare'}
+
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          Generate Business Setup Report
         </button>
+        <div className="flex gap-2">
+          <button
+            onClick={() => onAddToCompare(country)}
+            className={`flex-1 py-2 rounded-lg text-sm font-medium transition-colors ${
+              isInCompare
+                ? 'bg-gray-700 text-gray-400 cursor-default'
+                : 'bg-blue-600 hover:bg-blue-700 text-white'
+            }`}
+          >
+            {isInCompare ? 'Added to Compare' : 'Add to Compare'}
+          </button>
+          <button
+            onClick={handleShare}
+            title="Copy shareable link"
+            className="px-3 py-2 rounded-lg text-sm font-medium bg-gray-700 hover:bg-gray-600 text-gray-300 transition-colors flex items-center gap-1.5"
+          >
+            {copied ? (
+              <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+            ) : (
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+              </svg>
+            )}
+            {copied ? 'Copied!' : 'Share'}
+          </button>
+        </div>
       </div>
+
+      {showReport && (() => {
+        const links = (businessLinksData as Record<string, BusinessLinks>)[country.code] ?? null
+        return (
+          <CountryReport
+            country={country}
+            businessLinks={links}
+            onClose={() => setShowReport(false)}
+            userPrefs={userPrefs}
+          />
+        )
+      })()}
     </div>
   )
 }

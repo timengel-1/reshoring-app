@@ -1,4 +1,5 @@
 import { Country, FilterState } from '../types'
+import { ALL_ITAR_STATUSES } from '../utils/itarStatus'
 
 interface FilterPanelProps {
   countries: Country[];
@@ -44,6 +45,20 @@ export default function FilterPanel({ countries, filters, setFilters, filteredCo
         </select>
       </div>
 
+      {/* Allied / ITAR Status filter */}
+      <div>
+        <label className="text-gray-400 text-xs block mb-1.5">Allied Status (A&amp;D)</label>
+        <select
+          value={filters.itarStatus}
+          onChange={e => setFilters({ ...filters, itarStatus: e.target.value })}
+          className="w-full bg-gray-800 border border-gray-700 text-gray-200 text-xs rounded-lg px-2 py-1.5 focus:outline-none focus:border-blue-500"
+        >
+          {ALL_ITAR_STATUSES.map(s => (
+            <option key={s.value} value={s.value}>{s.label}</option>
+          ))}
+        </select>
+      </div>
+
       {/* Min score */}
       <div>
         <label className="text-gray-400 text-xs block mb-1.5">
@@ -61,7 +76,7 @@ export default function FilterPanel({ countries, filters, setFilters, filteredCo
 
       {/* Reset */}
       <button
-        onClick={() => setFilters({ region: '', incomeLevel: '', minScore: 0, maxScore: 100, sortBy: 'overall' })}
+        onClick={() => setFilters({ region: '', incomeLevel: '', minScore: 0, maxScore: 100, sortBy: 'overall', itarStatus: '' })}
         className="mt-auto text-gray-500 hover:text-gray-300 text-xs border border-gray-700 hover:border-gray-500 rounded-lg py-1.5 transition-colors"
       >
         Reset Filters

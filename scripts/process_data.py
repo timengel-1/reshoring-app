@@ -234,6 +234,126 @@ for indicator, key in trade_indicators.items():
     if yr: trade_years[key] = yr
     time.sleep(0.3)
 
+# ── Step 3.55: WITS Sector Tariff Data ───────────────────────────────────────
+print("Fetching WITS sector tariff data...")
+
+# WITS product group codes → our sector keys
+WITS_SECTOR_MAP = {
+    "AgricultureAndFoodProducts": "agriculture_food",
+    "TextileAndApparel":          "textiles_apparel",
+    "BaseMetal":                  "base_metals",
+    "Chemicals":                  "chemicals",
+    "MachinesAndElectrical":      "machinery_electrical",
+    "TransportationEquipment":    "transportation",
+    "Wood":                       "wood_paper",
+    "MetalAndStone":              "stone_glass",
+}
+
+import re as _re
+
+# WITS product code → our sector key (using WITS named aggregate product codes)
+WITS_PRODUCT_TO_SECTOR = {
+    "Food":          "agriculture_food",
+    "Textiles":      "textiles_apparel",
+    "72-83_Metals":  "base_metals",
+    "Chemical":      "chemicals",
+    "84-85_MachElec": "machinery_electrical",
+    "86-89_Transport": "transportation",
+    "44-49_Wood":    "wood_paper",
+    "68-71_StoneGlas": "stone_glass",
+}
+
+def wits_fetch_all_sectors(iso3, indicator, year=2022, retries=2):
+    """
+    Fetch all product sectors for one country/indicator in a single WITS API call.
+    Returns dict {sector_key: value} or {} on failure.
+    The working URL: /API/V1/SDMX/V21/datasource/tradestats-tariff/reporter/{iso3}/year/{year}/partner/WLD/product/all/indicator/{indicator}
+    """
+    url = (
+        f"https://wits.worldbank.org/API/V1/SDMX/V21/datasource/tradestats-tariff"
+        f"/reporter/{iso3}/year/{year}/partner/WLD/product/all/indicator/{indicator}"
+    )
+    for attempt in range(retries + 1):
+        try:
+            r = requests.get(url, timeout=20)
+            if r.status_code == 200:
+                # Parse XML: <Series PRODUCTCODE="..." INDICATOR="..."><Obs OBS_VALUE="..."/></Series>
+                result = {}
+                for m in _re.finditer(
+                    r'PRODUCTCODE="([^"]+)"[^>]*>.*?OBS_VALUE="([0-9.]+)"',
+                    r.text, _re.DOTALL
+                ):
+                    product_code, obs_val = m.group(1), m.group(2)
+                    sector_key = WITS_PRODUCT_TO_SECTOR.get(product_code)
+                    if sector_key:
+                        result[sector_key] = float(obs_val)
+                return result
+            elif r.status_code == 429:
+                time.sleep(3 * (attempt + 1))
+        except Exception:
+            pass
+        if attempt < retries:
+            time.sleep(1)
+    return {}
+
+def fetch_sector_tariffs(iso3):
+    """Fetch import sector tariffs + export tariff for one country. Returns (sectors_dict, export_tariff)."""
+    wmean_map = wits_fetch_all_sectors(iso3, "AHS-WGHTD-AVRG")
+    time.sleep(0.3)
+    smean_map = wits_fetch_all_sectors(iso3, "AHS-SMPL-AVRG")
+    time.sleep(0.3)
+    xprt_map  = wits_fetch_all_sectors(iso3, "XPRT-WGHTD-AVRG")
+    time.sleep(0.3)
+
+    all_sector_keys = list(WITS_PRODUCT_TO_SECTOR.values())
+    sectors = {
+        key: {
+            "weighted_mean": round(wmean_map[key], 2) if key in wmean_map else None,
+            "simple_mean":   round(smean_map[key], 2) if key in smean_map else None,
+        }
+        for key in all_sector_keys
+    }
+    # Export tariff — use Total product code value from XPRT indicator
+    # (wits_fetch_all_sectors won't have Total in WITS_PRODUCT_TO_SECTOR, fetch separately)
+    xprt_total = None
+    url_xprt_total = (
+        f"https://wits.worldbank.org/API/V1/SDMX/V21/datasource/tradestats-tariff"
+        f"/reporter/{iso3}/year/2022/partner/WLD/product/Total/indicator/XPRT-WGHTD-AVRG"
+    )
+    try:
+        r = requests.get(url_xprt_total, timeout=15)
+        if r.status_code == 200:
+            m = _re.search(r'OBS_VALUE="([0-9.]+)"', r.text)
+            if m:
+                xprt_total = round(float(m.group(1)), 2)
+    except Exception:
+        pass
+
+    return sectors, xprt_total
+
+# Only fetch sector tariffs for countries that already have aggregate tariff data
+# (saves ~600 API calls for countries with no WITS coverage)
+tariff_coverage_codes = [
+    c for c in all_codes
+    if trade_data.get("tariff_rate_weighted_mean", {}).get(c) is not None
+]
+print(f"  Fetching sector tariffs for {len(tariff_coverage_codes)} countries...")
+
+sector_tariffs_data = {}   # code -> (sectors_dict, export_tariff)
+for i, code in enumerate(tariff_coverage_codes):
+    if i > 0 and i % 10 == 0:
+        print(f"  ... {i}/{len(tariff_coverage_codes)}")
+    try:
+        sectors, xprt = fetch_sector_tariffs(code)
+        # Only store if at least one sector has data
+        has_data = any(v["weighted_mean"] is not None for v in sectors.values())
+        if has_data or xprt is not None:
+            sector_tariffs_data[code] = (sectors, xprt)
+    except Exception as e:
+        print(f"  Warning: sector tariff fetch failed for {code}: {e}")
+
+print(f"  {len(sector_tariffs_data)} countries have sector tariff data")
+
 # ── Step 3.6: WTO Bound Tariff Data (optional) ────────────────────────────────
 wto_bound_data = {}
 
@@ -506,6 +626,8 @@ for code in all_iso3:
             "merchandise_imports_usd":   round(imports_usd) if imports_usd else None,
             "trade_balance_usd":         round(exports_usd - imports_usd) if (exports_usd and imports_usd) else None,
             "logistics_performance_index": round(lpi, 2) if lpi else None,
+            "tariff_sectors":            sector_tariffs_data[code][0] if code in sector_tariffs_data else None,
+            "export_tariff_weighted_mean": sector_tariffs_data[code][1] if code in sector_tariffs_data else None,
         },
     }
     countries.append(entry)
@@ -569,6 +691,13 @@ if wto_bound_data:
         "year": 2022,
         "coverage": len(wto_bound_data),
         "url": "https://apiportal.wto.org/"
+    }
+if sector_tariffs_data:
+    freshness["sources"]["tariff_sectors"] = {
+        "label": "WITS Sector Tariff Data (AHS by HS section)",
+        "year": 2022,
+        "coverage": len(sector_tariffs_data),
+        "url": "https://wits.worldbank.org/"
     }
 freshness_path = os.path.join(DATA_DIR, "data_freshness.json")
 with open(freshness_path, "w") as f:

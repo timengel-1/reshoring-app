@@ -1,7 +1,7 @@
 [
   {
     "code": "LIE",
-    "name": "LIE",
+    "name": "Liechtenstein",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Vaduz",
@@ -309,7 +309,7 @@
   },
   {
     "code": "DNK",
-    "name": "DNK",
+    "name": "Denmark",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Copenhagen",
@@ -458,12 +458,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4.1
+      "logistics_performance_index": 4.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 6.08,
+          "simple_mean": 6.99
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.85,
+          "simple_mean": 3.35
+        },
+        "base_metals": {
+          "weighted_mean": 1.13,
+          "simple_mean": 1.06
+        },
+        "chemicals": {
+          "weighted_mean": 1.36,
+          "simple_mean": 1.81
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.9,
+          "simple_mean": 0.65
+        },
+        "transportation": {
+          "weighted_mean": 1.08,
+          "simple_mean": 1.55
+        },
+        "wood_paper": {
+          "weighted_mean": 0.5,
+          "simple_mean": 0.26
+        },
+        "stone_glass": {
+          "weighted_mean": 3.33,
+          "simple_mean": 1.29
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "CHE",
-    "name": "CHE",
+    "name": "Switzerland",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Bern",
@@ -612,12 +647,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4.1
+      "logistics_performance_index": 4.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 27.48,
+          "simple_mean": 23.43
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.92,
+          "simple_mean": 2.09
+        },
+        "base_metals": {
+          "weighted_mean": 0.1,
+          "simple_mean": 0.3
+        },
+        "chemicals": {
+          "weighted_mean": 0.06,
+          "simple_mean": 0.49
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.04,
+          "simple_mean": 0.1
+        },
+        "transportation": {
+          "weighted_mean": 0.08,
+          "simple_mean": 0.23
+        },
+        "wood_paper": {
+          "weighted_mean": 0.1,
+          "simple_mean": 0.58
+        },
+        "stone_glass": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.44
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "LUX",
-    "name": "LUX",
+    "name": "Luxembourg",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Luxembourg",
@@ -771,7 +841,7 @@
   },
   {
     "code": "NOR",
-    "name": "NOR",
+    "name": "Norway",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Oslo",
@@ -920,12 +990,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.7
+      "logistics_performance_index": 3.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 18.26,
+          "simple_mean": 25.34
+        },
+        "textiles_apparel": {
+          "weighted_mean": 1.04,
+          "simple_mean": 0.55
+        },
+        "base_metals": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "chemicals": {
+          "weighted_mean": 1.15,
+          "simple_mean": 0.86
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "transportation": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "wood_paper": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "stone_glass": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "FIN",
-    "name": "FIN",
+    "name": "Finland",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Helsinki",
@@ -1074,12 +1179,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4.2
+      "logistics_performance_index": 4.2,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.85,
+          "simple_mean": 6.21
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.45,
+          "simple_mean": 3.29
+        },
+        "base_metals": {
+          "weighted_mean": 0.79,
+          "simple_mean": 1.11
+        },
+        "chemicals": {
+          "weighted_mean": 2.07,
+          "simple_mean": 1.81
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.9,
+          "simple_mean": 0.71
+        },
+        "transportation": {
+          "weighted_mean": 1.87,
+          "simple_mean": 1.86
+        },
+        "wood_paper": {
+          "weighted_mean": 0.39,
+          "simple_mean": 0.27
+        },
+        "stone_glass": {
+          "weighted_mean": 1.92,
+          "simple_mean": 1.43
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "AND",
-    "name": "AND",
+    "name": "Andorra",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Andorra la Vella",
@@ -1382,12 +1522,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.6
+      "logistics_performance_index": 3.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.65,
+          "simple_mean": 1.72
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.58,
+          "simple_mean": 4.59
+        },
+        "base_metals": {
+          "weighted_mean": 2.36,
+          "simple_mean": 2.4
+        },
+        "chemicals": {
+          "weighted_mean": 1.01,
+          "simple_mean": 1.09
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.45,
+          "simple_mean": 1.87
+        },
+        "transportation": {
+          "weighted_mean": 2.6,
+          "simple_mean": 2.77
+        },
+        "wood_paper": {
+          "weighted_mean": 0.46,
+          "simple_mean": 0.5
+        },
+        "stone_glass": {
+          "weighted_mean": 1.88,
+          "simple_mean": 1.81
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "MCO",
-    "name": "MCO",
+    "name": "Monaco",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Monaco",
@@ -1541,7 +1716,7 @@
   },
   {
     "code": "AUS",
-    "name": "AUS",
+    "name": "Australia",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Canberra",
@@ -1690,12 +1865,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.7
+      "logistics_performance_index": 3.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.31,
+          "simple_mean": 1.59
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.9,
+          "simple_mean": 2.73
+        },
+        "base_metals": {
+          "weighted_mean": 2.14,
+          "simple_mean": 2.9
+        },
+        "chemicals": {
+          "weighted_mean": 0.77,
+          "simple_mean": 1.46
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.78,
+          "simple_mean": 1.85
+        },
+        "transportation": {
+          "weighted_mean": 1.5,
+          "simple_mean": 2.04
+        },
+        "wood_paper": {
+          "weighted_mean": 1.08,
+          "simple_mean": 2.29
+        },
+        "stone_glass": {
+          "weighted_mean": 0.76,
+          "simple_mean": 2.35
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "GRL",
-    "name": "GRL",
+    "name": "Greenland",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Nuuk",
@@ -1849,7 +2059,7 @@
   },
   {
     "code": "NLD",
-    "name": "NLD",
+    "name": "Netherlands",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Amsterdam",
@@ -1998,12 +2208,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4.1
+      "logistics_performance_index": 4.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.81,
+          "simple_mean": 5.66
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.6,
+          "simple_mean": 3.65
+        },
+        "base_metals": {
+          "weighted_mean": 1.13,
+          "simple_mean": 1.06
+        },
+        "chemicals": {
+          "weighted_mean": 2.04,
+          "simple_mean": 1.94
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.47,
+          "simple_mean": 0.7
+        },
+        "transportation": {
+          "weighted_mean": 2.55,
+          "simple_mean": 1.94
+        },
+        "wood_paper": {
+          "weighted_mean": 0.34,
+          "simple_mean": 0.24
+        },
+        "stone_glass": {
+          "weighted_mean": 2.5,
+          "simple_mean": 1.42
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "JPN",
-    "name": "JPN",
+    "name": "Japan",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Tokyo",
@@ -2152,12 +2397,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.9
+      "logistics_performance_index": 3.9,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 12.79,
+          "simple_mean": 12.71
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.22,
+          "simple_mean": 2.54
+        },
+        "base_metals": {
+          "weighted_mean": 0.5,
+          "simple_mean": 0.29
+        },
+        "chemicals": {
+          "weighted_mean": 0.85,
+          "simple_mean": 0.79
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.01,
+          "simple_mean": 0.0
+        },
+        "transportation": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.01
+        },
+        "wood_paper": {
+          "weighted_mean": 0.97,
+          "simple_mean": 0.41
+        },
+        "stone_glass": {
+          "weighted_mean": 0.27,
+          "simple_mean": 0.36
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "SMR",
-    "name": "SMR",
+    "name": "San Marino",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "San Marino",
@@ -2460,7 +2740,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4
+      "logistics_performance_index": 4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.47,
+          "simple_mean": 5.69
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.32,
+          "simple_mean": 3.35
+        },
+        "base_metals": {
+          "weighted_mean": 0.88,
+          "simple_mean": 1.03
+        },
+        "chemicals": {
+          "weighted_mean": 1.3,
+          "simple_mean": 1.78
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.95,
+          "simple_mean": 0.69
+        },
+        "transportation": {
+          "weighted_mean": 1.91,
+          "simple_mean": 1.8
+        },
+        "wood_paper": {
+          "weighted_mean": 0.39,
+          "simple_mean": 0.23
+        },
+        "stone_glass": {
+          "weighted_mean": 1.94,
+          "simple_mean": 1.39
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -2614,7 +2929,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.6
+      "logistics_performance_index": 3.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.1,
+          "simple_mean": 6.38
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.66,
+          "simple_mean": 3.72
+        },
+        "base_metals": {
+          "weighted_mean": 0.99,
+          "simple_mean": 1.1
+        },
+        "chemicals": {
+          "weighted_mean": 1.79,
+          "simple_mean": 1.79
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.35,
+          "simple_mean": 0.69
+        },
+        "transportation": {
+          "weighted_mean": 2.29,
+          "simple_mean": 2.0
+        },
+        "wood_paper": {
+          "weighted_mean": 0.08,
+          "simple_mean": 0.31
+        },
+        "stone_glass": {
+          "weighted_mean": 0.87,
+          "simple_mean": 1.52
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -2768,12 +3118,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4
+      "logistics_performance_index": 4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 9.72,
+          "simple_mean": 5.73
+        },
+        "textiles_apparel": {
+          "weighted_mean": 6.67,
+          "simple_mean": 4.62
+        },
+        "base_metals": {
+          "weighted_mean": 0.37,
+          "simple_mean": 0.56
+        },
+        "chemicals": {
+          "weighted_mean": 0.11,
+          "simple_mean": 0.47
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.14,
+          "simple_mean": 0.13
+        },
+        "transportation": {
+          "weighted_mean": 0.51,
+          "simple_mean": 1.22
+        },
+        "wood_paper": {
+          "weighted_mean": 0.06,
+          "simple_mean": 0.21
+        },
+        "stone_glass": {
+          "weighted_mean": 0.35,
+          "simple_mean": 0.73
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "BRN",
-    "name": "BRN",
+    "name": "Brunei",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Bandar Seri Begawan",
@@ -2922,7 +3307,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.09
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.04,
+          "simple_mean": 0.24
+        },
+        "base_metals": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "chemicals": {
+          "weighted_mean": 0.01,
+          "simple_mean": 0.17
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.01
+        },
+        "transportation": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "wood_paper": {
+          "weighted_mean": 0.02,
+          "simple_mean": 0.08
+        },
+        "stone_glass": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -3076,7 +3496,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.6
+      "logistics_performance_index": 3.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.33,
+          "simple_mean": 6.65
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.04,
+          "simple_mean": 3.79
+        },
+        "base_metals": {
+          "weighted_mean": 1.67,
+          "simple_mean": 1.29
+        },
+        "chemicals": {
+          "weighted_mean": 3.08,
+          "simple_mean": 2.18
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.05,
+          "simple_mean": 0.85
+        },
+        "transportation": {
+          "weighted_mean": 4.59,
+          "simple_mean": 2.33
+        },
+        "wood_paper": {
+          "weighted_mean": 1.23,
+          "simple_mean": 0.45
+        },
+        "stone_glass": {
+          "weighted_mean": 1.07,
+          "simple_mean": 1.96
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -3230,12 +3685,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.6
+      "logistics_performance_index": 3.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": null,
+          "simple_mean": 12.24
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "base_metals": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "chemicals": {
+          "weighted_mean": 15.38,
+          "simple_mean": 0.0
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "transportation": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "wood_paper": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "stone_glass": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "AUT",
-    "name": "AUT",
+    "name": "Austria",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Vienna",
@@ -3384,12 +3874,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4
+      "logistics_performance_index": 4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 7.17,
+          "simple_mean": 6.35
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.12,
+          "simple_mean": 3.32
+        },
+        "base_metals": {
+          "weighted_mean": 1.27,
+          "simple_mean": 1.02
+        },
+        "chemicals": {
+          "weighted_mean": 0.89,
+          "simple_mean": 1.78
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.84,
+          "simple_mean": 0.67
+        },
+        "transportation": {
+          "weighted_mean": 2.31,
+          "simple_mean": 1.81
+        },
+        "wood_paper": {
+          "weighted_mean": 0.17,
+          "simple_mean": 0.24
+        },
+        "stone_glass": {
+          "weighted_mean": 0.52,
+          "simple_mean": 1.42
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "DEU",
-    "name": "DEU",
+    "name": "Germany",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Berlin",
@@ -3538,12 +4063,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4.1
+      "logistics_performance_index": 4.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.11,
+          "simple_mean": 5.98
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.89,
+          "simple_mean": 2.99
+        },
+        "base_metals": {
+          "weighted_mean": 1.49,
+          "simple_mean": 0.99
+        },
+        "chemicals": {
+          "weighted_mean": 2.38,
+          "simple_mean": 1.85
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.83,
+          "simple_mean": 0.65
+        },
+        "transportation": {
+          "weighted_mean": 2.27,
+          "simple_mean": 1.82
+        },
+        "wood_paper": {
+          "weighted_mean": 0.3,
+          "simple_mean": 0.32
+        },
+        "stone_glass": {
+          "weighted_mean": 0.66,
+          "simple_mean": 1.17
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "ABW",
-    "name": "ABW",
+    "name": "Aruba",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Oranjestad",
@@ -3697,7 +4257,7 @@
   },
   {
     "code": "KOR",
-    "name": "Korea, Rep.",
+    "name": "South Korea",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Seoul",
@@ -3846,12 +4406,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.8
+      "logistics_performance_index": 3.8,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 69.07,
+          "simple_mean": 34.32
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.87,
+          "simple_mean": 3.48
+        },
+        "base_metals": {
+          "weighted_mean": 1.44,
+          "simple_mean": 1.8
+        },
+        "chemicals": {
+          "weighted_mean": 3.34,
+          "simple_mean": 3.86
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.06,
+          "simple_mean": 1.66
+        },
+        "transportation": {
+          "weighted_mean": 1.6,
+          "simple_mean": 2.26
+        },
+        "wood_paper": {
+          "weighted_mean": 1.06,
+          "simple_mean": 0.62
+        },
+        "stone_glass": {
+          "weighted_mean": 2.27,
+          "simple_mean": 2.12
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "HKG",
-    "name": "Hong Kong SAR, China",
+    "name": "Hong Kong",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "",
@@ -4154,12 +4749,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.7
+      "logistics_performance_index": 3.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.28,
+          "simple_mean": 4.86
+        },
+        "textiles_apparel": {
+          "weighted_mean": 2.78,
+          "simple_mean": 1.77
+        },
+        "base_metals": {
+          "weighted_mean": 0.47,
+          "simple_mean": 0.24
+        },
+        "chemicals": {
+          "weighted_mean": 0.76,
+          "simple_mean": 1.0
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.24,
+          "simple_mean": 0.18
+        },
+        "transportation": {
+          "weighted_mean": 0.57,
+          "simple_mean": 0.84
+        },
+        "wood_paper": {
+          "weighted_mean": 0.11,
+          "simple_mean": 0.12
+        },
+        "stone_glass": {
+          "weighted_mean": 0.14,
+          "simple_mean": 0.49
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "ASM",
-    "name": "ASM",
+    "name": "American Samoa",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Pago Pago",
@@ -4313,7 +4943,7 @@
   },
   {
     "code": "CYM",
-    "name": "CYM",
+    "name": "Cayman Islands",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "George Town",
@@ -4616,7 +5246,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.3
+      "logistics_performance_index": 3.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.64,
+          "simple_mean": 5.65
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.95,
+          "simple_mean": 3.34
+        },
+        "base_metals": {
+          "weighted_mean": 1.77,
+          "simple_mean": 1.17
+        },
+        "chemicals": {
+          "weighted_mean": 1.37,
+          "simple_mean": 2.05
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.61,
+          "simple_mean": 0.74
+        },
+        "transportation": {
+          "weighted_mean": 2.0,
+          "simple_mean": 1.98
+        },
+        "wood_paper": {
+          "weighted_mean": 0.25,
+          "simple_mean": 0.29
+        },
+        "stone_glass": {
+          "weighted_mean": 1.35,
+          "simple_mean": 1.58
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -4678,7 +5343,7 @@
   },
   {
     "code": "BMU",
-    "name": "BMU",
+    "name": "Bermuda",
     "region": "North America",
     "income_level": "High income",
     "capital": "Hamilton",
@@ -4827,7 +5492,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 50.7,
+          "simple_mean": 38.28
+        },
+        "textiles_apparel": {
+          "weighted_mean": 10.88,
+          "simple_mean": 10.19
+        },
+        "base_metals": {
+          "weighted_mean": 23.24,
+          "simple_mean": 24.89
+        },
+        "chemicals": {
+          "weighted_mean": 16.01,
+          "simple_mean": 21.16
+        },
+        "machinery_electrical": {
+          "weighted_mean": 25.67,
+          "simple_mean": 25.5
+        },
+        "transportation": {
+          "weighted_mean": 42.54,
+          "simple_mean": 30.76
+        },
+        "wood_paper": {
+          "weighted_mean": 20.74,
+          "simple_mean": 21.47
+        },
+        "stone_glass": {
+          "weighted_mean": 19.58,
+          "simple_mean": 16.86
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -4981,12 +5681,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 4
+      "logistics_performance_index": 4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.18,
+          "simple_mean": 5.05
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.64,
+          "simple_mean": 3.15
+        },
+        "base_metals": {
+          "weighted_mean": 0.78,
+          "simple_mean": 0.98
+        },
+        "chemicals": {
+          "weighted_mean": 1.36,
+          "simple_mean": 1.76
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.96,
+          "simple_mean": 0.7
+        },
+        "transportation": {
+          "weighted_mean": 2.49,
+          "simple_mean": 1.66
+        },
+        "wood_paper": {
+          "weighted_mean": 0.89,
+          "simple_mean": 0.29
+        },
+        "stone_glass": {
+          "weighted_mean": 0.13,
+          "simple_mean": 1.21
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "ARE",
-    "name": "ARE",
+    "name": "United Arab Emirates",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "High income",
     "capital": "Abu Dhabi",
@@ -5140,7 +5875,7 @@
   },
   {
     "code": "GUM",
-    "name": "GUM",
+    "name": "Guam",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Agana",
@@ -5443,12 +6178,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.3
+      "logistics_performance_index": 3.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 6.36,
+          "simple_mean": 5.91
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.2,
+          "simple_mean": 3.24
+        },
+        "base_metals": {
+          "weighted_mean": 1.37,
+          "simple_mean": 1.15
+        },
+        "chemicals": {
+          "weighted_mean": 1.18,
+          "simple_mean": 1.96
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.03,
+          "simple_mean": 0.75
+        },
+        "transportation": {
+          "weighted_mean": 1.76,
+          "simple_mean": 1.91
+        },
+        "wood_paper": {
+          "weighted_mean": 0.15,
+          "simple_mean": 0.35
+        },
+        "stone_glass": {
+          "weighted_mean": 0.94,
+          "simple_mean": 1.5
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "MAC",
-    "name": "MAC",
+    "name": "Macau",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "",
@@ -5602,7 +6372,7 @@
   },
   {
     "code": "QAT",
-    "name": "QAT",
+    "name": "Qatar",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "High income",
     "capital": "Doha",
@@ -5751,12 +6521,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.5
+      "logistics_performance_index": 3.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.11,
+          "simple_mean": 3.47
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.84,
+          "simple_mean": 4.62
+        },
+        "base_metals": {
+          "weighted_mean": 4.19,
+          "simple_mean": 4.51
+        },
+        "chemicals": {
+          "weighted_mean": 2.87,
+          "simple_mean": 3.78
+        },
+        "machinery_electrical": {
+          "weighted_mean": 3.62,
+          "simple_mean": 3.7
+        },
+        "transportation": {
+          "weighted_mean": 4.5,
+          "simple_mean": 4.3
+        },
+        "wood_paper": {
+          "weighted_mean": 4.06,
+          "simple_mean": 4.17
+        },
+        "stone_glass": {
+          "weighted_mean": 2.79,
+          "simple_mean": 4.31
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "LTU",
-    "name": "LTU",
+    "name": "Lithuania",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Vilnius",
@@ -5905,7 +6710,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.4
+      "logistics_performance_index": 3.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.97,
+          "simple_mean": 5.6
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.34,
+          "simple_mean": 4.29
+        },
+        "base_metals": {
+          "weighted_mean": 1.1,
+          "simple_mean": 1.32
+        },
+        "chemicals": {
+          "weighted_mean": 4.34,
+          "simple_mean": 2.13
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.01,
+          "simple_mean": 0.83
+        },
+        "transportation": {
+          "weighted_mean": 3.37,
+          "simple_mean": 2.3
+        },
+        "wood_paper": {
+          "weighted_mean": 0.94,
+          "simple_mean": 0.36
+        },
+        "stone_glass": {
+          "weighted_mean": 1.09,
+          "simple_mean": 1.5
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -6059,7 +6899,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.5
+      "logistics_performance_index": 3.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.35,
+          "simple_mean": 6.13
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.13,
+          "simple_mean": 4.12
+        },
+        "base_metals": {
+          "weighted_mean": 1.04,
+          "simple_mean": 1.39
+        },
+        "chemicals": {
+          "weighted_mean": 3.11,
+          "simple_mean": 2.01
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.81,
+          "simple_mean": 0.79
+        },
+        "transportation": {
+          "weighted_mean": 0.28,
+          "simple_mean": 1.93
+        },
+        "wood_paper": {
+          "weighted_mean": 1.7,
+          "simple_mean": 0.31
+        },
+        "stone_glass": {
+          "weighted_mean": 1.81,
+          "simple_mean": 1.9
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -6213,7 +7088,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.8
+      "logistics_performance_index": 3.8,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.38,
+          "simple_mean": 3.88
+        },
+        "textiles_apparel": {
+          "weighted_mean": 8.58,
+          "simple_mean": 7.15
+        },
+        "base_metals": {
+          "weighted_mean": 1.12,
+          "simple_mean": 1.5
+        },
+        "chemicals": {
+          "weighted_mean": 1.24,
+          "simple_mean": 2.22
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.51,
+          "simple_mean": 0.85
+        },
+        "transportation": {
+          "weighted_mean": 0.88,
+          "simple_mean": 1.45
+        },
+        "wood_paper": {
+          "weighted_mean": 0.23,
+          "simple_mean": 0.39
+        },
+        "stone_glass": {
+          "weighted_mean": 1.48,
+          "simple_mean": 2.4
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -6367,12 +7277,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.4
+      "logistics_performance_index": 3.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.11,
+          "simple_mean": 5.93
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.19,
+          "simple_mean": 3.7
+        },
+        "base_metals": {
+          "weighted_mean": 0.64,
+          "simple_mean": 1.16
+        },
+        "chemicals": {
+          "weighted_mean": 1.85,
+          "simple_mean": 1.8
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.9,
+          "simple_mean": 0.75
+        },
+        "transportation": {
+          "weighted_mean": 1.85,
+          "simple_mean": 1.96
+        },
+        "wood_paper": {
+          "weighted_mean": 0.35,
+          "simple_mean": 0.28
+        },
+        "stone_glass": {
+          "weighted_mean": 2.36,
+          "simple_mean": 1.64
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "FRA",
-    "name": "FRA",
+    "name": "France",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Paris",
@@ -6521,12 +7466,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.9
+      "logistics_performance_index": 3.9,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.19,
+          "simple_mean": 5.3
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.36,
+          "simple_mean": 3.17
+        },
+        "base_metals": {
+          "weighted_mean": 1.83,
+          "simple_mean": 1.01
+        },
+        "chemicals": {
+          "weighted_mean": 1.2,
+          "simple_mean": 1.67
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.07,
+          "simple_mean": 0.66
+        },
+        "transportation": {
+          "weighted_mean": 1.18,
+          "simple_mean": 1.69
+        },
+        "wood_paper": {
+          "weighted_mean": 0.31,
+          "simple_mean": 0.27
+        },
+        "stone_glass": {
+          "weighted_mean": 1.17,
+          "simple_mean": 1.24
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "PLW",
-    "name": "PLW",
+    "name": "Palau",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Koror",
@@ -6680,7 +7660,7 @@
   },
   {
     "code": "DMA",
-    "name": "DMA",
+    "name": "Dominica",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Roseau",
@@ -6983,7 +7963,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3
+      "logistics_performance_index": 3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.41,
+          "simple_mean": 8.31
+        },
+        "textiles_apparel": {
+          "weighted_mean": 14.3,
+          "simple_mean": 14.84
+        },
+        "base_metals": {
+          "weighted_mean": 5.61,
+          "simple_mean": 11.66
+        },
+        "chemicals": {
+          "weighted_mean": 4.17,
+          "simple_mean": 6.5
+        },
+        "machinery_electrical": {
+          "weighted_mean": 5.06,
+          "simple_mean": 7.01
+        },
+        "transportation": {
+          "weighted_mean": 7.15,
+          "simple_mean": 11.6
+        },
+        "wood_paper": {
+          "weighted_mean": 2.29,
+          "simple_mean": 8.9
+        },
+        "stone_glass": {
+          "weighted_mean": 5.45,
+          "simple_mean": 10.11
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -7137,12 +8152,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.9
+      "logistics_performance_index": 3.9,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.99,
+          "simple_mean": 6.12
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.3,
+          "simple_mean": 3.47
+        },
+        "base_metals": {
+          "weighted_mean": 1.21,
+          "simple_mean": 1.13
+        },
+        "chemicals": {
+          "weighted_mean": 1.36,
+          "simple_mean": 2.02
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.07,
+          "simple_mean": 0.74
+        },
+        "transportation": {
+          "weighted_mean": 2.26,
+          "simple_mean": 2.07
+        },
+        "wood_paper": {
+          "weighted_mean": 0.36,
+          "simple_mean": 0.32
+        },
+        "stone_glass": {
+          "weighted_mean": 1.43,
+          "simple_mean": 1.47
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "FSM",
-    "name": "FSM",
+    "name": "Micronesia",
     "region": "East Asia & Pacific",
     "income_level": "Lower middle income",
     "capital": "Palikir",
@@ -7296,7 +8346,7 @@
   },
   {
     "code": "TUV",
-    "name": "TUV",
+    "name": "Tuvalu",
     "region": "East Asia & Pacific",
     "income_level": "Upper middle income",
     "capital": "Funafuti",
@@ -7450,7 +8500,7 @@
   },
   {
     "code": "BHS",
-    "name": "BHS",
+    "name": "The Bahamas",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Nassau",
@@ -7599,7 +8649,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.7
+      "logistics_performance_index": 2.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 7.79,
+          "simple_mean": 9.18
+        },
+        "textiles_apparel": {
+          "weighted_mean": 26.2,
+          "simple_mean": 25.43
+        },
+        "base_metals": {
+          "weighted_mean": 20.77,
+          "simple_mean": 29.31
+        },
+        "chemicals": {
+          "weighted_mean": 31.29,
+          "simple_mean": 32.69
+        },
+        "machinery_electrical": {
+          "weighted_mean": 25.08,
+          "simple_mean": 30.06
+        },
+        "transportation": {
+          "weighted_mean": 15.66,
+          "simple_mean": 4.62
+        },
+        "wood_paper": {
+          "weighted_mean": 18.37,
+          "simple_mean": 29.68
+        },
+        "stone_glass": {
+          "weighted_mean": 17.88,
+          "simple_mean": 28.09
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -7753,7 +8838,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 23.09,
+          "simple_mean": 23.04
+        },
+        "textiles_apparel": {
+          "weighted_mean": 22.49,
+          "simple_mean": 19.72
+        },
+        "base_metals": {
+          "weighted_mean": 10.37,
+          "simple_mean": 6.17
+        },
+        "chemicals": {
+          "weighted_mean": 10.14,
+          "simple_mean": 7.45
+        },
+        "machinery_electrical": {
+          "weighted_mean": 7.84,
+          "simple_mean": 6.14
+        },
+        "transportation": {
+          "weighted_mean": 16.03,
+          "simple_mean": 13.19
+        },
+        "wood_paper": {
+          "weighted_mean": 7.38,
+          "simple_mean": 10.63
+        },
+        "stone_glass": {
+          "weighted_mean": 10.67,
+          "simple_mean": 12.26
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -7907,12 +9027,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.7
+      "logistics_performance_index": 3.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.84,
+          "simple_mean": 5.46
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.5,
+          "simple_mean": 3.56
+        },
+        "base_metals": {
+          "weighted_mean": 0.88,
+          "simple_mean": 1.03
+        },
+        "chemicals": {
+          "weighted_mean": 1.91,
+          "simple_mean": 2.08
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.2,
+          "simple_mean": 0.72
+        },
+        "transportation": {
+          "weighted_mean": 2.15,
+          "simple_mean": 2.09
+        },
+        "wood_paper": {
+          "weighted_mean": 0.28,
+          "simple_mean": 0.36
+        },
+        "stone_glass": {
+          "weighted_mean": 0.46,
+          "simple_mean": 1.25
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "MHL",
-    "name": "MHL",
+    "name": "Marshall Islands",
     "region": "East Asia & Pacific",
     "income_level": "Upper middle income",
     "capital": "Majuro",
@@ -8215,12 +9370,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.3
+      "logistics_performance_index": 3.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 8.1,
+          "simple_mean": 5.85
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.72,
+          "simple_mean": 4.04
+        },
+        "base_metals": {
+          "weighted_mean": 0.92,
+          "simple_mean": 1.14
+        },
+        "chemicals": {
+          "weighted_mean": 2.32,
+          "simple_mean": 2.04
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.21,
+          "simple_mean": 0.74
+        },
+        "transportation": {
+          "weighted_mean": 1.99,
+          "simple_mean": 2.17
+        },
+        "wood_paper": {
+          "weighted_mean": 0.12,
+          "simple_mean": 0.32
+        },
+        "stone_glass": {
+          "weighted_mean": 1.16,
+          "simple_mean": 1.62
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "VCT",
-    "name": "VCT",
+    "name": "Saint Vincent and the Grenadines",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Kingstown",
@@ -8369,7 +9559,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 10.11,
+          "simple_mean": 19.61
+        },
+        "textiles_apparel": {
+          "weighted_mean": 14.2,
+          "simple_mean": 10.8
+        },
+        "base_metals": {
+          "weighted_mean": 6.84,
+          "simple_mean": 5.32
+        },
+        "chemicals": {
+          "weighted_mean": 7.03,
+          "simple_mean": 7.54
+        },
+        "machinery_electrical": {
+          "weighted_mean": 8.53,
+          "simple_mean": 5.82
+        },
+        "transportation": {
+          "weighted_mean": 14.97,
+          "simple_mean": 10.63
+        },
+        "wood_paper": {
+          "weighted_mean": 6.36,
+          "simple_mean": 7.66
+        },
+        "stone_glass": {
+          "weighted_mean": 9.24,
+          "simple_mean": 8.22
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -8523,7 +9748,9 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -8677,7 +9904,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.3
+      "logistics_performance_index": 3.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 10.01,
+          "simple_mean": 6.87
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.9,
+          "simple_mean": 3.57
+        },
+        "base_metals": {
+          "weighted_mean": 1.57,
+          "simple_mean": 1.19
+        },
+        "chemicals": {
+          "weighted_mean": 2.0,
+          "simple_mean": 2.21
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.95,
+          "simple_mean": 0.75
+        },
+        "transportation": {
+          "weighted_mean": 3.13,
+          "simple_mean": 2.07
+        },
+        "wood_paper": {
+          "weighted_mean": 0.87,
+          "simple_mean": 0.35
+        },
+        "stone_glass": {
+          "weighted_mean": 2.62,
+          "simple_mean": 1.68
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -8831,7 +10093,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.6
+      "logistics_performance_index": 3.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.81,
+          "simple_mean": 6.04
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.05,
+          "simple_mean": 3.38
+        },
+        "base_metals": {
+          "weighted_mean": 1.5,
+          "simple_mean": 1.1
+        },
+        "chemicals": {
+          "weighted_mean": 1.9,
+          "simple_mean": 1.95
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.01,
+          "simple_mean": 0.75
+        },
+        "transportation": {
+          "weighted_mean": 2.33,
+          "simple_mean": 1.95
+        },
+        "wood_paper": {
+          "weighted_mean": 0.47,
+          "simple_mean": 0.26
+        },
+        "stone_glass": {
+          "weighted_mean": 2.21,
+          "simple_mean": 1.5
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -8985,7 +10282,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.9
+      "logistics_performance_index": 2.9,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.8,
+          "simple_mean": 6.3
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.1,
+          "simple_mean": 5.42
+        },
+        "base_metals": {
+          "weighted_mean": 0.52,
+          "simple_mean": 1.59
+        },
+        "chemicals": {
+          "weighted_mean": 0.42,
+          "simple_mean": 0.94
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.32,
+          "simple_mean": 0.75
+        },
+        "transportation": {
+          "weighted_mean": 1.51,
+          "simple_mean": 2.22
+        },
+        "wood_paper": {
+          "weighted_mean": 1.43,
+          "simple_mean": 3.17
+        },
+        "stone_glass": {
+          "weighted_mean": 1.4,
+          "simple_mean": 3.46
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -9139,12 +10471,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 0.47,
+          "simple_mean": 1.61
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.33,
+          "simple_mean": 0.46
+        },
+        "base_metals": {
+          "weighted_mean": 0.76,
+          "simple_mean": 0.47
+        },
+        "chemicals": {
+          "weighted_mean": 0.58,
+          "simple_mean": 1.03
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.01,
+          "simple_mean": 0.15
+        },
+        "transportation": {
+          "weighted_mean": 0.3,
+          "simple_mean": 0.45
+        },
+        "wood_paper": {
+          "weighted_mean": 1.09,
+          "simple_mean": 3.06
+        },
+        "stone_glass": {
+          "weighted_mean": 0.2,
+          "simple_mean": 0.35
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "LCA",
-    "name": "LCA",
+    "name": "Saint Lucia",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Castries",
@@ -9298,7 +10665,7 @@
   },
   {
     "code": "GRD",
-    "name": "GRD",
+    "name": "Grenada",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Saint George's",
@@ -9447,7 +10814,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 12.99,
+          "simple_mean": 16.47
+        },
+        "textiles_apparel": {
+          "weighted_mean": 14.73,
+          "simple_mean": 11.33
+        },
+        "base_metals": {
+          "weighted_mean": 5.69,
+          "simple_mean": 5.71
+        },
+        "chemicals": {
+          "weighted_mean": 8.69,
+          "simple_mean": 7.09
+        },
+        "machinery_electrical": {
+          "weighted_mean": 8.93,
+          "simple_mean": 6.5
+        },
+        "transportation": {
+          "weighted_mean": 16.4,
+          "simple_mean": 11.19
+        },
+        "wood_paper": {
+          "weighted_mean": 7.43,
+          "simple_mean": 7.89
+        },
+        "stone_glass": {
+          "weighted_mean": 9.53,
+          "simple_mean": 9.66
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -9601,12 +11003,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.2
+      "logistics_performance_index": 3.2,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.93,
+          "simple_mean": 5.7
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.95,
+          "simple_mean": 4.1
+        },
+        "base_metals": {
+          "weighted_mean": 1.38,
+          "simple_mean": 1.19
+        },
+        "chemicals": {
+          "weighted_mean": 1.43,
+          "simple_mean": 1.84
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.74,
+          "simple_mean": 0.75
+        },
+        "transportation": {
+          "weighted_mean": 1.92,
+          "simple_mean": 1.93
+        },
+        "wood_paper": {
+          "weighted_mean": 0.25,
+          "simple_mean": 0.3
+        },
+        "stone_glass": {
+          "weighted_mean": 2.7,
+          "simple_mean": 1.57
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "KIR",
-    "name": "KIR",
+    "name": "Kiribati",
     "region": "East Asia & Pacific",
     "income_level": "Lower middle income",
     "capital": "Tarawa",
@@ -9760,7 +11197,7 @@
   },
   {
     "code": "KNA",
-    "name": "KNA",
+    "name": "Saint Kitts and Nevis",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Basseterre",
@@ -10063,7 +11500,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.3
+      "logistics_performance_index": 3.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 9.68,
+          "simple_mean": 5.41
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.88,
+          "simple_mean": 4.15
+        },
+        "base_metals": {
+          "weighted_mean": 1.03,
+          "simple_mean": 1.27
+        },
+        "chemicals": {
+          "weighted_mean": 1.04,
+          "simple_mean": 1.6
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.49,
+          "simple_mean": 0.78
+        },
+        "transportation": {
+          "weighted_mean": 0.91,
+          "simple_mean": 2.05
+        },
+        "wood_paper": {
+          "weighted_mean": 0.22,
+          "simple_mean": 0.28
+        },
+        "stone_glass": {
+          "weighted_mean": 1.38,
+          "simple_mean": 1.65
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -10217,7 +11689,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 6.6,
+          "simple_mean": 7.9
+        },
+        "textiles_apparel": {
+          "weighted_mean": 2.23,
+          "simple_mean": 1.68
+        },
+        "base_metals": {
+          "weighted_mean": 0.02,
+          "simple_mean": 0.1
+        },
+        "chemicals": {
+          "weighted_mean": 0.34,
+          "simple_mean": 0.31
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.14,
+          "simple_mean": 0.12
+        },
+        "transportation": {
+          "weighted_mean": 0.03,
+          "simple_mean": 0.53
+        },
+        "wood_paper": {
+          "weighted_mean": 0.08,
+          "simple_mean": 1.21
+        },
+        "stone_glass": {
+          "weighted_mean": 3.28,
+          "simple_mean": 2.01
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -10371,12 +11878,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.1
+      "logistics_performance_index": 3.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 9.45,
+          "simple_mean": 5.7
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.99,
+          "simple_mean": 25.1
+        },
+        "base_metals": {
+          "weighted_mean": 6.57,
+          "simple_mean": 7.55
+        },
+        "chemicals": {
+          "weighted_mean": 1.59,
+          "simple_mean": 3.45
+        },
+        "machinery_electrical": {
+          "weighted_mean": 3.34,
+          "simple_mean": 2.22
+        },
+        "transportation": {
+          "weighted_mean": 3.11,
+          "simple_mean": 6.99
+        },
+        "wood_paper": {
+          "weighted_mean": 4.15,
+          "simple_mean": 6.21
+        },
+        "stone_glass": {
+          "weighted_mean": 0.2,
+          "simple_mean": 7.45
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "ATG",
-    "name": "ATG",
+    "name": "Antigua and Barbuda",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Saint John's",
@@ -10833,12 +12375,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.7
+      "logistics_performance_index": 2.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.67,
+          "simple_mean": 1.97
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.01
+        },
+        "base_metals": {
+          "weighted_mean": 0.06,
+          "simple_mean": 0.53
+        },
+        "chemicals": {
+          "weighted_mean": 0.94,
+          "simple_mean": 0.57
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.01
+        },
+        "transportation": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "wood_paper": {
+          "weighted_mean": 0.02,
+          "simple_mean": 0.18
+        },
+        "stone_glass": {
+          "weighted_mean": 0.38,
+          "simple_mean": 0.69
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "FJI",
-    "name": "FJI",
+    "name": "Fiji",
     "region": "East Asia & Pacific",
     "income_level": "Upper middle income",
     "capital": "Suva",
@@ -11141,7 +12718,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.2
+      "logistics_performance_index": 3.2,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.77,
+          "simple_mean": 4.63
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.42,
+          "simple_mean": 4.24
+        },
+        "base_metals": {
+          "weighted_mean": 2.27,
+          "simple_mean": 1.39
+        },
+        "chemicals": {
+          "weighted_mean": 1.2,
+          "simple_mean": 1.45
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.15,
+          "simple_mean": 0.81
+        },
+        "transportation": {
+          "weighted_mean": 0.93,
+          "simple_mean": 2.4
+        },
+        "wood_paper": {
+          "weighted_mean": 0.19,
+          "simple_mean": 0.2
+        },
+        "stone_glass": {
+          "weighted_mean": 1.26,
+          "simple_mean": 1.84
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -11295,12 +12907,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.6
+      "logistics_performance_index": 3.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.5,
+          "simple_mean": 7.06
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.91,
+          "simple_mean": 4.17
+        },
+        "base_metals": {
+          "weighted_mean": 7.18,
+          "simple_mean": 7.71
+        },
+        "chemicals": {
+          "weighted_mean": 2.99,
+          "simple_mean": 3.78
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.39,
+          "simple_mean": 3.32
+        },
+        "transportation": {
+          "weighted_mean": 15.81,
+          "simple_mean": 14.16
+        },
+        "wood_paper": {
+          "weighted_mean": 10.95,
+          "simple_mean": 12.46
+        },
+        "stone_glass": {
+          "weighted_mean": 4.13,
+          "simple_mean": 13.11
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "CHL",
-    "name": "CHL",
+    "name": "Chile",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Santiago",
@@ -11449,12 +13096,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3
+      "logistics_performance_index": 3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 0.53,
+          "simple_mean": 1.38
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.89,
+          "simple_mean": 1.24
+        },
+        "base_metals": {
+          "weighted_mean": 0.48,
+          "simple_mean": 0.85
+        },
+        "chemicals": {
+          "weighted_mean": 0.59,
+          "simple_mean": 1.01
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.42,
+          "simple_mean": 0.95
+        },
+        "transportation": {
+          "weighted_mean": 0.4,
+          "simple_mean": 0.98
+        },
+        "wood_paper": {
+          "weighted_mean": 0.17,
+          "simple_mean": 0.86
+        },
+        "stone_glass": {
+          "weighted_mean": 0.26,
+          "simple_mean": 0.98
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "VIR",
-    "name": "VIR",
+    "name": "U.S. Virgin Islands",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Charlotte Amalie",
@@ -11757,7 +13439,9 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.2
+      "logistics_performance_index": 3.2,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -11911,12 +13595,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.8
+      "logistics_performance_index": 2.8,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 9.55,
+          "simple_mean": 21.71
+        },
+        "textiles_apparel": {
+          "weighted_mean": 56.64,
+          "simple_mean": 22.2
+        },
+        "base_metals": {
+          "weighted_mean": 7.84,
+          "simple_mean": 11.92
+        },
+        "chemicals": {
+          "weighted_mean": 3.44,
+          "simple_mean": 7.72
+        },
+        "machinery_electrical": {
+          "weighted_mean": 4.64,
+          "simple_mean": 6.45
+        },
+        "transportation": {
+          "weighted_mean": 8.25,
+          "simple_mean": 7.93
+        },
+        "wood_paper": {
+          "weighted_mean": 4.76,
+          "simple_mean": 15.39
+        },
+        "stone_glass": {
+          "weighted_mean": 9.82,
+          "simple_mean": 15.31
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "NRU",
-    "name": "NRU",
+    "name": "Nauru",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Yaren District",
@@ -12219,7 +13938,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 15.82,
+          "simple_mean": 19.19
+        },
+        "textiles_apparel": {
+          "weighted_mean": 18.11,
+          "simple_mean": 25.08
+        },
+        "base_metals": {
+          "weighted_mean": 6.82,
+          "simple_mean": 9.37
+        },
+        "chemicals": {
+          "weighted_mean": 8.64,
+          "simple_mean": 10.79
+        },
+        "machinery_electrical": {
+          "weighted_mean": 6.81,
+          "simple_mean": 7.68
+        },
+        "transportation": {
+          "weighted_mean": 21.79,
+          "simple_mean": 19.26
+        },
+        "wood_paper": {
+          "weighted_mean": 9.13,
+          "simple_mean": 11.6
+        },
+        "stone_glass": {
+          "weighted_mean": 12.86,
+          "simple_mean": 17.48
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -12373,12 +14127,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.7
+      "logistics_performance_index": 3.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.47,
+          "simple_mean": 5.39
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.31,
+          "simple_mean": 3.76
+        },
+        "base_metals": {
+          "weighted_mean": 1.49,
+          "simple_mean": 1.14
+        },
+        "chemicals": {
+          "weighted_mean": 1.96,
+          "simple_mean": 2.1
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.02,
+          "simple_mean": 0.72
+        },
+        "transportation": {
+          "weighted_mean": 1.46,
+          "simple_mean": 2.12
+        },
+        "wood_paper": {
+          "weighted_mean": 0.22,
+          "simple_mean": 0.27
+        },
+        "stone_glass": {
+          "weighted_mean": 2.48,
+          "simple_mean": 1.42
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "OMN",
-    "name": "OMN",
+    "name": "Oman",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "High income",
     "capital": "Muscat",
@@ -12527,7 +14316,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.3
+      "logistics_performance_index": 3.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.23,
+          "simple_mean": 5.13
+        },
+        "textiles_apparel": {
+          "weighted_mean": 2.08,
+          "simple_mean": 3.27
+        },
+        "base_metals": {
+          "weighted_mean": 2.37,
+          "simple_mean": 3.24
+        },
+        "chemicals": {
+          "weighted_mean": 1.74,
+          "simple_mean": 2.79
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.13,
+          "simple_mean": 2.7
+        },
+        "transportation": {
+          "weighted_mean": 3.19,
+          "simple_mean": 3.11
+        },
+        "wood_paper": {
+          "weighted_mean": 1.85,
+          "simple_mean": 3.03
+        },
+        "stone_glass": {
+          "weighted_mean": 0.51,
+          "simple_mean": 3.25
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -12681,7 +14505,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.2
+      "logistics_performance_index": 3.2,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.91,
+          "simple_mean": 7.01
+        },
+        "textiles_apparel": {
+          "weighted_mean": 2.62,
+          "simple_mean": 4.83
+        },
+        "base_metals": {
+          "weighted_mean": 0.64,
+          "simple_mean": 1.44
+        },
+        "chemicals": {
+          "weighted_mean": 2.1,
+          "simple_mean": 2.44
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.03,
+          "simple_mean": 0.95
+        },
+        "transportation": {
+          "weighted_mean": 2.9,
+          "simple_mean": 2.46
+        },
+        "wood_paper": {
+          "weighted_mean": 0.17,
+          "simple_mean": 0.38
+        },
+        "stone_glass": {
+          "weighted_mean": 1.16,
+          "simple_mean": 1.89
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -12835,7 +14694,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.5
+      "logistics_performance_index": 3.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.94,
+          "simple_mean": 3.03
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.61,
+          "simple_mean": 4.19
+        },
+        "base_metals": {
+          "weighted_mean": 3.38,
+          "simple_mean": 4.02
+        },
+        "chemicals": {
+          "weighted_mean": 2.28,
+          "simple_mean": 3.42
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.74,
+          "simple_mean": 3.35
+        },
+        "transportation": {
+          "weighted_mean": 4.36,
+          "simple_mean": 4.02
+        },
+        "wood_paper": {
+          "weighted_mean": 2.75,
+          "simple_mean": 3.66
+        },
+        "stone_glass": {
+          "weighted_mean": 1.25,
+          "simple_mean": 3.8
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -12989,12 +14883,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.6
+      "logistics_performance_index": 3.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 11.31,
+          "simple_mean": 8.16
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.43,
+          "simple_mean": 0.91
+        },
+        "base_metals": {
+          "weighted_mean": 2.35,
+          "simple_mean": 4.32
+        },
+        "chemicals": {
+          "weighted_mean": 0.69,
+          "simple_mean": 1.12
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.86,
+          "simple_mean": 3.17
+        },
+        "transportation": {
+          "weighted_mean": 2.62,
+          "simple_mean": 3.03
+        },
+        "wood_paper": {
+          "weighted_mean": 2.18,
+          "simple_mean": 3.08
+        },
+        "stone_glass": {
+          "weighted_mean": 1.02,
+          "simple_mean": 4.38
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "KWT",
-    "name": "KWT",
+    "name": "Kuwait",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "High income",
     "capital": "Kuwait City",
@@ -13143,7 +15072,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.2
+      "logistics_performance_index": 3.2,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 7.56,
+          "simple_mean": 3.43
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.59,
+          "simple_mean": 4.25
+        },
+        "base_metals": {
+          "weighted_mean": 3.11,
+          "simple_mean": 4.18
+        },
+        "chemicals": {
+          "weighted_mean": 1.97,
+          "simple_mean": 3.63
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.75,
+          "simple_mean": 3.58
+        },
+        "transportation": {
+          "weighted_mean": 4.89,
+          "simple_mean": 4.13
+        },
+        "wood_paper": {
+          "weighted_mean": 2.83,
+          "simple_mean": 3.82
+        },
+        "stone_glass": {
+          "weighted_mean": 1.13,
+          "simple_mean": 3.93
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -13297,7 +15261,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 17.1,
+          "simple_mean": 21.74
+        },
+        "textiles_apparel": {
+          "weighted_mean": 14.88,
+          "simple_mean": 14.34
+        },
+        "base_metals": {
+          "weighted_mean": 3.8,
+          "simple_mean": 5.01
+        },
+        "chemicals": {
+          "weighted_mean": 9.36,
+          "simple_mean": 7.23
+        },
+        "machinery_electrical": {
+          "weighted_mean": 4.91,
+          "simple_mean": 5.03
+        },
+        "transportation": {
+          "weighted_mean": 15.23,
+          "simple_mean": 12.59
+        },
+        "wood_paper": {
+          "weighted_mean": 8.31,
+          "simple_mean": 9.75
+        },
+        "stone_glass": {
+          "weighted_mean": 10.71,
+          "simple_mean": 11.72
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -13451,7 +15450,9 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.8
+      "logistics_performance_index": 2.8,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -13605,7 +15606,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.1
+      "logistics_performance_index": 3.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 12.14,
+          "simple_mean": 12.55
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.18,
+          "simple_mean": 5.92
+        },
+        "base_metals": {
+          "weighted_mean": 0.81,
+          "simple_mean": 2.32
+        },
+        "chemicals": {
+          "weighted_mean": 0.37,
+          "simple_mean": 0.88
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.03,
+          "simple_mean": 2.15
+        },
+        "transportation": {
+          "weighted_mean": 0.99,
+          "simple_mean": 2.33
+        },
+        "wood_paper": {
+          "weighted_mean": 0.54,
+          "simple_mean": 1.1
+        },
+        "stone_glass": {
+          "weighted_mean": 0.27,
+          "simple_mean": 4.02
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -13759,12 +15795,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.9
+      "logistics_performance_index": 2.9,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.0,
+          "simple_mean": 6.03
+        },
+        "textiles_apparel": {
+          "weighted_mean": 13.13,
+          "simple_mean": 23.0
+        },
+        "base_metals": {
+          "weighted_mean": 8.1,
+          "simple_mean": 5.87
+        },
+        "chemicals": {
+          "weighted_mean": 1.55,
+          "simple_mean": 2.74
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.81,
+          "simple_mean": 2.01
+        },
+        "transportation": {
+          "weighted_mean": 2.8,
+          "simple_mean": 6.67
+        },
+        "wood_paper": {
+          "weighted_mean": 3.69,
+          "simple_mean": 4.59
+        },
+        "stone_glass": {
+          "weighted_mean": 0.76,
+          "simple_mean": 6.48
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "SAU",
-    "name": "SAU",
+    "name": "Saudi Arabia",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "High income",
     "capital": "Riyadh",
@@ -13913,12 +15984,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.4
+      "logistics_performance_index": 3.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 6.14,
+          "simple_mean": 7.13
+        },
+        "textiles_apparel": {
+          "weighted_mean": 6.11,
+          "simple_mean": 5.82
+        },
+        "base_metals": {
+          "weighted_mean": 10.69,
+          "simple_mean": 8.22
+        },
+        "chemicals": {
+          "weighted_mean": 3.64,
+          "simple_mean": 4.76
+        },
+        "machinery_electrical": {
+          "weighted_mean": 4.91,
+          "simple_mean": 5.05
+        },
+        "transportation": {
+          "weighted_mean": 4.61,
+          "simple_mean": 5.3
+        },
+        "wood_paper": {
+          "weighted_mean": 6.82,
+          "simple_mean": 6.59
+        },
+        "stone_glass": {
+          "weighted_mean": 3.37,
+          "simple_mean": 7.12
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "PRI",
-    "name": "PRI",
+    "name": "Puerto Rico",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "San Juan",
@@ -14375,7 +16481,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.95,
+          "simple_mean": 17.2
+        },
+        "textiles_apparel": {
+          "weighted_mean": 1.44,
+          "simple_mean": 1.95
+        },
+        "base_metals": {
+          "weighted_mean": 1.97,
+          "simple_mean": 2.27
+        },
+        "chemicals": {
+          "weighted_mean": 0.21,
+          "simple_mean": 0.53
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.13,
+          "simple_mean": 1.32
+        },
+        "transportation": {
+          "weighted_mean": 4.79,
+          "simple_mean": 2.6
+        },
+        "wood_paper": {
+          "weighted_mean": 0.79,
+          "simple_mean": 1.14
+        },
+        "stone_glass": {
+          "weighted_mean": 0.28,
+          "simple_mean": 2.15
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -14529,7 +16670,9 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -14683,12 +16826,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.7
+      "logistics_performance_index": 2.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.18,
+          "simple_mean": 5.71
+        },
+        "textiles_apparel": {
+          "weighted_mean": 7.31,
+          "simple_mean": 6.96
+        },
+        "base_metals": {
+          "weighted_mean": 2.5,
+          "simple_mean": 6.29
+        },
+        "chemicals": {
+          "weighted_mean": 1.73,
+          "simple_mean": 3.96
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.7,
+          "simple_mean": 2.79
+        },
+        "transportation": {
+          "weighted_mean": 6.29,
+          "simple_mean": 5.22
+        },
+        "wood_paper": {
+          "weighted_mean": 1.07,
+          "simple_mean": 3.37
+        },
+        "stone_glass": {
+          "weighted_mean": 2.71,
+          "simple_mean": 7.19
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "VNM",
-    "name": "Viet Nam",
+    "name": "Vietnam",
     "region": "East Asia & Pacific",
     "income_level": "Lower middle income",
     "capital": "Hanoi",
@@ -14837,7 +17015,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.3
+      "logistics_performance_index": 3.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.79,
+          "simple_mean": 9.07
+        },
+        "textiles_apparel": {
+          "weighted_mean": 2.19,
+          "simple_mean": 4.57
+        },
+        "base_metals": {
+          "weighted_mean": 0.57,
+          "simple_mean": 3.69
+        },
+        "chemicals": {
+          "weighted_mean": 0.69,
+          "simple_mean": 1.54
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.31,
+          "simple_mean": 2.08
+        },
+        "transportation": {
+          "weighted_mean": 4.16,
+          "simple_mean": 9.14
+        },
+        "wood_paper": {
+          "weighted_mean": 0.85,
+          "simple_mean": 4.51
+        },
+        "stone_glass": {
+          "weighted_mean": 1.9,
+          "simple_mean": 7.17
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -14991,7 +17204,9 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -15145,7 +17360,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.3,
+          "simple_mean": 5.15
+        },
+        "textiles_apparel": {
+          "weighted_mean": 2.12,
+          "simple_mean": 4.03
+        },
+        "base_metals": {
+          "weighted_mean": 0.38,
+          "simple_mean": 0.9
+        },
+        "chemicals": {
+          "weighted_mean": 0.39,
+          "simple_mean": 1.22
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.33,
+          "simple_mean": 1.65
+        },
+        "transportation": {
+          "weighted_mean": 0.42,
+          "simple_mean": 1.36
+        },
+        "wood_paper": {
+          "weighted_mean": 0.29,
+          "simple_mean": 1.65
+        },
+        "stone_glass": {
+          "weighted_mean": 1.37,
+          "simple_mean": 2.27
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -15299,7 +17549,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 18.99,
+          "simple_mean": 19.81
+        },
+        "textiles_apparel": {
+          "weighted_mean": 19.41,
+          "simple_mean": 18.72
+        },
+        "base_metals": {
+          "weighted_mean": 13.02,
+          "simple_mean": 15.62
+        },
+        "chemicals": {
+          "weighted_mean": 7.49,
+          "simple_mean": 8.58
+        },
+        "machinery_electrical": {
+          "weighted_mean": 8.78,
+          "simple_mean": 9.03
+        },
+        "transportation": {
+          "weighted_mean": 9.95,
+          "simple_mean": 9.77
+        },
+        "wood_paper": {
+          "weighted_mean": 9.1,
+          "simple_mean": 12.68
+        },
+        "stone_glass": {
+          "weighted_mean": 18.14,
+          "simple_mean": 17.1
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -15453,12 +17738,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3
+      "logistics_performance_index": 3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.33,
+          "simple_mean": 10.56
+        },
+        "textiles_apparel": {
+          "weighted_mean": 2.23,
+          "simple_mean": 11.04
+        },
+        "base_metals": {
+          "weighted_mean": 2.12,
+          "simple_mean": 5.44
+        },
+        "chemicals": {
+          "weighted_mean": 1.9,
+          "simple_mean": 3.68
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.82,
+          "simple_mean": 3.39
+        },
+        "transportation": {
+          "weighted_mean": 3.98,
+          "simple_mean": 7.34
+        },
+        "wood_paper": {
+          "weighted_mean": 1.1,
+          "simple_mean": 2.93
+        },
+        "stone_glass": {
+          "weighted_mean": 0.54,
+          "simple_mean": 5.35
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "MDV",
-    "name": "MDV",
+    "name": "Maldives",
     "region": "South Asia",
     "income_level": "Upper middle income",
     "capital": "Male",
@@ -15607,7 +17927,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 10.43,
+          "simple_mean": 6.97
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.37,
+          "simple_mean": 3.84
+        },
+        "base_metals": {
+          "weighted_mean": 5.44,
+          "simple_mean": 7.05
+        },
+        "chemicals": {
+          "weighted_mean": 3.99,
+          "simple_mean": 7.59
+        },
+        "machinery_electrical": {
+          "weighted_mean": 15.07,
+          "simple_mean": 16.98
+        },
+        "transportation": {
+          "weighted_mean": 44.44,
+          "simple_mean": 34.74
+        },
+        "wood_paper": {
+          "weighted_mean": 1.83,
+          "simple_mean": 3.68
+        },
+        "stone_glass": {
+          "weighted_mean": 3.88,
+          "simple_mean": 6.75
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -15915,7 +18270,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 11.81,
+          "simple_mean": 18.4
+        },
+        "textiles_apparel": {
+          "weighted_mean": 15.94,
+          "simple_mean": 18.43
+        },
+        "base_metals": {
+          "weighted_mean": 10.96,
+          "simple_mean": 15.71
+        },
+        "chemicals": {
+          "weighted_mean": 4.28,
+          "simple_mean": 8.62
+        },
+        "machinery_electrical": {
+          "weighted_mean": 8.07,
+          "simple_mean": 9.16
+        },
+        "transportation": {
+          "weighted_mean": 8.17,
+          "simple_mean": 9.58
+        },
+        "wood_paper": {
+          "weighted_mean": 9.2,
+          "simple_mean": 12.67
+        },
+        "stone_glass": {
+          "weighted_mean": 16.36,
+          "simple_mean": 16.52
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -16223,7 +18613,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.9
+      "logistics_performance_index": 2.9,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.11,
+          "simple_mean": 5.99
+        },
+        "textiles_apparel": {
+          "weighted_mean": 13.91,
+          "simple_mean": 13.56
+        },
+        "base_metals": {
+          "weighted_mean": 1.36,
+          "simple_mean": 1.22
+        },
+        "chemicals": {
+          "weighted_mean": 0.75,
+          "simple_mean": 1.26
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.97,
+          "simple_mean": 0.82
+        },
+        "transportation": {
+          "weighted_mean": 5.98,
+          "simple_mean": 3.24
+        },
+        "wood_paper": {
+          "weighted_mean": 1.14,
+          "simple_mean": 2.8
+        },
+        "stone_glass": {
+          "weighted_mean": 3.23,
+          "simple_mean": 2.14
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -16377,7 +18802,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 15.73,
+          "simple_mean": 18.89
+        },
+        "textiles_apparel": {
+          "weighted_mean": 13.73,
+          "simple_mean": 14.81
+        },
+        "base_metals": {
+          "weighted_mean": 2.79,
+          "simple_mean": 3.96
+        },
+        "chemicals": {
+          "weighted_mean": 6.76,
+          "simple_mean": 6.45
+        },
+        "machinery_electrical": {
+          "weighted_mean": 3.89,
+          "simple_mean": 4.56
+        },
+        "transportation": {
+          "weighted_mean": 5.58,
+          "simple_mean": 12.61
+        },
+        "wood_paper": {
+          "weighted_mean": 4.04,
+          "simple_mean": 8.89
+        },
+        "stone_glass": {
+          "weighted_mean": 5.1,
+          "simple_mean": 9.41
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -16536,7 +18996,7 @@
   },
   {
     "code": "MNG",
-    "name": "MNG",
+    "name": "Mongolia",
     "region": "East Asia & Pacific",
     "income_level": "Upper middle income",
     "capital": "Ulaanbaatar",
@@ -16685,12 +19145,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 8.5,
+          "simple_mean": 6.8
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.19,
+          "simple_mean": 4.89
+        },
+        "base_metals": {
+          "weighted_mean": 4.98,
+          "simple_mean": 4.83
+        },
+        "chemicals": {
+          "weighted_mean": 4.94,
+          "simple_mean": 4.89
+        },
+        "machinery_electrical": {
+          "weighted_mean": 4.43,
+          "simple_mean": 4.63
+        },
+        "transportation": {
+          "weighted_mean": 4.21,
+          "simple_mean": 4.73
+        },
+        "wood_paper": {
+          "weighted_mean": 4.86,
+          "simple_mean": 5.62
+        },
+        "stone_glass": {
+          "weighted_mean": 6.12,
+          "simple_mean": 5.0
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "ALB",
-    "name": "ALB",
+    "name": "Albania",
     "region": "Europe & Central Asia",
     "income_level": "Upper middle income",
     "capital": "Tirane",
@@ -16839,7 +19334,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.58,
+          "simple_mean": 2.28
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.03,
+          "simple_mean": 0.13
+        },
+        "base_metals": {
+          "weighted_mean": 0.12,
+          "simple_mean": 1.16
+        },
+        "chemicals": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.42
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.06,
+          "simple_mean": 0.19
+        },
+        "transportation": {
+          "weighted_mean": 0.12,
+          "simple_mean": 0.22
+        },
+        "wood_paper": {
+          "weighted_mean": 0.0,
+          "simple_mean": 0.0
+        },
+        "stone_glass": {
+          "weighted_mean": 0.17,
+          "simple_mean": 1.27
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -16993,12 +19523,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.9
+      "logistics_performance_index": 2.9,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 14.44,
+          "simple_mean": 16.73
+        },
+        "textiles_apparel": {
+          "weighted_mean": 20.22,
+          "simple_mean": 14.58
+        },
+        "base_metals": {
+          "weighted_mean": 9.74,
+          "simple_mean": 13.3
+        },
+        "chemicals": {
+          "weighted_mean": 3.46,
+          "simple_mean": 7.75
+        },
+        "machinery_electrical": {
+          "weighted_mean": 7.78,
+          "simple_mean": 8.11
+        },
+        "transportation": {
+          "weighted_mean": 10.03,
+          "simple_mean": 7.98
+        },
+        "wood_paper": {
+          "weighted_mean": 9.9,
+          "simple_mean": 10.57
+        },
+        "stone_glass": {
+          "weighted_mean": 15.42,
+          "simple_mean": 13.99
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "DOM",
-    "name": "DOM",
+    "name": "Dominican Republic",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Santo Domingo",
@@ -17147,7 +19712,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.6
+      "logistics_performance_index": 2.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 6.62,
+          "simple_mean": 11.14
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.89,
+          "simple_mean": 5.48
+        },
+        "base_metals": {
+          "weighted_mean": 5.95,
+          "simple_mean": 4.1
+        },
+        "chemicals": {
+          "weighted_mean": 1.62,
+          "simple_mean": 2.89
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.19,
+          "simple_mean": 1.35
+        },
+        "transportation": {
+          "weighted_mean": 6.38,
+          "simple_mean": 5.13
+        },
+        "wood_paper": {
+          "weighted_mean": 2.11,
+          "simple_mean": 5.07
+        },
+        "stone_glass": {
+          "weighted_mean": 3.51,
+          "simple_mean": 6.57
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -17301,12 +19901,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 29.92,
+          "simple_mean": 25.09
+        },
+        "textiles_apparel": {
+          "weighted_mean": 24.02,
+          "simple_mean": 20.38
+        },
+        "base_metals": {
+          "weighted_mean": 7.51,
+          "simple_mean": 13.6
+        },
+        "chemicals": {
+          "weighted_mean": 1.44,
+          "simple_mean": 7.42
+        },
+        "machinery_electrical": {
+          "weighted_mean": 4.42,
+          "simple_mean": 7.46
+        },
+        "transportation": {
+          "weighted_mean": 9.06,
+          "simple_mean": 7.85
+        },
+        "wood_paper": {
+          "weighted_mean": 10.67,
+          "simple_mean": 17.42
+        },
+        "stone_glass": {
+          "weighted_mean": 16.37,
+          "simple_mean": 17.3
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "BLZ",
-    "name": "BLZ",
+    "name": "Belize",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Belmopan",
@@ -17455,12 +20090,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 45.56,
+          "simple_mean": 34.82
+        },
+        "textiles_apparel": {
+          "weighted_mean": 19.14,
+          "simple_mean": 14.71
+        },
+        "base_metals": {
+          "weighted_mean": 7.79,
+          "simple_mean": 6.93
+        },
+        "chemicals": {
+          "weighted_mean": 7.95,
+          "simple_mean": 8.41
+        },
+        "machinery_electrical": {
+          "weighted_mean": 6.87,
+          "simple_mean": 6.56
+        },
+        "transportation": {
+          "weighted_mean": 14.87,
+          "simple_mean": 12.66
+        },
+        "wood_paper": {
+          "weighted_mean": 9.44,
+          "simple_mean": 10.77
+        },
+        "stone_glass": {
+          "weighted_mean": 15.13,
+          "simple_mean": 14.02
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "SLB",
-    "name": "SLB",
+    "name": "Solomon Islands",
     "region": "East Asia & Pacific",
     "income_level": "Lower middle income",
     "capital": "Honiara",
@@ -17609,12 +20279,14 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.8
+      "logistics_performance_index": 2.8,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "STP",
-    "name": "STP",
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Sao Tome",
@@ -17768,7 +20440,7 @@
   },
   {
     "code": "CUB",
-    "name": "CUB",
+    "name": "Cuba",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Havana",
@@ -17917,7 +20589,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.2
+      "logistics_performance_index": 2.2,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 8.76,
+          "simple_mean": 13.46
+        },
+        "textiles_apparel": {
+          "weighted_mean": 14.88,
+          "simple_mean": 14.33
+        },
+        "base_metals": {
+          "weighted_mean": 9.41,
+          "simple_mean": 8.89
+        },
+        "chemicals": {
+          "weighted_mean": 8.78,
+          "simple_mean": 9.97
+        },
+        "machinery_electrical": {
+          "weighted_mean": 9.99,
+          "simple_mean": 9.64
+        },
+        "transportation": {
+          "weighted_mean": 9.93,
+          "simple_mean": 7.76
+        },
+        "wood_paper": {
+          "weighted_mean": 6.9,
+          "simple_mean": 8.13
+        },
+        "stone_glass": {
+          "weighted_mean": 9.31,
+          "simple_mean": 9.9
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -18071,7 +20778,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.3
+      "logistics_performance_index": 3.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 7.78,
+          "simple_mean": 7.07
+        },
+        "textiles_apparel": {
+          "weighted_mean": 2.26,
+          "simple_mean": 7.74
+        },
+        "base_metals": {
+          "weighted_mean": 0.44,
+          "simple_mean": 3.7
+        },
+        "chemicals": {
+          "weighted_mean": 1.37,
+          "simple_mean": 2.23
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.23,
+          "simple_mean": 1.35
+        },
+        "transportation": {
+          "weighted_mean": 2.43,
+          "simple_mean": 6.69
+        },
+        "wood_paper": {
+          "weighted_mean": 2.57,
+          "simple_mean": 4.11
+        },
+        "stone_glass": {
+          "weighted_mean": 0.86,
+          "simple_mean": 4.13
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -18225,12 +20967,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.7
+      "logistics_performance_index": 2.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.66,
+          "simple_mean": 6.45
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.62,
+          "simple_mean": 7.62
+        },
+        "base_metals": {
+          "weighted_mean": 1.07,
+          "simple_mean": 1.72
+        },
+        "chemicals": {
+          "weighted_mean": 0.79,
+          "simple_mean": 1.38
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.18,
+          "simple_mean": 0.82
+        },
+        "transportation": {
+          "weighted_mean": 5.29,
+          "simple_mean": 2.14
+        },
+        "wood_paper": {
+          "weighted_mean": 1.27,
+          "simple_mean": 3.39
+        },
+        "stone_glass": {
+          "weighted_mean": 3.34,
+          "simple_mean": 3.76
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "SUR",
-    "name": "SUR",
+    "name": "Suriname",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Paramaribo",
@@ -18379,12 +21156,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 15.5,
+          "simple_mean": 18.73
+        },
+        "textiles_apparel": {
+          "weighted_mean": 11.55,
+          "simple_mean": 14.12
+        },
+        "base_metals": {
+          "weighted_mean": 5.58,
+          "simple_mean": 7.2
+        },
+        "chemicals": {
+          "weighted_mean": 5.44,
+          "simple_mean": 6.92
+        },
+        "machinery_electrical": {
+          "weighted_mean": 5.28,
+          "simple_mean": 7.02
+        },
+        "transportation": {
+          "weighted_mean": 10.32,
+          "simple_mean": 11.21
+        },
+        "wood_paper": {
+          "weighted_mean": 9.78,
+          "simple_mean": 8.71
+        },
+        "stone_glass": {
+          "weighted_mean": 8.24,
+          "simple_mean": 10.38
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "CHN",
-    "name": "CHN",
+    "name": "China",
     "region": "East Asia & Pacific",
     "income_level": "Upper middle income",
     "capital": "Beijing",
@@ -18533,7 +21345,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.7
+      "logistics_performance_index": 3.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 8.91,
+          "simple_mean": 9.93
+        },
+        "textiles_apparel": {
+          "weighted_mean": 7.16,
+          "simple_mean": 5.28
+        },
+        "base_metals": {
+          "weighted_mean": 2.16,
+          "simple_mean": 5.22
+        },
+        "chemicals": {
+          "weighted_mean": 3.55,
+          "simple_mean": 5.4
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.98,
+          "simple_mean": 4.54
+        },
+        "transportation": {
+          "weighted_mean": 10.79,
+          "simple_mean": 6.54
+        },
+        "wood_paper": {
+          "weighted_mean": 1.09,
+          "simple_mean": 3.99
+        },
+        "stone_glass": {
+          "weighted_mean": 1.15,
+          "simple_mean": 7.12
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -18687,12 +21534,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.4
+      "logistics_performance_index": 3.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 22.29,
+          "simple_mean": 38.34
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.45,
+          "simple_mean": 10.34
+        },
+        "base_metals": {
+          "weighted_mean": 3.34,
+          "simple_mean": 4.74
+        },
+        "chemicals": {
+          "weighted_mean": 2.83,
+          "simple_mean": 3.18
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.21,
+          "simple_mean": 2.09
+        },
+        "transportation": {
+          "weighted_mean": 1.5,
+          "simple_mean": 2.81
+        },
+        "wood_paper": {
+          "weighted_mean": 0.54,
+          "simple_mean": 3.9
+        },
+        "stone_glass": {
+          "weighted_mean": 0.74,
+          "simple_mean": 4.53
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "THA",
-    "name": "THA",
+    "name": "Thailand",
     "region": "East Asia & Pacific",
     "income_level": "Upper middle income",
     "capital": "Bangkok",
@@ -18841,12 +21723,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.5
+      "logistics_performance_index": 3.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 19.21,
+          "simple_mean": 21.84
+        },
+        "textiles_apparel": {
+          "weighted_mean": 6.64,
+          "simple_mean": 15.91
+        },
+        "base_metals": {
+          "weighted_mean": 2.62,
+          "simple_mean": 5.96
+        },
+        "chemicals": {
+          "weighted_mean": 2.54,
+          "simple_mean": 3.59
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.64,
+          "simple_mean": 3.73
+        },
+        "transportation": {
+          "weighted_mean": 15.66,
+          "simple_mean": 17.9
+        },
+        "wood_paper": {
+          "weighted_mean": 1.09,
+          "simple_mean": 3.79
+        },
+        "stone_glass": {
+          "weighted_mean": 0.35,
+          "simple_mean": 6.6
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "LAO",
-    "name": "Lao PDR",
+    "name": "Laos",
     "region": "East Asia & Pacific",
     "income_level": "Lower middle income",
     "capital": "Vientiane",
@@ -18995,7 +21912,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.4
+      "logistics_performance_index": 2.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.14,
+          "simple_mean": 3.16
+        },
+        "textiles_apparel": {
+          "weighted_mean": 1.99,
+          "simple_mean": 3.03
+        },
+        "base_metals": {
+          "weighted_mean": 0.25,
+          "simple_mean": 1.44
+        },
+        "chemicals": {
+          "weighted_mean": 0.56,
+          "simple_mean": 2.2
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.82,
+          "simple_mean": 2.2
+        },
+        "transportation": {
+          "weighted_mean": 1.69,
+          "simple_mean": 4.99
+        },
+        "wood_paper": {
+          "weighted_mean": 2.93,
+          "simple_mean": 2.22
+        },
+        "stone_glass": {
+          "weighted_mean": 3.73,
+          "simple_mean": 1.09
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -19149,7 +22101,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.7
+      "logistics_performance_index": 2.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.05,
+          "simple_mean": 7.77
+        },
+        "textiles_apparel": {
+          "weighted_mean": 10.28,
+          "simple_mean": 15.55
+        },
+        "base_metals": {
+          "weighted_mean": 5.5,
+          "simple_mean": 10.38
+        },
+        "chemicals": {
+          "weighted_mean": 2.47,
+          "simple_mean": 5.82
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.79,
+          "simple_mean": 4.21
+        },
+        "transportation": {
+          "weighted_mean": 12.99,
+          "simple_mean": 8.87
+        },
+        "wood_paper": {
+          "weighted_mean": 2.16,
+          "simple_mean": 8.01
+        },
+        "stone_glass": {
+          "weighted_mean": 3.55,
+          "simple_mean": 7.93
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -19303,7 +22290,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3
+      "logistics_performance_index": 3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 0.18,
+          "simple_mean": 0.65
+        },
+        "textiles_apparel": {
+          "weighted_mean": 5.79,
+          "simple_mean": 4.62
+        },
+        "base_metals": {
+          "weighted_mean": 0.08,
+          "simple_mean": 0.57
+        },
+        "chemicals": {
+          "weighted_mean": 0.29,
+          "simple_mean": 0.57
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.07,
+          "simple_mean": 0.22
+        },
+        "transportation": {
+          "weighted_mean": 0.63,
+          "simple_mean": 0.19
+        },
+        "wood_paper": {
+          "weighted_mean": 0.37,
+          "simple_mean": 1.36
+        },
+        "stone_glass": {
+          "weighted_mean": 0.42,
+          "simple_mean": 1.09
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -19457,12 +22479,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.86,
+          "simple_mean": 11.08
+        },
+        "textiles_apparel": {
+          "weighted_mean": 12.78,
+          "simple_mean": 13.23
+        },
+        "base_metals": {
+          "weighted_mean": 6.16,
+          "simple_mean": 9.76
+        },
+        "chemicals": {
+          "weighted_mean": 4.2,
+          "simple_mean": 6.58
+        },
+        "machinery_electrical": {
+          "weighted_mean": 5.84,
+          "simple_mean": 5.78
+        },
+        "transportation": {
+          "weighted_mean": 2.95,
+          "simple_mean": 4.17
+        },
+        "wood_paper": {
+          "weighted_mean": 5.55,
+          "simple_mean": 11.18
+        },
+        "stone_glass": {
+          "weighted_mean": 8.3,
+          "simple_mean": 11.61
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "PAN",
-    "name": "PAN",
+    "name": "Panama",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Panama City",
@@ -19611,7 +22668,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.1
+      "logistics_performance_index": 3.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 14.2,
+          "simple_mean": 13.87
+        },
+        "textiles_apparel": {
+          "weighted_mean": 9.68,
+          "simple_mean": 8.49
+        },
+        "base_metals": {
+          "weighted_mean": 4.95,
+          "simple_mean": 5.25
+        },
+        "chemicals": {
+          "weighted_mean": 1.87,
+          "simple_mean": 2.36
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.77,
+          "simple_mean": 2.36
+        },
+        "transportation": {
+          "weighted_mean": 0.66,
+          "simple_mean": 4.61
+        },
+        "wood_paper": {
+          "weighted_mean": 7.35,
+          "simple_mean": 8.61
+        },
+        "stone_glass": {
+          "weighted_mean": 10.41,
+          "simple_mean": 9.05
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -19765,7 +22857,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3
+      "logistics_performance_index": 3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 14.71,
+          "simple_mean": 9.0
+        },
+        "textiles_apparel": {
+          "weighted_mean": 4.94,
+          "simple_mean": 5.96
+        },
+        "base_metals": {
+          "weighted_mean": 2.41,
+          "simple_mean": 2.53
+        },
+        "chemicals": {
+          "weighted_mean": 1.17,
+          "simple_mean": 1.45
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.28,
+          "simple_mean": 2.2
+        },
+        "transportation": {
+          "weighted_mean": 1.06,
+          "simple_mean": 2.64
+        },
+        "wood_paper": {
+          "weighted_mean": 1.13,
+          "simple_mean": 1.96
+        },
+        "stone_glass": {
+          "weighted_mean": 1.73,
+          "simple_mean": 2.8
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -20073,12 +23200,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.08,
+          "simple_mean": 10.72
+        },
+        "textiles_apparel": {
+          "weighted_mean": 14.31,
+          "simple_mean": 21.89
+        },
+        "base_metals": {
+          "weighted_mean": 4.21,
+          "simple_mean": 6.69
+        },
+        "chemicals": {
+          "weighted_mean": 1.47,
+          "simple_mean": 1.93
+        },
+        "machinery_electrical": {
+          "weighted_mean": 4.96,
+          "simple_mean": 3.22
+        },
+        "transportation": {
+          "weighted_mean": 16.16,
+          "simple_mean": 5.31
+        },
+        "wood_paper": {
+          "weighted_mean": 2.55,
+          "simple_mean": 8.58
+        },
+        "stone_glass": {
+          "weighted_mean": 8.49,
+          "simple_mean": 9.39
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "IND",
-    "name": "IND",
+    "name": "India",
     "region": "South Asia",
     "income_level": "Lower middle income",
     "capital": "New Delhi",
@@ -20227,7 +23389,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.4
+      "logistics_performance_index": 3.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 13.39,
+          "simple_mean": 38.76
+        },
+        "textiles_apparel": {
+          "weighted_mean": 8.98,
+          "simple_mean": 12.63
+        },
+        "base_metals": {
+          "weighted_mean": 3.54,
+          "simple_mean": 7.28
+        },
+        "chemicals": {
+          "weighted_mean": 5.32,
+          "simple_mean": 7.44
+        },
+        "machinery_electrical": {
+          "weighted_mean": 5.22,
+          "simple_mean": 6.86
+        },
+        "transportation": {
+          "weighted_mean": 8.42,
+          "simple_mean": 17.97
+        },
+        "wood_paper": {
+          "weighted_mean": 5.06,
+          "simple_mean": 7.27
+        },
+        "stone_glass": {
+          "weighted_mean": 9.19,
+          "simple_mean": 9.82
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -20381,7 +23578,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 12.82,
+          "simple_mean": 27.6
+        },
+        "textiles_apparel": {
+          "weighted_mean": 12.16,
+          "simple_mean": 16.29
+        },
+        "base_metals": {
+          "weighted_mean": 7.72,
+          "simple_mean": 11.78
+        },
+        "chemicals": {
+          "weighted_mean": 10.75,
+          "simple_mean": 12.56
+        },
+        "machinery_electrical": {
+          "weighted_mean": 7.34,
+          "simple_mean": 8.24
+        },
+        "transportation": {
+          "weighted_mean": 30.42,
+          "simple_mean": 18.76
+        },
+        "wood_paper": {
+          "weighted_mean": 13.32,
+          "simple_mean": 14.53
+        },
+        "stone_glass": {
+          "weighted_mean": 14.24,
+          "simple_mean": 16.47
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -20535,12 +23767,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 12.13,
+          "simple_mean": 18.39
+        },
+        "textiles_apparel": {
+          "weighted_mean": 16.88,
+          "simple_mean": 17.72
+        },
+        "base_metals": {
+          "weighted_mean": 11.01,
+          "simple_mean": 15.5
+        },
+        "chemicals": {
+          "weighted_mean": 4.75,
+          "simple_mean": 8.41
+        },
+        "machinery_electrical": {
+          "weighted_mean": 7.63,
+          "simple_mean": 8.99
+        },
+        "transportation": {
+          "weighted_mean": 8.12,
+          "simple_mean": 9.04
+        },
+        "wood_paper": {
+          "weighted_mean": 9.23,
+          "simple_mean": 12.25
+        },
+        "stone_glass": {
+          "weighted_mean": 14.85,
+          "simple_mean": 16.34
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "GUY",
-    "name": "GUY",
+    "name": "Guyana",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Georgetown",
@@ -20689,7 +23956,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.4
+      "logistics_performance_index": 2.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 15.06,
+          "simple_mean": 21.1
+        },
+        "textiles_apparel": {
+          "weighted_mean": 13.63,
+          "simple_mean": 13.22
+        },
+        "base_metals": {
+          "weighted_mean": 5.94,
+          "simple_mean": 5.49
+        },
+        "chemicals": {
+          "weighted_mean": 7.84,
+          "simple_mean": 7.23
+        },
+        "machinery_electrical": {
+          "weighted_mean": 5.56,
+          "simple_mean": 5.69
+        },
+        "transportation": {
+          "weighted_mean": 14.44,
+          "simple_mean": 10.79
+        },
+        "wood_paper": {
+          "weighted_mean": 7.17,
+          "simple_mean": 8.29
+        },
+        "stone_glass": {
+          "weighted_mean": 7.84,
+          "simple_mean": 9.24
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -20843,12 +24145,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.9
+      "logistics_performance_index": 2.9,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.12,
+          "simple_mean": 6.42
+        },
+        "textiles_apparel": {
+          "weighted_mean": 11.61,
+          "simple_mean": 10.12
+        },
+        "base_metals": {
+          "weighted_mean": 1.43,
+          "simple_mean": 1.83
+        },
+        "chemicals": {
+          "weighted_mean": 0.5,
+          "simple_mean": 1.06
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.7,
+          "simple_mean": 0.87
+        },
+        "transportation": {
+          "weighted_mean": 3.94,
+          "simple_mean": 1.47
+        },
+        "wood_paper": {
+          "weighted_mean": 0.53,
+          "simple_mean": 1.42
+        },
+        "stone_glass": {
+          "weighted_mean": 2.85,
+          "simple_mean": 2.45
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "XKX",
-    "name": "XKX",
+    "name": "Kosovo",
     "region": "Europe & Central Asia",
     "income_level": "Upper middle income",
     "capital": "Pristina",
@@ -21002,7 +24339,7 @@
   },
   {
     "code": "ZMB",
-    "name": "ZMB",
+    "name": "Zambia",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Lusaka",
@@ -21151,7 +24488,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.7,
+          "simple_mean": 17.05
+        },
+        "textiles_apparel": {
+          "weighted_mean": 17.07,
+          "simple_mean": 16.24
+        },
+        "base_metals": {
+          "weighted_mean": 5.74,
+          "simple_mean": 12.75
+        },
+        "chemicals": {
+          "weighted_mean": 1.25,
+          "simple_mean": 6.42
+        },
+        "machinery_electrical": {
+          "weighted_mean": 5.89,
+          "simple_mean": 9.47
+        },
+        "transportation": {
+          "weighted_mean": 370.99,
+          "simple_mean": 207.54
+        },
+        "wood_paper": {
+          "weighted_mean": 3.28,
+          "simple_mean": 14.86
+        },
+        "stone_glass": {
+          "weighted_mean": 6.41,
+          "simple_mean": 11.95
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -21305,7 +24677,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 18.09,
+          "simple_mean": 19.14
+        },
+        "textiles_apparel": {
+          "weighted_mean": 23.01,
+          "simple_mean": 18.34
+        },
+        "base_metals": {
+          "weighted_mean": 13.71,
+          "simple_mean": 15.64
+        },
+        "chemicals": {
+          "weighted_mean": 6.92,
+          "simple_mean": 9.08
+        },
+        "machinery_electrical": {
+          "weighted_mean": 10.05,
+          "simple_mean": 9.1
+        },
+        "transportation": {
+          "weighted_mean": 12.8,
+          "simple_mean": 9.59
+        },
+        "wood_paper": {
+          "weighted_mean": 14.14,
+          "simple_mean": 13.18
+        },
+        "stone_glass": {
+          "weighted_mean": 18.9,
+          "simple_mean": 16.83
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -21459,12 +24866,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.4
+      "logistics_performance_index": 2.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.32,
+          "simple_mean": 8.45
+        },
+        "textiles_apparel": {
+          "weighted_mean": 1.37,
+          "simple_mean": 5.44
+        },
+        "base_metals": {
+          "weighted_mean": 1.15,
+          "simple_mean": 5.26
+        },
+        "chemicals": {
+          "weighted_mean": 1.08,
+          "simple_mean": 3.85
+        },
+        "machinery_electrical": {
+          "weighted_mean": 2.55,
+          "simple_mean": 8.3
+        },
+        "transportation": {
+          "weighted_mean": 8.69,
+          "simple_mean": 10.42
+        },
+        "wood_paper": {
+          "weighted_mean": 1.94,
+          "simple_mean": 3.43
+        },
+        "stone_glass": {
+          "weighted_mean": 0.11,
+          "simple_mean": 5.04
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "ARG",
-    "name": "ARG",
+    "name": "Argentina",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Buenos Aires",
@@ -21613,12 +25055,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.8
+      "logistics_performance_index": 2.8,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 4.33,
+          "simple_mean": 10.08
+        },
+        "textiles_apparel": {
+          "weighted_mean": 20.13,
+          "simple_mean": 24.11
+        },
+        "base_metals": {
+          "weighted_mean": 6.65,
+          "simple_mean": 12.81
+        },
+        "chemicals": {
+          "weighted_mean": 5.26,
+          "simple_mean": 7.33
+        },
+        "machinery_electrical": {
+          "weighted_mean": 7.65,
+          "simple_mean": 10.78
+        },
+        "transportation": {
+          "weighted_mean": 6.24,
+          "simple_mean": 12.51
+        },
+        "wood_paper": {
+          "weighted_mean": 3.8,
+          "simple_mean": 9.72
+        },
+        "stone_glass": {
+          "weighted_mean": 6.4,
+          "simple_mean": 10.58
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "GMB",
-    "name": "Gambia, The",
+    "name": "The Gambia",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Banjul",
@@ -21767,7 +25244,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.3
+      "logistics_performance_index": 2.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 19.29,
+          "simple_mean": 19.54
+        },
+        "textiles_apparel": {
+          "weighted_mean": 25.83,
+          "simple_mean": 18.72
+        },
+        "base_metals": {
+          "weighted_mean": 13.06,
+          "simple_mean": 15.89
+        },
+        "chemicals": {
+          "weighted_mean": 8.53,
+          "simple_mean": 10.45
+        },
+        "machinery_electrical": {
+          "weighted_mean": 10.01,
+          "simple_mean": 9.6
+        },
+        "transportation": {
+          "weighted_mean": 12.34,
+          "simple_mean": 10.51
+        },
+        "wood_paper": {
+          "weighted_mean": 14.03,
+          "simple_mean": 13.53
+        },
+        "stone_glass": {
+          "weighted_mean": 19.18,
+          "simple_mean": 17.91
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -21921,7 +25433,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.14,
+          "simple_mean": 5.84
+        },
+        "textiles_apparel": {
+          "weighted_mean": 12.28,
+          "simple_mean": 22.0
+        },
+        "base_metals": {
+          "weighted_mean": 6.65,
+          "simple_mean": 7.52
+        },
+        "chemicals": {
+          "weighted_mean": 1.52,
+          "simple_mean": 2.62
+        },
+        "machinery_electrical": {
+          "weighted_mean": 3.6,
+          "simple_mean": 2.46
+        },
+        "transportation": {
+          "weighted_mean": 2.77,
+          "simple_mean": 7.9
+        },
+        "wood_paper": {
+          "weighted_mean": 3.57,
+          "simple_mean": 5.35
+        },
+        "stone_glass": {
+          "weighted_mean": 5.28,
+          "simple_mean": 7.73
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -22075,12 +25622,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.11,
+          "simple_mean": 3.98
+        },
+        "textiles_apparel": {
+          "weighted_mean": 11.26,
+          "simple_mean": 17.25
+        },
+        "base_metals": {
+          "weighted_mean": 7.58,
+          "simple_mean": 7.63
+        },
+        "chemicals": {
+          "weighted_mean": 2.04,
+          "simple_mean": 2.55
+        },
+        "machinery_electrical": {
+          "weighted_mean": 3.43,
+          "simple_mean": 2.31
+        },
+        "transportation": {
+          "weighted_mean": 4.36,
+          "simple_mean": 6.97
+        },
+        "wood_paper": {
+          "weighted_mean": 5.06,
+          "simple_mean": 5.69
+        },
+        "stone_glass": {
+          "weighted_mean": 3.97,
+          "simple_mean": 7.2
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "ZAF",
-    "name": "ZAF",
+    "name": "South Africa",
     "region": "Sub-Saharan Africa ",
     "income_level": "Upper middle income",
     "capital": "Pretoria",
@@ -22229,12 +25811,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.7
+      "logistics_performance_index": 3.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.94,
+          "simple_mean": 6.38
+        },
+        "textiles_apparel": {
+          "weighted_mean": 21.34,
+          "simple_mean": 23.89
+        },
+        "base_metals": {
+          "weighted_mean": 4.89,
+          "simple_mean": 5.03
+        },
+        "chemicals": {
+          "weighted_mean": 1.16,
+          "simple_mean": 1.99
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.77,
+          "simple_mean": 1.75
+        },
+        "transportation": {
+          "weighted_mean": 12.27,
+          "simple_mean": 5.43
+        },
+        "wood_paper": {
+          "weighted_mean": 1.35,
+          "simple_mean": 4.1
+        },
+        "stone_glass": {
+          "weighted_mean": 2.28,
+          "simple_mean": 5.24
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "LKA",
-    "name": "LKA",
+    "name": "Sri Lanka",
     "region": "South Asia",
     "income_level": "Lower middle income",
     "capital": "Colombo",
@@ -22388,7 +26005,7 @@
   },
   {
     "code": "KGZ",
-    "name": "Kyrgyz Republic",
+    "name": "Kyrgyzstan",
     "region": "Europe & Central Asia",
     "income_level": "Lower middle income",
     "capital": "Bishkek",
@@ -22542,7 +26159,7 @@
   },
   {
     "code": "MWI",
-    "name": "MWI",
+    "name": "Malawi",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Lilongwe",
@@ -22850,7 +26467,7 @@
   },
   {
     "code": "BRA",
-    "name": "BRA",
+    "name": "Brazil",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Brasilia",
@@ -22999,7 +26616,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 3.2
+      "logistics_performance_index": 3.2,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.89,
+          "simple_mean": 11.12
+        },
+        "textiles_apparel": {
+          "weighted_mean": 23.05,
+          "simple_mean": 26.56
+        },
+        "base_metals": {
+          "weighted_mean": 9.45,
+          "simple_mean": 12.68
+        },
+        "chemicals": {
+          "weighted_mean": 4.4,
+          "simple_mean": 7.64
+        },
+        "machinery_electrical": {
+          "weighted_mean": 9.4,
+          "simple_mean": 12.06
+        },
+        "transportation": {
+          "weighted_mean": 8.26,
+          "simple_mean": 14.14
+        },
+        "wood_paper": {
+          "weighted_mean": 9.71,
+          "simple_mean": 10.64
+        },
+        "stone_glass": {
+          "weighted_mean": 7.55,
+          "simple_mean": 11.07
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -23153,7 +26805,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.1
+      "logistics_performance_index": 2.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 10.98,
+          "simple_mean": 27.82
+        },
+        "textiles_apparel": {
+          "weighted_mean": 16.56,
+          "simple_mean": 13.77
+        },
+        "base_metals": {
+          "weighted_mean": 15.74,
+          "simple_mean": 9.81
+        },
+        "chemicals": {
+          "weighted_mean": 6.81,
+          "simple_mean": 9.0
+        },
+        "machinery_electrical": {
+          "weighted_mean": 3.93,
+          "simple_mean": 4.23
+        },
+        "transportation": {
+          "weighted_mean": 9.81,
+          "simple_mean": 8.45
+        },
+        "wood_paper": {
+          "weighted_mean": 11.05,
+          "simple_mean": 26.89
+        },
+        "stone_glass": {
+          "weighted_mean": 9.61,
+          "simple_mean": 19.26
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -23307,7 +26994,9 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -23615,7 +27304,9 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.6
+      "logistics_performance_index": 2.6,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -23774,7 +27465,7 @@
   },
   {
     "code": "EGY",
-    "name": "EGY",
+    "name": "Egypt",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Lower middle income",
     "capital": "Cairo",
@@ -24077,12 +27768,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.3
+      "logistics_performance_index": 2.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 6.55,
+          "simple_mean": 16.1
+        },
+        "textiles_apparel": {
+          "weighted_mean": 15.94,
+          "simple_mean": 14.28
+        },
+        "base_metals": {
+          "weighted_mean": 9.88,
+          "simple_mean": 9.36
+        },
+        "chemicals": {
+          "weighted_mean": 5.47,
+          "simple_mean": 7.61
+        },
+        "machinery_electrical": {
+          "weighted_mean": 6.95,
+          "simple_mean": 7.06
+        },
+        "transportation": {
+          "weighted_mean": 8.84,
+          "simple_mean": 9.15
+        },
+        "wood_paper": {
+          "weighted_mean": 9.17,
+          "simple_mean": 10.55
+        },
+        "stone_glass": {
+          "weighted_mean": 14.14,
+          "simple_mean": 14.16
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "DZA",
-    "name": "DZA",
+    "name": "Algeria",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Upper middle income",
     "capital": "Algiers",
@@ -24231,12 +27957,14 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "COG",
-    "name": "Congo, Rep.",
+    "name": "Republic of Congo",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Brazzaville",
@@ -24385,7 +28113,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.6
+      "logistics_performance_index": 2.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 19.48,
+          "simple_mean": 25.93
+        },
+        "textiles_apparel": {
+          "weighted_mean": 28.32,
+          "simple_mean": 27.0
+        },
+        "base_metals": {
+          "weighted_mean": 17.8,
+          "simple_mean": 18.51
+        },
+        "chemicals": {
+          "weighted_mean": 11.31,
+          "simple_mean": 13.41
+        },
+        "machinery_electrical": {
+          "weighted_mean": 14.05,
+          "simple_mean": 14.79
+        },
+        "transportation": {
+          "weighted_mean": 21.63,
+          "simple_mean": 20.48
+        },
+        "wood_paper": {
+          "weighted_mean": 20.16,
+          "simple_mean": 18.48
+        },
+        "stone_glass": {
+          "weighted_mean": 27.81,
+          "simple_mean": 24.99
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -24544,7 +28307,7 @@
   },
   {
     "code": "MRT",
-    "name": "MRT",
+    "name": "Mauritania",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Nouakchott",
@@ -24693,12 +28456,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.3
+      "logistics_performance_index": 2.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 10.91,
+          "simple_mean": 18.89
+        },
+        "textiles_apparel": {
+          "weighted_mean": 16.88,
+          "simple_mean": 18.53
+        },
+        "base_metals": {
+          "weighted_mean": 10.23,
+          "simple_mean": 15.95
+        },
+        "chemicals": {
+          "weighted_mean": 3.75,
+          "simple_mean": 8.75
+        },
+        "machinery_electrical": {
+          "weighted_mean": 7.96,
+          "simple_mean": 9.12
+        },
+        "transportation": {
+          "weighted_mean": 10.78,
+          "simple_mean": 10.23
+        },
+        "wood_paper": {
+          "weighted_mean": 13.69,
+          "simple_mean": 13.01
+        },
+        "stone_glass": {
+          "weighted_mean": 17.37,
+          "simple_mean": 17.85
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "KEN",
-    "name": "KEN",
+    "name": "Kenya",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Nairobi",
@@ -24847,7 +28645,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 17.2,
+          "simple_mean": 28.23
+        },
+        "textiles_apparel": {
+          "weighted_mean": 25.43,
+          "simple_mean": 28.52
+        },
+        "base_metals": {
+          "weighted_mean": 7.8,
+          "simple_mean": 17.51
+        },
+        "chemicals": {
+          "weighted_mean": 3.42,
+          "simple_mean": 7.92
+        },
+        "machinery_electrical": {
+          "weighted_mean": 6.57,
+          "simple_mean": 8.59
+        },
+        "transportation": {
+          "weighted_mean": 9.9,
+          "simple_mean": 8.8
+        },
+        "wood_paper": {
+          "weighted_mean": 11.32,
+          "simple_mean": 19.11
+        },
+        "stone_glass": {
+          "weighted_mean": 18.3,
+          "simple_mean": 20.25
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -25001,12 +28834,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.4,
+          "simple_mean": 14.57
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.43,
+          "simple_mean": 13.94
+        },
+        "base_metals": {
+          "weighted_mean": 5.47,
+          "simple_mean": 12.1
+        },
+        "chemicals": {
+          "weighted_mean": 3.53,
+          "simple_mean": 6.91
+        },
+        "machinery_electrical": {
+          "weighted_mean": 6.9,
+          "simple_mean": 9.47
+        },
+        "transportation": {
+          "weighted_mean": 51.99,
+          "simple_mean": 32.7
+        },
+        "wood_paper": {
+          "weighted_mean": 8.83,
+          "simple_mean": 12.64
+        },
+        "stone_glass": {
+          "weighted_mean": 9.98,
+          "simple_mean": 13.79
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "GAB",
-    "name": "GAB",
+    "name": "Gabon",
     "region": "Sub-Saharan Africa ",
     "income_level": "Upper middle income",
     "capital": "Libreville",
@@ -25155,12 +29023,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.4
+      "logistics_performance_index": 2.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 20.6,
+          "simple_mean": 25.63
+        },
+        "textiles_apparel": {
+          "weighted_mean": 27.73,
+          "simple_mean": 26.79
+        },
+        "base_metals": {
+          "weighted_mean": 16.21,
+          "simple_mean": 18.17
+        },
+        "chemicals": {
+          "weighted_mean": 10.48,
+          "simple_mean": 13.2
+        },
+        "machinery_electrical": {
+          "weighted_mean": 13.15,
+          "simple_mean": 14.54
+        },
+        "transportation": {
+          "weighted_mean": 16.31,
+          "simple_mean": 18.9
+        },
+        "wood_paper": {
+          "weighted_mean": 18.09,
+          "simple_mean": 19.39
+        },
+        "stone_glass": {
+          "weighted_mean": 27.39,
+          "simple_mean": 24.6
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "BOL",
-    "name": "BOL",
+    "name": "Bolivia",
     "region": "Latin America & Caribbean ",
     "income_level": "Lower middle income",
     "capital": "La Paz",
@@ -25309,12 +29212,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.4
+      "logistics_performance_index": 2.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 3.06,
+          "simple_mean": 9.63
+        },
+        "textiles_apparel": {
+          "weighted_mean": 11.36,
+          "simple_mean": 23.68
+        },
+        "base_metals": {
+          "weighted_mean": 3.85,
+          "simple_mean": 8.35
+        },
+        "chemicals": {
+          "weighted_mean": 3.41,
+          "simple_mean": 5.48
+        },
+        "machinery_electrical": {
+          "weighted_mean": 4.21,
+          "simple_mean": 5.49
+        },
+        "transportation": {
+          "weighted_mean": 7.13,
+          "simple_mean": 8.4
+        },
+        "wood_paper": {
+          "weighted_mean": 2.4,
+          "simple_mean": 8.66
+        },
+        "stone_glass": {
+          "weighted_mean": 6.39,
+          "simple_mean": 11.25
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "LBR",
-    "name": "LBR",
+    "name": "Liberia",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Monrovia",
@@ -25463,12 +29401,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.4
+      "logistics_performance_index": 2.4,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 20.29,
+          "simple_mean": 20.82
+        },
+        "textiles_apparel": {
+          "weighted_mean": 19.46,
+          "simple_mean": 18.47
+        },
+        "base_metals": {
+          "weighted_mean": 12.19,
+          "simple_mean": 16.08
+        },
+        "chemicals": {
+          "weighted_mean": 10.67,
+          "simple_mean": 9.36
+        },
+        "machinery_electrical": {
+          "weighted_mean": 8.24,
+          "simple_mean": 9.39
+        },
+        "transportation": {
+          "weighted_mean": 5.06,
+          "simple_mean": 9.91
+        },
+        "wood_paper": {
+          "weighted_mean": 8.65,
+          "simple_mean": 13.17
+        },
+        "stone_glass": {
+          "weighted_mean": 19.03,
+          "simple_mean": 16.42
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "UGA",
-    "name": "UGA",
+    "name": "Uganda",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Kampala",
@@ -25617,7 +29590,42 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 15.94,
+          "simple_mean": 30.44
+        },
+        "textiles_apparel": {
+          "weighted_mean": 29.16,
+          "simple_mean": 29.85
+        },
+        "base_metals": {
+          "weighted_mean": 3.77,
+          "simple_mean": 14.07
+        },
+        "chemicals": {
+          "weighted_mean": 2.47,
+          "simple_mean": 7.6
+        },
+        "machinery_electrical": {
+          "weighted_mean": 4.25,
+          "simple_mean": 7.58
+        },
+        "transportation": {
+          "weighted_mean": 9.69,
+          "simple_mean": 9.22
+        },
+        "wood_paper": {
+          "weighted_mean": 11.28,
+          "simple_mean": 18.13
+        },
+        "stone_glass": {
+          "weighted_mean": 3.68,
+          "simple_mean": 18.86
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -25771,12 +29779,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.3
+      "logistics_performance_index": 2.3,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 9.48,
+          "simple_mean": 13.88
+        },
+        "textiles_apparel": {
+          "weighted_mean": 17.31,
+          "simple_mean": 16.66
+        },
+        "base_metals": {
+          "weighted_mean": 10.29,
+          "simple_mean": 15.28
+        },
+        "chemicals": {
+          "weighted_mean": 2.74,
+          "simple_mean": 7.21
+        },
+        "machinery_electrical": {
+          "weighted_mean": 9.11,
+          "simple_mean": 9.19
+        },
+        "transportation": {
+          "weighted_mean": 12.07,
+          "simple_mean": 9.42
+        },
+        "wood_paper": {
+          "weighted_mean": 6.71,
+          "simple_mean": 11.53
+        },
+        "stone_glass": {
+          "weighted_mean": 12.8,
+          "simple_mean": 14.48
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "GTM",
-    "name": "GTM",
+    "name": "Guatemala",
     "region": "Latin America & Caribbean ",
     "income_level": "Upper middle income",
     "capital": "Guatemala City",
@@ -25925,12 +29968,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.6
+      "logistics_performance_index": 2.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 5.35,
+          "simple_mean": 5.0
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.93,
+          "simple_mean": 7.37
+        },
+        "base_metals": {
+          "weighted_mean": 2.01,
+          "simple_mean": 1.8
+        },
+        "chemicals": {
+          "weighted_mean": 1.17,
+          "simple_mean": 1.03
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.93,
+          "simple_mean": 0.87
+        },
+        "transportation": {
+          "weighted_mean": 0.96,
+          "simple_mean": 2.68
+        },
+        "wood_paper": {
+          "weighted_mean": 1.26,
+          "simple_mean": 3.73
+        },
+        "stone_glass": {
+          "weighted_mean": 3.94,
+          "simple_mean": 4.07
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "DJI",
-    "name": "DJI",
+    "name": "Djibouti",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Lower middle income",
     "capital": "Djibouti",
@@ -26233,12 +30311,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.1
+      "logistics_performance_index": 2.1,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 22.13,
+          "simple_mean": 26.19
+        },
+        "textiles_apparel": {
+          "weighted_mean": 27.42,
+          "simple_mean": 26.58
+        },
+        "base_metals": {
+          "weighted_mean": 19.7,
+          "simple_mean": 18.48
+        },
+        "chemicals": {
+          "weighted_mean": 9.1,
+          "simple_mean": 12.49
+        },
+        "machinery_electrical": {
+          "weighted_mean": 15.07,
+          "simple_mean": 14.91
+        },
+        "transportation": {
+          "weighted_mean": 20.6,
+          "simple_mean": 20.76
+        },
+        "wood_paper": {
+          "weighted_mean": 16.08,
+          "simple_mean": 17.49
+        },
+        "stone_glass": {
+          "weighted_mean": 26.02,
+          "simple_mean": 24.98
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "HND",
-    "name": "HND",
+    "name": "Honduras",
     "region": "Latin America & Caribbean ",
     "income_level": "Lower middle income",
     "capital": "Tegucigalpa",
@@ -26387,12 +30500,14 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.9
+      "logistics_performance_index": 2.9,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "NIC",
-    "name": "NIC",
+    "name": "Nicaragua",
     "region": "Latin America & Caribbean ",
     "income_level": "Lower middle income",
     "capital": "Managua",
@@ -26541,12 +30656,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.95,
+          "simple_mean": 5.4
+        },
+        "textiles_apparel": {
+          "weighted_mean": 3.82,
+          "simple_mean": 7.4
+        },
+        "base_metals": {
+          "weighted_mean": 1.18,
+          "simple_mean": 1.77
+        },
+        "chemicals": {
+          "weighted_mean": 0.67,
+          "simple_mean": 1.49
+        },
+        "machinery_electrical": {
+          "weighted_mean": 1.09,
+          "simple_mean": 0.98
+        },
+        "transportation": {
+          "weighted_mean": 4.5,
+          "simple_mean": 2.78
+        },
+        "wood_paper": {
+          "weighted_mean": 1.22,
+          "simple_mean": 3.26
+        },
+        "stone_glass": {
+          "weighted_mean": 1.87,
+          "simple_mean": 3.83
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "COM",
-    "name": "COM",
+    "name": "Comoros",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Moroni",
@@ -26700,7 +30850,7 @@
   },
   {
     "code": "PSE",
-    "name": "West Bank and Gaza",
+    "name": "Palestinian Territories",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Lower middle income",
     "capital": "",
@@ -26854,7 +31004,7 @@
   },
   {
     "code": "BLR",
-    "name": "BLR",
+    "name": "Belarus",
     "region": "Europe & Central Asia",
     "income_level": "Upper middle income",
     "capital": "Minsk",
@@ -27157,12 +31307,14 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "GIN",
-    "name": "GIN",
+    "name": "Guinea",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Conakry",
@@ -27311,12 +31463,14 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "GNB",
-    "name": "GNB",
+    "name": "Guinea-Bissau",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Bissau",
@@ -27465,12 +31619,14 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.6
+      "logistics_performance_index": 2.6,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "UKR",
-    "name": "UKR",
+    "name": "Ukraine",
     "region": "Europe & Central Asia",
     "income_level": "Upper middle income",
     "capital": "Kiev",
@@ -27619,12 +31775,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.7
+      "logistics_performance_index": 2.7,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 2.5,
+          "simple_mean": 3.74
+        },
+        "textiles_apparel": {
+          "weighted_mean": 6.29,
+          "simple_mean": 4.07
+        },
+        "base_metals": {
+          "weighted_mean": 1.08,
+          "simple_mean": 1.44
+        },
+        "chemicals": {
+          "weighted_mean": 0.72,
+          "simple_mean": 1.25
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.97,
+          "simple_mean": 0.92
+        },
+        "transportation": {
+          "weighted_mean": 3.83,
+          "simple_mean": 2.5
+        },
+        "wood_paper": {
+          "weighted_mean": 0.01,
+          "simple_mean": 0.13
+        },
+        "stone_glass": {
+          "weighted_mean": 3.65,
+          "simple_mean": 2.7
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "MOZ",
-    "name": "MOZ",
+    "name": "Mozambique",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Maputo",
@@ -27778,7 +31969,7 @@
   },
   {
     "code": "NER",
-    "name": "NER",
+    "name": "Niger",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Niamey",
@@ -27927,12 +32118,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 10.09,
+          "simple_mean": 14.44
+        },
+        "textiles_apparel": {
+          "weighted_mean": 19.07,
+          "simple_mean": 13.46
+        },
+        "base_metals": {
+          "weighted_mean": 8.98,
+          "simple_mean": 12.97
+        },
+        "chemicals": {
+          "weighted_mean": 4.0,
+          "simple_mean": 6.44
+        },
+        "machinery_electrical": {
+          "weighted_mean": 7.76,
+          "simple_mean": 8.32
+        },
+        "transportation": {
+          "weighted_mean": 7.6,
+          "simple_mean": 8.5
+        },
+        "wood_paper": {
+          "weighted_mean": 5.35,
+          "simple_mean": 10.69
+        },
+        "stone_glass": {
+          "weighted_mean": 15.85,
+          "simple_mean": 13.42
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "RUS",
-    "name": "RUS",
+    "name": "Russia",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Moscow",
@@ -28235,12 +32461,14 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.6
+      "logistics_performance_index": 2.6,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "PRK",
-    "name": "PRK",
+    "name": "North Korea",
     "region": "East Asia & Pacific",
     "income_level": "Low income",
     "capital": "Pyongyang",
@@ -28394,7 +32622,7 @@
   },
   {
     "code": "ZWE",
-    "name": "ZWE",
+    "name": "Zimbabwe",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Harare",
@@ -28548,7 +32776,7 @@
   },
   {
     "code": "ETH",
-    "name": "ETH",
+    "name": "Ethiopia",
     "region": "Sub-Saharan Africa ",
     "income_level": "Not classified",
     "capital": "Addis Ababa",
@@ -28851,12 +33079,14 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "COD",
-    "name": "Congo, Dem. Rep.",
+    "name": "DR Congo",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Kinshasa",
@@ -29010,7 +33240,7 @@
   },
   {
     "code": "NGA",
-    "name": "NGA",
+    "name": "Nigeria",
     "region": "Sub-Saharan Africa ",
     "income_level": "Lower middle income",
     "capital": "Abuja",
@@ -29159,12 +33389,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.6
+      "logistics_performance_index": 2.6,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 12.38,
+          "simple_mean": 16.73
+        },
+        "textiles_apparel": {
+          "weighted_mean": 17.19,
+          "simple_mean": 18.32
+        },
+        "base_metals": {
+          "weighted_mean": 11.42,
+          "simple_mean": 15.67
+        },
+        "chemicals": {
+          "weighted_mean": 5.27,
+          "simple_mean": 7.7
+        },
+        "machinery_electrical": {
+          "weighted_mean": 8.59,
+          "simple_mean": 8.79
+        },
+        "transportation": {
+          "weighted_mean": 12.25,
+          "simple_mean": 9.53
+        },
+        "wood_paper": {
+          "weighted_mean": 9.28,
+          "simple_mean": 11.59
+        },
+        "stone_glass": {
+          "weighted_mean": 18.17,
+          "simple_mean": 16.79
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "BDI",
-    "name": "BDI",
+    "name": "Burundi",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Bujumbura",
@@ -29313,12 +33578,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 9.46,
+          "simple_mean": 21.33
+        },
+        "textiles_apparel": {
+          "weighted_mean": 24.59,
+          "simple_mean": 19.36
+        },
+        "base_metals": {
+          "weighted_mean": 8.75,
+          "simple_mean": 12.55
+        },
+        "chemicals": {
+          "weighted_mean": 1.47,
+          "simple_mean": 8.33
+        },
+        "machinery_electrical": {
+          "weighted_mean": 6.09,
+          "simple_mean": 7.29
+        },
+        "transportation": {
+          "weighted_mean": 9.49,
+          "simple_mean": 8.11
+        },
+        "wood_paper": {
+          "weighted_mean": 6.89,
+          "simple_mean": 15.36
+        },
+        "stone_glass": {
+          "weighted_mean": 9.64,
+          "simple_mean": 16.9
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "ERI",
-    "name": "ERI",
+    "name": "Eritrea",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Asmara",
@@ -29472,7 +33772,7 @@
   },
   {
     "code": "IRN",
-    "name": "IRN",
+    "name": "Iran",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Upper middle income",
     "capital": "Tehran",
@@ -29626,7 +33926,7 @@
   },
   {
     "code": "LBN",
-    "name": "LBN",
+    "name": "Lebanon",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Lower middle income",
     "capital": "Beirut",
@@ -29929,12 +34229,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.5
+      "logistics_performance_index": 2.5,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 20.13,
+          "simple_mean": 26.62
+        },
+        "textiles_apparel": {
+          "weighted_mean": 28.51,
+          "simple_mean": 28.13
+        },
+        "base_metals": {
+          "weighted_mean": 17.85,
+          "simple_mean": 18.9
+        },
+        "chemicals": {
+          "weighted_mean": 6.16,
+          "simple_mean": 12.56
+        },
+        "machinery_electrical": {
+          "weighted_mean": 12.92,
+          "simple_mean": 15.0
+        },
+        "transportation": {
+          "weighted_mean": 20.93,
+          "simple_mean": 20.45
+        },
+        "wood_paper": {
+          "weighted_mean": 11.88,
+          "simple_mean": 19.92
+        },
+        "stone_glass": {
+          "weighted_mean": 26.32,
+          "simple_mean": 24.21
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "HTI",
-    "name": "HTI",
+    "name": "Haiti",
     "region": "Latin America & Caribbean ",
     "income_level": "Lower middle income",
     "capital": "Port-au-Prince",
@@ -30088,7 +34423,7 @@
   },
   {
     "code": "VEN",
-    "name": "VEN",
+    "name": "Venezuela",
     "region": "Latin America & Caribbean ",
     "income_level": "Not classified",
     "capital": "Caracas",
@@ -30237,7 +34572,9 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": 2.3
+      "logistics_performance_index": 2.3,
+      "tariff_sectors": null,
+      "export_tariff_weighted_mean": null
     }
   },
   {
@@ -30396,7 +34733,7 @@
   },
   {
     "code": "MMR",
-    "name": "MMR",
+    "name": "Myanmar",
     "region": "East Asia & Pacific",
     "income_level": "Lower middle income",
     "capital": "Naypyidaw",
@@ -30545,12 +34882,47 @@
       "merchandise_exports_usd": null,
       "merchandise_imports_usd": null,
       "trade_balance_usd": null,
-      "logistics_performance_index": null
+      "logistics_performance_index": null,
+      "tariff_sectors": {
+        "agriculture_food": {
+          "weighted_mean": 1.46,
+          "simple_mean": 6.12
+        },
+        "textiles_apparel": {
+          "weighted_mean": 0.75,
+          "simple_mean": 5.56
+        },
+        "base_metals": {
+          "weighted_mean": 0.3,
+          "simple_mean": 2.15
+        },
+        "chemicals": {
+          "weighted_mean": 0.57,
+          "simple_mean": 2.22
+        },
+        "machinery_electrical": {
+          "weighted_mean": 0.69,
+          "simple_mean": 2.27
+        },
+        "transportation": {
+          "weighted_mean": 0.98,
+          "simple_mean": 3.35
+        },
+        "wood_paper": {
+          "weighted_mean": 0.23,
+          "simple_mean": 1.46
+        },
+        "stone_glass": {
+          "weighted_mean": 0.13,
+          "simple_mean": 2.1
+        }
+      },
+      "export_tariff_weighted_mean": null
     }
   },
   {
     "code": "IRQ",
-    "name": "IRQ",
+    "name": "Iraq",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Upper middle income",
     "capital": "Baghdad",
@@ -30704,7 +35076,7 @@
   },
   {
     "code": "LBY",
-    "name": "LBY",
+    "name": "Libya",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Upper middle income",
     "capital": "Tripoli",
@@ -30858,7 +35230,7 @@
   },
   {
     "code": "AFG",
-    "name": "AFG",
+    "name": "Afghanistan",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Low income",
     "capital": "Kabul",
@@ -31012,7 +35384,7 @@
   },
   {
     "code": "SDN",
-    "name": "SDN",
+    "name": "Sudan",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Khartoum",
@@ -31166,7 +35538,7 @@
   },
   {
     "code": "SOM",
-    "name": "SOM",
+    "name": "Somalia",
     "region": "Sub-Saharan Africa ",
     "income_level": "Low income",
     "capital": "Mogadishu",
@@ -31320,7 +35692,7 @@
   },
   {
     "code": "YEM",
-    "name": "YEM",
+    "name": "Yemen",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Low income",
     "capital": "Sana'a",
@@ -31474,7 +35846,7 @@
   },
   {
     "code": "SYR",
-    "name": "SYR",
+    "name": "Syria",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
     "income_level": "Low income",
     "capital": "Damascus",
@@ -31628,7 +36000,7 @@
   },
   {
     "code": "MAF",
-    "name": "MAF",
+    "name": "Saint Martin",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Marigot",
@@ -31782,7 +36154,7 @@
   },
   {
     "code": "NCL",
-    "name": "NCL",
+    "name": "New Caledonia",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Noum'ea",
@@ -31936,7 +36308,7 @@
   },
   {
     "code": "IMN",
-    "name": "IMN",
+    "name": "Isle of Man",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Douglas",
@@ -32090,7 +36462,7 @@
   },
   {
     "code": "VGB",
-    "name": "VGB",
+    "name": "British Virgin Islands",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Road Town",
@@ -32244,7 +36616,7 @@
   },
   {
     "code": "FRO",
-    "name": "FRO",
+    "name": "Faroe Islands",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "Torshavn",
@@ -32398,7 +36770,7 @@
   },
   {
     "code": "SXM",
-    "name": "SXM",
+    "name": "Sint Maarten",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Philipsburg",
@@ -32552,7 +36924,7 @@
   },
   {
     "code": "TCA",
-    "name": "TCA",
+    "name": "Turks and Caicos Islands",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Grand Turk",
@@ -32706,7 +37078,7 @@
   },
   {
     "code": "CHI",
-    "name": "CHI",
+    "name": "Channel Islands",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "",
@@ -32860,7 +37232,7 @@
   },
   {
     "code": "CUW",
-    "name": "CUW",
+    "name": "Cura\u00e7ao",
     "region": "Latin America & Caribbean ",
     "income_level": "High income",
     "capital": "Willemstad",
@@ -33014,7 +37386,7 @@
   },
   {
     "code": "MNP",
-    "name": "MNP",
+    "name": "Northern Mariana Islands",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Saipan",
@@ -33168,7 +37540,7 @@
   },
   {
     "code": "GIB",
-    "name": "GIB",
+    "name": "Gibraltar",
     "region": "Europe & Central Asia",
     "income_level": "High income",
     "capital": "",
@@ -33322,7 +37694,7 @@
   },
   {
     "code": "PYF",
-    "name": "PYF",
+    "name": "French Polynesia",
     "region": "East Asia & Pacific",
     "income_level": "High income",
     "capital": "Papeete",

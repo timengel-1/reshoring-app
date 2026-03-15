@@ -1,42 +1,4 @@
 {
-  "GRD": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gd.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Grenada Industrial Development Corporation (GIDC)",
-      "url": "https://www.gidc.gd"
-    }
-  },
-  "TWN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://www.ait.org.tw"
-    },
-    "us_guide": {
-      "name": "Taiwan, China Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/taiwan"
-    },
-    "invest_agency": {
-      "name": "Invest Taiwan (MOEA)",
-      "url": "https://investtaiwan.nat.gov.tw/home?lang=en"
-    }
-  },
-  "LKA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://lk.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "LKA Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/sri-lanka"
-    },
-    "invest_agency": {
-      "name": "Board of Investment Sri Lanka (BOI)",
-      "url": "https://investsrilanka.com"
-    }
-  },
   "FIN": {
     "us_embassy": {
       "name": "U.S. Embassy",
@@ -44,1475 +6,11 @@
     },
     "us_guide": {
       "name": "FIN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/finland"
+      "url": "https://www.trade.gov/country-commercial-guides/finland-market-overview"
     },
     "invest_agency": {
       "name": "Business Finland",
       "url": "https://www.businessfinland.fi/en"
-    }
-  },
-  "PRK": {
-    "invest_agency": {
-      "name": "Korea National Economic Development Agency",
-      "url": null
-    }
-  },
-  "LIE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://li.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Liechtenstein Economic Affairs",
-      "url": "https://www.llv.li/en/private-persons/economy"
-    }
-  },
-  "BTN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bt.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Invest Bhutan",
-      "url": "https://investbhutan.gov.bt"
-    }
-  },
-  "PLW": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://pw.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Palau Foreign Investment Board",
-      "url": "https://www.palaugov.pw/fib"
-    }
-  },
-  "SRB": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://rs.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Serbia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/serbia"
-    },
-    "invest_agency": {
-      "name": "Development Agency of Serbia (RAS)",
-      "url": "https://ras.gov.rs/en"
-    }
-  },
-  "MAR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ma.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Morocco Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/morocco"
-    },
-    "invest_agency": {
-      "name": "Moroccan Investment & Export Development Agency (AMDIE)",
-      "url": "https://amdie.gov.ma/en"
-    }
-  },
-  "KAZ": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://kz.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Kazakhstan Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/kazakhstan"
-    },
-    "invest_agency": {
-      "name": "Kazakh Invest",
-      "url": "https://invest.gov.kz"
-    }
-  },
-  "CHE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ch.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "CHE Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/switzerland"
-    },
-    "invest_agency": {
-      "name": "Switzerland Global Enterprise (S-GE)",
-      "url": "https://www.s-ge.com/en"
-    }
-  },
-  "CRI": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cr.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Costa Rica Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/costa-rica"
-    },
-    "invest_agency": {
-      "name": "Costa Rican Coalition for Development Initiatives (CINDE)",
-      "url": "https://www.cinde.org"
-    }
-  },
-  "BGR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bg.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Bulgaria Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/bulgaria"
-    },
-    "invest_agency": {
-      "name": "InvestBulgaria Agency",
-      "url": "https://www.investbg.government.bg"
-    }
-  },
-  "CUB": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cu.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "ProCuba \u2014 Investment Portal",
-      "url": "https://inviertaencuba.mincex.gob.cu/en"
-    }
-  },
-  "QAT": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://qa.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "QAT Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/qatar"
-    },
-    "invest_agency": {
-      "name": "Invest Qatar",
-      "url": "https://www.invest.qa"
-    }
-  },
-  "EST": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ee.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Enterprise Estonia",
-      "url": "https://www.eas.ee/en"
-    }
-  },
-  "MKD": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mk.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "North Macedonia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/north-macedonia"
-    },
-    "invest_agency": {
-      "name": "Agency for Foreign Investments & Export Promotion (AFIEPM)",
-      "url": "https://www.investnorthmacedonia.gov.mk"
-    }
-  },
-  "VUT": {
-    "invest_agency": {
-      "name": "Vanuatu Investment Promotion Authority (VIPA)",
-      "url": "https://investvanuatu.vu"
-    }
-  },
-  "YEM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ye.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "YEM Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/yemen"
-    },
-    "invest_agency": {
-      "name": "General Investment Authority of Yemen",
-      "url": "https://yeminvest.org"
-    }
-  },
-  "CAF": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cf.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Ministry of Commerce, Industry & SMEs",
-      "url": "https://www.gouvernement.cf"
-    }
-  },
-  "KNA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://kn.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "St. Kitts Investment Promotion Agency (SKIPA)",
-      "url": "https://www.skipa.kn"
-    }
-  },
-  "ETH": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://et.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "ETH Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/ethiopia"
-    },
-    "invest_agency": {
-      "name": "Ethiopian Investment Commission (EIC)",
-      "url": "https://www.investethiopia.gov.et"
-    }
-  },
-  "BIH": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ba.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Bosnia and Herzegovina Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/bosnia-and-herzegovina"
-    },
-    "invest_agency": {
-      "name": "Foreign Investment Promotion Agency of BiH (FIPA)",
-      "url": "https://www.fipa.gov.ba"
-    }
-  },
-  "LUX": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://lu.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "LUX Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/luxembourg"
-    },
-    "invest_agency": {
-      "name": "Luxinnovation",
-      "url": "https://www.luxinnovation.lu"
-    }
-  },
-  "BEN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bj.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Benin Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/benin"
-    },
-    "invest_agency": {
-      "name": "Agency for the Promotion of Investments & Exports (APIEX)",
-      "url": "https://www.apiex.bj"
-    }
-  },
-  "KHM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://kh.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Cambodia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/cambodia"
-    },
-    "invest_agency": {
-      "name": "Council for the Development of Cambodia (CDC)",
-      "url": "https://cdc.gov.kh"
-    }
-  },
-  "SLE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://sl.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Sierra Leone Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/sierra-leone"
-    },
-    "invest_agency": {
-      "name": "Sierra Leone Investment & Export Promotion Agency (SLIEPA)",
-      "url": "https://www.sliepa.gov.sl"
-    }
-  },
-  "TUN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://tn.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Tunisia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/tunisia"
-    },
-    "invest_agency": {
-      "name": "Foreign Investment Promotion Agency (FIPA Tunisia)",
-      "url": "https://www.investintunisia.tn/en"
-    }
-  },
-  "OMN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://om.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "OMN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/oman"
-    },
-    "invest_agency": {
-      "name": "Invest Easy \u2014 Ministry of Commerce, Industry & Investment Promotion",
-      "url": "https://www.investeasy.gov.om"
-    }
-  },
-  "GRC": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gr.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Greece Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/greece"
-    },
-    "invest_agency": {
-      "name": "Enterprise Greece",
-      "url": "https://www.enterprisegreece.gov.gr"
-    }
-  },
-  "COM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://km.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Agency for the Promotion of Investments (API Comores)",
-      "url": "https://www.apicomores.com"
-    }
-  },
-  "AUS": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://au.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "AUS Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/australia"
-    },
-    "invest_agency": {
-      "name": "Australian Trade & Investment Commission (Austrade)",
-      "url": "https://www.austrade.gov.au"
-    }
-  },
-  "NPL": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://np.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Nepal Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/nepal"
-    },
-    "invest_agency": {
-      "name": "Investment Board Nepal (IBN)",
-      "url": "https://ibn.gov.np"
-    }
-  },
-  "BRB": {
-    "invest_agency": {
-      "name": "Invest Barbados",
-      "url": "https://investbarbados.org"
-    }
-  },
-  "NIC": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ni.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "NIC Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/nicaragua"
-    },
-    "invest_agency": {
-      "name": "Nicaragua Investment Promotion Agency (ProNicaragua)",
-      "url": "https://pronicaragua.gob.ni"
-    }
-  },
-  "ARG": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ar.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "ARG Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/argentina"
-    },
-    "invest_agency": {
-      "name": "Invest Argentina",
-      "url": "https://www.investinargentina.gob.ar"
-    }
-  },
-  "ESP": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://es.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Spain Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/spain"
-    },
-    "invest_agency": {
-      "name": "ICEX Invest in Spain",
-      "url": "https://www.investinspain.org"
-    }
-  },
-  "AFG": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://af.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "AFG Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/afghanistan"
-    },
-    "invest_agency": {
-      "name": "Ministry of Commerce & Industries",
-      "url": "https://moci.gov.af"
-    }
-  },
-  "LCA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://lc.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Saint Lucia Investment Development Authority (SLINVEST)",
-      "url": "https://www.slinvest.org"
-    }
-  },
-  "CPV": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cv.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Cabo Verde Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/cape-verde"
-    },
-    "invest_agency": {
-      "name": "Cabo Verde TradeInvest (CVTI)",
-      "url": "https://www.cvtradeinvest.cv"
-    }
-  },
-  "MLT": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mt.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Malta Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/malta"
-    },
-    "invest_agency": {
-      "name": "Malta Enterprise",
-      "url": "https://www.maltaenterprise.com"
-    }
-  },
-  "KOR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://kr.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Invest Korea (KOTRA)",
-      "url": "https://www.investkorea.org"
-    }
-  },
-  "HTI": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ht.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Center for Investment Facilitation (CFI)",
-      "url": null
-    }
-  },
-  "LSO": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ls.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Lesotho National Development Corporation (LNDC)",
-      "url": "https://lndc.org.ls"
-    }
-  },
-  "TON": {
-    "invest_agency": {
-      "name": "Invest in Tonga",
-      "url": "https://www.investtonga.gov.to"
-    }
-  },
-  "FRA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://fr.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "FRA Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/france"
-    },
-    "invest_agency": {
-      "name": "Business France",
-      "url": "https://www.businessfrance.fr/en"
-    }
-  },
-  "LBR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://lr.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "LBR Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/liberia"
-    },
-    "invest_agency": {
-      "name": "Liberia National Investment Commission",
-      "url": "https://www.investliberia.gov.lr"
-    }
-  },
-  "PRY": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://py.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Paraguay Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/paraguay"
-    },
-    "invest_agency": {
-      "name": "Network of Investment & Exports (Rediex)",
-      "url": "https://rediex.gov.py"
-    }
-  },
-  "RUS": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ru.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "RUS Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/russia"
-    },
-    "invest_agency": {
-      "name": "Russian Direct Investment Fund (RDIF)",
-      "url": "https://rdif.ru/eng"
-    }
-  },
-  "SDN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://sd.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "SDN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/sudan"
-    },
-    "invest_agency": {
-      "name": "Sudanese Investment Authority",
-      "url": "https://www.sudaneseinvestment.com"
-    }
-  },
-  "NRU": {
-    "invest_agency": {
-      "name": "Nauru Agency Corporation",
-      "url": null
-    }
-  },
-  "HND": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://hn.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "HND Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/honduras"
-    },
-    "invest_agency": {
-      "name": "National Investment Council (CNI)",
-      "url": "https://www.cni.hn/language/en"
-    }
-  },
-  "LTU": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://lt.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "LTU Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/lithuania"
-    },
-    "invest_agency": {
-      "name": "Invest Lithuania",
-      "url": "https://www.investlithuania.com"
-    }
-  },
-  "AZE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://az.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Azerbaijan Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/azerbaijan"
-    },
-    "invest_agency": {
-      "name": "Azerbaijan Export & Investment Promotion Agency (AZPROMO)",
-      "url": "https://azpromo.az/en"
-    }
-  },
-  "SWE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://se.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Sweden Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/sweden"
-    },
-    "invest_agency": {
-      "name": "Business Sweden",
-      "url": "https://www.business-sweden.com/en"
-    }
-  },
-  "ARE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ae.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "ARE Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/united-arab-emirates"
-    },
-    "invest_agency": {
-      "name": "Abu Dhabi Investment Office (ADIO) / Dubai FDI",
-      "url": "https://adio.gov.ae"
-    }
-  },
-  "URY": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://uy.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Uruguay Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/uruguay"
-    },
-    "invest_agency": {
-      "name": "Uruguay XXI",
-      "url": "https://www.uruguayxxi.gub.uy/en"
-    }
-  },
-  "DOM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://do.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "DOM Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/dominican-republic"
-    },
-    "invest_agency": {
-      "name": "Center for Export & Investment (CEI-RD)",
-      "url": "https://cei.gob.do"
-    }
-  },
-  "DZA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://dz.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "DZA Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/algeria"
-    },
-    "invest_agency": {
-      "name": "National Agency for Investment Development (ANDI)",
-      "url": "https://www.andi.dz"
-    }
-  },
-  "GTM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gt.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "GTM Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/guatemala"
-    },
-    "invest_agency": {
-      "name": "Invest Guatemala",
-      "url": "https://investguatemala.com"
-    }
-  },
-  "KIR": {
-    "invest_agency": {
-      "name": "Investment Promotion Division, Kiribati",
-      "url": "https://mcic.gov.ki/investment-promotion-office"
-    }
-  },
-  "NOR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://no.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "NOR Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/norway"
-    },
-    "invest_agency": {
-      "name": "Innovation Norway",
-      "url": "https://www.innovasjonnorge.no/en"
-    }
-  },
-  "GHA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gh.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Ghana Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/ghana"
-    },
-    "invest_agency": {
-      "name": "Ghana Investment Promotion Centre (GIPC)",
-      "url": "https://gipc.gov.gh"
-    }
-  },
-  "MDA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://md.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Moldova Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/moldova"
-    },
-    "invest_agency": {
-      "name": "Moldova Investment Agency (MIA)",
-      "url": "https://mia.md/en"
-    }
-  },
-  "ZWE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://zw.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "ZWE Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/zimbabwe"
-    },
-    "invest_agency": {
-      "name": "Zimbabwe Investment & Development Agency (ZIDA)",
-      "url": "https://zidainvest.com"
-    }
-  },
-  "ECU": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ec.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Ecuador Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/ecuador"
-    },
-    "invest_agency": {
-      "name": "PRO ECUADOR",
-      "url": "https://www.proecuador.gob.ec"
-    }
-  },
-  "BHR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bh.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Bahrain Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/bahrain"
-    },
-    "invest_agency": {
-      "name": "Bahrain Economic Development Board (EDB)",
-      "url": "https://bahrainedb.com"
-    }
-  },
-  "TGO": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://tg.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Togo Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/togo"
-    },
-    "invest_agency": {
-      "name": "Investment Promotion & Free Zone Agency (API-ZF)",
-      "url": "https://investirautogo.tg"
-    }
-  },
-  "TCD": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://td.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Chad Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/chad"
-    },
-    "invest_agency": {
-      "name": "Agency for Promotion of Investments (APIJ)",
-      "url": "https://www.apijtchad.org"
-    }
-  },
-  "ERI": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://er.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Eritrea Investment Center",
-      "url": null
-    }
-  },
-  "SGP": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://sg.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Singapore Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/singapore"
-    },
-    "invest_agency": {
-      "name": "Singapore Economic Development Board (EDB)",
-      "url": "https://www.edb.gov.sg"
-    }
-  },
-  "MUS": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mu.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Mauritius Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/mauritius"
-    },
-    "invest_agency": {
-      "name": "Economic Development Board Mauritius (EDB)",
-      "url": "https://edbmauritius.org"
-    }
-  },
-  "PHL": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ph.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Philippines Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/philippines"
-    },
-    "invest_agency": {
-      "name": "Board of Investments Philippines (BOI)",
-      "url": "https://boi.gov.ph"
-    }
-  },
-  "BWA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bw.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Botswana Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/botswana"
-    },
-    "invest_agency": {
-      "name": "Botswana Investment & Trade Centre (BITC)",
-      "url": "https://www.bitc.co.bw"
-    }
-  },
-  "IDN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://id.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Indonesia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/indonesia"
-    },
-    "invest_agency": {
-      "name": "Indonesia Investment Authority (INA)",
-      "url": "https://ina.go.id/en"
-    }
-  },
-  "UZB": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://uz.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Uzbekistan Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/uzbekistan"
-    },
-    "invest_agency": {
-      "name": "Agency for Promotion of Investments (API Uzbekistan)",
-      "url": "https://invest.gov.uz/en"
-    }
-  },
-  "AND": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ad.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Andorra Business",
-      "url": null
-    }
-  },
-  "SMR": {
-    "invest_agency": {
-      "name": "San Marino Agency for Economic Development",
-      "url": "https://www.agency.sm/en"
-    }
-  },
-  "UGA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ug.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "UGA Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/uganda"
-    },
-    "invest_agency": {
-      "name": "Uganda Investment Authority (UIA)",
-      "url": "https://www.ugandainvest.go.ug"
-    }
-  },
-  "GEO": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ge.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Georgia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/georgia"
-    },
-    "invest_agency": {
-      "name": "Invest in Georgia",
-      "url": "https://investingeorgia.org"
-    }
-  },
-  "CMR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cm.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Cameroon Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/cameroon"
-    },
-    "invest_agency": {
-      "name": "Cameroon Investment Promotion Agency (CIPA)",
-      "url": "https://www.prc.cm/en/invest-in-cameroon/api"
-    }
-  },
-  "IRL": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ie.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Ireland Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/ireland"
-    },
-    "invest_agency": {
-      "name": "IDA Ireland",
-      "url": "https://www.idaireland.com"
-    }
-  },
-  "COG": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cg.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Congo, Rep. Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/republic-of-congo"
-    },
-    "invest_agency": {
-      "name": "Agency for Promotion of Investments (API)",
-      "url": "https://apicongo.cg/index.php?lang=en"
-    }
-  },
-  "LAO": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://la.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Lao PDR Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/laos"
-    },
-    "invest_agency": {
-      "name": "Investment Promotion Department (IPD)",
-      "url": "https://www.investlaos.gov.la"
-    }
-  },
-  "VEN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ve.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "VEN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/venezuela"
-    },
-    "invest_agency": {
-      "name": "Ministry of Industries & National Production",
-      "url": "https://mippci.gob.ve"
-    }
-  },
-  "CHN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cn.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "CHN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/china"
-    },
-    "invest_agency": {
-      "name": "Ministry of Commerce (MOFCOM)",
-      "url": "https://english.mofcom.gov.cn"
-    }
-  },
-  "TUV": {
-    "invest_agency": {
-      "name": "Pacific Islands Trade & Invest (Regional)",
-      "url": null
-    }
-  },
-  "CHL": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cl.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "CHL Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/chile"
-    },
-    "invest_agency": {
-      "name": "InvestChile",
-      "url": "https://investchile.gob.cl/en"
-    }
-  },
-  "IRN": {
-    "invest_agency": {
-      "name": "Organization for Investment, Economic & Technical Assistance (OIETAI)",
-      "url": "https://investiniran.ir"
-    }
-  },
-  "BFA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bf.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Burkina Faso Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/burkina-faso"
-    },
-    "invest_agency": {
-      "name": "Burkinabe Investment Agency (ABI)",
-      "url": "https://www.investburkina.com"
-    }
-  },
-  "SOM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://so.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Somalia Investment Promotion Office (SOMINVEST)",
-      "url": "https://sominvest.gov.so"
-    }
-  },
-  "GAB": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ga.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "GAB Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/gabon"
-    },
-    "invest_agency": {
-      "name": "Gabon National Investment Promotion Agency (ANPI-GABON)",
-      "url": "https://investingabon.ga"
-    }
-  },
-  "MRT": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mr.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "MRT Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/mauritania"
-    },
-    "invest_agency": {
-      "name": "National Agency for Investment Promotion in Mauritania (ANIP)",
-      "url": "https://www.aniprim.mr"
-    }
-  },
-  "TLS": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://tl.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Timor-Leste Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/timor-leste"
-    },
-    "invest_agency": {
-      "name": "TradeInvest Timor-Leste",
-      "url": "https://www.tradeinvest.tl"
-    }
-  },
-  "ALB": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://al.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "ALB Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/albania"
-    },
-    "invest_agency": {
-      "name": "Albanian Investment Development Agency (AIDA)",
-      "url": "https://aida.gov.al"
-    }
-  },
-  "SAU": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://sa.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "SAU Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/saudi-arabia"
-    },
-    "invest_agency": {
-      "name": "Ministry of Investment Saudi Arabia (MISA)",
-      "url": "https://misa.gov.sa/en"
-    }
-  },
-  "TZA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://tz.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Tanzania Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/tanzania"
-    },
-    "invest_agency": {
-      "name": "Tanzania Investment Centre (TIC)",
-      "url": "https://www.tic.go.tz"
-    }
-  },
-  "BLZ": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bz.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "BLZ Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/belize"
-    },
-    "invest_agency": {
-      "name": "Belize Trade & Investment Development Service (BELTRAIDE)",
-      "url": "https://beltraide.bz"
-    }
-  },
-  "MCO": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mc.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Monaco Economic Board \u2014 Invest Monaco",
-      "url": "https://www.meb.mc/en/invest-monaco"
-    }
-  },
-  "KGZ": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://kg.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Kyrgyz Republic Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/kyrgyzstan"
-    },
-    "invest_agency": {
-      "name": "National Investments Agency of Kyrgyzstan",
-      "url": "https://invest.gov.kg"
-    }
-  },
-  "VNM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://vn.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Viet Nam Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/vietnam"
-    },
-    "invest_agency": {
-      "name": "Foreign Investment Agency (FIA) \u2014 Ministry of Planning & Investment",
-      "url": "https://mpi.gov.vn/en"
-    }
-  },
-  "SVN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://si.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Slovenia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/slovenia"
-    },
-    "invest_agency": {
-      "name": "Spirit Slovenia",
-      "url": "https://www.spirit.si/en"
-    }
-  },
-  "GMB": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gm.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Gambia Investment & Export Promotion Agency (GIEPA)",
-      "url": "https://www.giepa.gm"
-    }
-  },
-  "ZAF": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://za.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "ZAF Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/south-africa"
-    },
-    "invest_agency": {
-      "name": "InvestSA",
-      "url": "https://www.investsa.gov.za"
-    }
-  },
-  "STP": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://st.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "S\u00e3o Tom\u00e9 & Pr\u00edncipe Trade & Investment Promotion Agency (APCI)",
-      "url": "https://www.apci.gov.st"
-    }
-  },
-  "MDG": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mg.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Madagascar Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/madagascar"
-    },
-    "invest_agency": {
-      "name": "Economic Development Board of Madagascar (EDBM)",
-      "url": "https://edbm.mg"
-    }
-  },
-  "MDV": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mv.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Invest Maldives",
-      "url": "https://investmaldives.gov.mv"
-    }
-  },
-  "GUY": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gy.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Guyana Office for Investment (GO-Invest)",
-      "url": "https://www.guyanainvest.gov.gy"
-    }
-  },
-  "LBY": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ly.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "LBY Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/libya"
-    },
-    "invest_agency": {
-      "name": "Libya Investment Authority",
-      "url": "https://lia.ly"
-    }
-  },
-  "NAM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://na.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Namibia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/namibia"
-    },
-    "invest_agency": {
-      "name": "Namibia Investment Promotion & Development Board (NIPDB)",
-      "url": "https://www.nipdb.com"
-    }
-  },
-  "MWI": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mw.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "MWI Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/malawi"
-    },
-    "invest_agency": {
-      "name": "Malawi Investment & Trade Centre (MITC)",
-      "url": "https://mitc.mw"
-    }
-  },
-  "GNB": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gw.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Center for Investment Promotion (CPI)",
-      "url": null
-    }
-  },
-  "NER": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ne.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Agency for Promotion of Investments in Niger (ANIPEX)",
-      "url": "https://www.anipex.ne"
-    }
-  },
-  "KWT": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://kw.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "KWT Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/kuwait"
-    },
-    "invest_agency": {
-      "name": "Kuwait Foreign Investment Bureau (KFIB)",
-      "url": "https://www.kfib.com.kw"
-    }
-  },
-  "COL": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://co.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Colombia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/colombia"
-    },
-    "invest_agency": {
-      "name": "ProColombia",
-      "url": "https://procolombia.co/en"
-    }
-  },
-  "ITA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://it.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Italy Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/italy"
-    },
-    "invest_agency": {
-      "name": "ITA \u2014 Italian Trade Agency",
-      "url": "https://www.ice.it/en"
-    }
-  },
-  "MEX": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mx.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Mexico Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/mexico"
-    },
-    "invest_agency": {
-      "name": "Secretariat of Economy",
-      "url": "https://www.gob.mx/se"
-    }
-  },
-  "BOL": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bo.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "BOL Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/bolivia"
-    },
-    "invest_agency": {
-      "name": "Ministry of Productive Development & Plural Economy",
-      "url": "https://www.mpc.gob.bo"
-    }
-  },
-  "NGA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ng.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "NGA Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/nigeria"
-    },
-    "invest_agency": {
-      "name": "Nigerian Investment Promotion Commission (NIPC)",
-      "url": "https://www.nipc.gov.ng"
     }
   },
   "SVK": {
@@ -1522,457 +20,221 @@
     },
     "us_guide": {
       "name": "Slovak Republic Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/slovakia"
+      "url": "https://www.trade.gov/country-commercial-guides/slovakia-market-overview"
     },
     "invest_agency": {
       "name": "Slovak Investment & Trade Development Agency (SARIO)",
       "url": "https://www.sario.sk/en"
     }
   },
-  "TTO": {
+  "AUS": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://tt.usembassy.gov"
+      "url": "https://au.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Australian Trade & Investment Commission (Austrade)",
+      "url": "https://www.austrade.gov.au"
+    }
+  },
+  "ZAF": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://za.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "InvestSA",
+      "url": "https://www.investsa.gov.za"
+    }
+  },
+  "QAT": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://qa.usembassy.gov"
     },
     "us_guide": {
-      "name": "Trinidad and Tobago Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/trinidad-and-tobago"
+      "name": "QAT Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/qatar-market-overview"
     },
     "invest_agency": {
-      "name": "InvesTT",
-      "url": "https://www.investt.co.tt"
+      "name": "Invest Qatar",
+      "url": "https://www.invest.qa"
     }
   },
-  "THA": {
+  "GRC": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://th.usembassy.gov"
+      "url": "https://gr.usembassy.gov"
     },
     "us_guide": {
-      "name": "THA Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/thailand"
+      "name": "Greece Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/greece-market-overview"
     },
     "invest_agency": {
-      "name": "Thailand Board of Investment (BOI)",
-      "url": "https://www.boi.go.th/en"
+      "name": "Enterprise Greece",
+      "url": "https://www.enterprisegreece.gov.gr"
     }
   },
-  "WSM": {
-    "invest_agency": {
-      "name": "Ministry of Commerce, Industry & Labour",
-      "url": "https://mcil.gov.ws"
-    }
-  },
-  "PAN": {
+  "POL": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://pa.usembassy.gov"
+      "url": "https://pl.usembassy.gov"
     },
     "us_guide": {
-      "name": "PAN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/panama"
+      "name": "Poland Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/poland-market-overview"
     },
     "invest_agency": {
-      "name": "ProPanam\u00e1",
-      "url": "https://propanama.org/en"
+      "name": "Polish Investment & Trade Agency (PAIH)",
+      "url": "https://www.paih.gov.pl/en"
     }
   },
-  "BBD": {
+  "NOR": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://bb.usembassy.gov"
-    }
-  },
-  "ARM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://am.usembassy.gov"
+      "url": "https://no.usembassy.gov"
     },
     "us_guide": {
-      "name": "Armenia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/armenia"
+      "name": "NOR Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/norway-market-overview"
     },
     "invest_agency": {
-      "name": "Enterprise Armenia",
-      "url": "https://enterprisearmenia.am"
+      "name": "Innovation Norway",
+      "url": "https://www.innovasjonnorge.no/en"
     }
   },
-  "MOZ": {
+  "UGA": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://mz.usembassy.gov"
+      "url": "https://ug.usembassy.gov"
     },
     "us_guide": {
-      "name": "MOZ Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/mozambique"
+      "name": "UGA Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/uganda-market-overview"
     },
     "invest_agency": {
-      "name": "Agency for Investment & Business Facilitation (APIEX)",
-      "url": "https://www.apiex.gov.mz"
+      "name": "Uganda Investment Authority (UIA)",
+      "url": "https://www.ugandainvest.go.ug"
     }
   },
-  "AGO": {
+  "JPN": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://ao.usembassy.gov"
+      "url": "https://jp.usembassy.gov"
     },
     "us_guide": {
-      "name": "Angola Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/angola"
+      "name": "JPN Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/japan-market-overview"
     },
     "invest_agency": {
-      "name": "Angola Private Investment & Export Promotion Agency (AIPEX)",
+      "name": "Japan External Trade Organization (JETRO)",
+      "url": "https://www.jetro.go.jp/en"
+    }
+  },
+  "AND": {
+    "invest_agency": {
+      "name": "Andorra Business",
       "url": null
     }
   },
-  "BEL": {
+  "KOR": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://be.usembassy.gov"
+      "url": "https://kr.usembassy.gov"
     },
     "us_guide": {
-      "name": "Belgium Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/belgium"
+      "name": "Korea, Rep. Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/south-korea-market-overview"
     },
     "invest_agency": {
-      "name": "Flanders Investment & Trade / Brussels Invest & Export",
-      "url": "https://www.flandersinvestmentandtrade.com"
+      "name": "Invest Korea (KOTRA)",
+      "url": "https://www.investkorea.org"
     }
   },
-  "ISR": {
+  "KAZ": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://il.usembassy.gov"
+      "url": "https://kz.usembassy.gov"
     },
     "us_guide": {
-      "name": "Israel Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/israel"
+      "name": "Kazakhstan Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/kazakhstan-market-overview"
     },
     "invest_agency": {
-      "name": "Invest in Israel",
-      "url": "https://investinisrael.gov.il/en"
+      "name": "Kazakh Invest",
+      "url": "https://invest.gov.kz"
     }
   },
-  "JOR": {
+  "TUN": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://jo.usembassy.gov"
+      "url": "https://tn.usembassy.gov"
     },
     "us_guide": {
-      "name": "Jordan Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/jordan"
+      "name": "Tunisia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/tunisia-market-overview"
     },
     "invest_agency": {
-      "name": "Jordan Investment Commission (JIC)",
-      "url": "https://www.jic.gov.jo"
+      "name": "Foreign Investment Promotion Agency (FIPA Tunisia)",
+      "url": "https://www.investintunisia.tn/en"
     }
   },
-  "SSD": {
+  "BTN": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://ss.usembassy.gov"
+      "url": "https://in.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Invest Bhutan",
+      "url": null
+    }
+  },
+  "CHN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cn.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Ministry of Commerce (MOFCOM)",
+      "url": "https://english.mofcom.gov.cn"
+    }
+  },
+  "SYR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sy.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Syria Investment Agency",
+      "url": null
+    }
+  },
+  "TJK": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://tj.usembassy.gov"
     },
     "us_guide": {
-      "name": "South Sudan Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/south-sudan"
+      "name": "Tajikistan Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/tajikistan-market-overview"
     },
     "invest_agency": {
-      "name": "South Sudan Ministry of Investment",
-      "url": "https://investment.eservices.gov.ss"
+      "name": "State Committee on Investment & State Property Management",
+      "url": "https://invest.tj"
     }
   },
-  "CIV": {
+  "HKG": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://ci.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Centre for Investment Promotion in C\u00f4te d'Ivoire (CEPICI)",
-      "url": "https://www.cepici.gouv.ci"
-    }
-  },
-  "BRA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://br.usembassy.gov"
+      "url": "https://hk.usconsulate.gov"
     },
     "us_guide": {
-      "name": "BRA Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/brazil"
+      "name": "Hong Kong SAR, China Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/hong-kong-market-overview-hong-kong-and-macau"
     },
     "invest_agency": {
-      "name": "Apex-Brasil",
-      "url": "https://www.apexbrasil.com.br/en"
-    }
-  },
-  "SUR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://sr.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Suriname Investment & Trade Agency (SITA)",
-      "url": "https://sita.sr"
-    }
-  },
-  "BRN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bn.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "BRN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/brunei"
-    },
-    "invest_agency": {
-      "name": "Brunei Economic Development Board (BEDB)",
-      "url": "https://www.bedb.gov.bn"
-    }
-  },
-  "BDI": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bi.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Burundi Development Agency (ADB)",
-      "url": "https://investburundi.bi"
-    }
-  },
-  "CAN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ca.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Canada Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/canada"
-    },
-    "invest_agency": {
-      "name": "Invest Canada",
-      "url": "https://www.investcanada.ca"
-    }
-  },
-  "PAK": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://pk.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Pakistan Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/pakistan"
-    },
-    "invest_agency": {
-      "name": "Board of Investment Pakistan",
-      "url": "https://invest.gov.pk"
-    }
-  },
-  "FJI": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://fj.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Investment Fiji",
-      "url": "https://www.investmentfiji.org.fj"
-    }
-  },
-  "BHS": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bs.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Bahamas Investment Authority",
-      "url": "https://www.bahamas.gov.bs/bia"
-    }
-  },
-  "RWA": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://rw.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Rwanda Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/rwanda"
-    },
-    "invest_agency": {
-      "name": "Rwanda Development Board (RDB)",
-      "url": "https://rdb.rw"
-    }
-  },
-  "NLD": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://nl.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "NLD Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/netherlands"
-    },
-    "invest_agency": {
-      "name": "Netherlands Foreign Investment Agency (NFIA)",
-      "url": "https://investinholland.com"
-    }
-  },
-  "ISL": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://is.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Iceland Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/iceland"
-    },
-    "invest_agency": {
-      "name": "Invest in Iceland",
-      "url": "https://www.invest.is"
-    }
-  },
-  "PRT": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://pt.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Portugal Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/portugal"
-    },
-    "invest_agency": {
-      "name": "AICEP Portugal Global",
-      "url": "https://www.portugalglobal.pt/en"
-    }
-  },
-  "ZMB": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://zm.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "ZMB Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/zambia"
-    },
-    "invest_agency": {
-      "name": "Zambia Development Agency (ZDA)",
-      "url": "https://zda.org.zm"
-    }
-  },
-  "ROU": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ro.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Romania Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/romania"
-    },
-    "invest_agency": {
-      "name": "InvestRomania",
-      "url": "https://investromania.gov.ro/web"
-    }
-  },
-  "KEN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ke.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "KEN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/kenya"
-    },
-    "invest_agency": {
-      "name": "Kenya Investment Authority (KenInvest)",
-      "url": "https://invest.go.ke"
-    }
-  },
-  "ATG": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ag.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Antigua & Barbuda Investment Authority (ABIA)",
-      "url": "https://www.investantiguabarbuda.org"
-    }
-  },
-  "BGD": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://bd.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Bangladesh Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/bangladesh"
-    },
-    "invest_agency": {
-      "name": "Bangladesh Investment Development Authority (BIDA)",
-      "url": "https://bida.gov.bd"
-    }
-  },
-  "MLI": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ml.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Mali Investment Promotion Agency (API-Mali)",
-      "url": "https://apimali.gov.ml/en"
-    }
-  },
-  "GBR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gb.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "United Kingdom Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/united-kingdom"
-    },
-    "invest_agency": {
-      "name": "Department for Business & Trade (DBT)",
-      "url": "https://www.gov.uk/government/organisations/department-for-business-and-trade"
-    }
-  },
-  "DEU": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://de.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "DEU Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/germany"
-    },
-    "invest_agency": {
-      "name": "Germany Trade & Invest (GTAI)",
-      "url": "https://www.gtai.de/en"
-    }
-  },
-  "MNE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://me.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Montenegro Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/montenegro"
-    },
-    "invest_agency": {
-      "name": "Montenegrin Investment Agency (MIA)",
-      "url": "https://mia.gov.me/en"
-    }
-  },
-  "EGY": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://eg.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "EGY Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/egypt"
-    },
-    "invest_agency": {
-      "name": "General Authority for Investment & Free Zones (GAFI)",
-      "url": "https://www.gafi.gov.eg"
+      "name": "InvestHK",
+      "url": "https://www.investhk.gov.hk"
     }
   },
   "MAC": {
@@ -1985,340 +247,38 @@
       "url": "https://www.ipim.gov.mo/en"
     }
   },
-  "KSV": {
+  "GRD": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://xk.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "KSV Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/kosovo"
+      "url": "https://bb.usembassy.gov"
     },
     "invest_agency": {
-      "name": "Kosovo Investment & Enterprise Support Agency (KIESA)",
-      "url": "https://kiesa.rks-gov.net"
+      "name": "Grenada Industrial Development Corporation (GIDC)",
+      "url": "https://www.gidc.gd"
     }
   },
-  "FSM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://fm.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Micronesia Investment & Development Corporation (MIDC)",
-      "url": null
-    }
-  },
-  "JPN": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://jp.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "JPN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/japan"
-    },
-    "invest_agency": {
-      "name": "Japan External Trade Organization (JETRO)",
-      "url": "https://www.jetro.go.jp/en"
-    }
-  },
-  "NZL": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://nz.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "New Zealand Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/new-zealand"
-    },
-    "invest_agency": {
-      "name": "New Zealand Trade & Enterprise (NZTE)",
-      "url": "https://www.nzte.govt.nz"
-    }
-  },
-  "SYR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://sy.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "SYR Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/syria"
-    },
-    "invest_agency": {
-      "name": "Syria Investment Agency",
-      "url": null
-    }
-  },
-  "BLR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://by.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "National Agency of Investment & Privatization",
-      "url": "https://www.investinbelarus.by/en"
-    }
-  },
-  "CZE": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://cz.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Czechia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/czech-republic"
-    },
-    "invest_agency": {
-      "name": "CzechInvest",
-      "url": "https://www.czechinvest.org/en"
-    }
-  },
-  "SLV": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://sv.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "El Salvador Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/el-salvador"
-    },
-    "invest_agency": {
-      "name": "INVEST El Salvador",
-      "url": "https://investinelsalvador.gob.sv"
-    }
-  },
-  "SLB": {
-    "invest_agency": {
-      "name": "InvestSolomons",
-      "url": "https://www.investsolomons.gov.sb"
-    }
-  },
-  "MMR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mm.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "MMR Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/burma"
-    },
-    "invest_agency": {
-      "name": "Directorate of Investment & Company Administration (DICA)",
-      "url": "https://dica.gov.mm/en"
-    }
-  },
-  "MYS": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://my.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Malaysia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/malaysia"
-    },
-    "invest_agency": {
-      "name": "Malaysian Investment Development Authority (MIDA)",
-      "url": "https://www.mida.gov.my"
-    }
-  },
-  "MNG": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://mn.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "MNG Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/mongolia"
-    },
-    "invest_agency": {
-      "name": "Investment and Trade Agency of Mongolia",
-      "url": "https://investmongolia.gov.mn"
-    }
-  },
-  "TJK": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://tj.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Tajikistan Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/tajikistan"
-    },
-    "invest_agency": {
-      "name": "State Committee on Investment & State Property Management",
-      "url": "https://invest.tj"
-    }
-  },
-  "TUR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://tr.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "T\u00fcrkiye Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/turkey"
-    },
-    "invest_agency": {
-      "name": "Presidency of the Republic of T\u00fcrkiye Investment Office",
-      "url": "https://www.invest.gov.tr/en"
-    }
-  },
-  "TKM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://tm.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Turkmenistan Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/turkmenistan"
-    },
-    "invest_agency": {
-      "name": "Ministry of Finance & Economy of Turkmenistan",
-      "url": "https://www.minfin.gov.tm"
-    }
-  },
-  "UKR": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://ua.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "UKR Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/ukraine"
-    },
-    "invest_agency": {
-      "name": "UkraineInvest",
-      "url": "https://ukraineinvest.gov.ua/en"
-    }
-  },
-  "VCT": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://vc.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Invest SVG",
-      "url": "https://www.investsvg.com"
-    }
-  },
-  "AUT": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://at.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "AUT Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/austria"
-    },
-    "invest_agency": {
-      "name": "Austrian Business Agency (ABA)",
-      "url": "https://www.aba.gv.at/en"
-    }
-  },
-  "SWZ": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://sz.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Eswatini Investment Promotion Authority (EIPA)",
-      "url": "https://investeswatini.org.sz"
-    }
-  },
-  "HRV": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://hr.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Croatia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/croatia"
-    },
-    "invest_agency": {
-      "name": "Agency for Investments & Competitiveness (AIK)",
-      "url": "https://www.aik-invest.hr"
-    }
-  },
-  "SEN": {
+  "GNB": {
     "us_embassy": {
       "name": "U.S. Embassy",
       "url": "https://sn.usembassy.gov"
     },
-    "us_guide": {
-      "name": "Senegal Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/senegal"
-    },
     "invest_agency": {
-      "name": "Investment Promotion & Major Works Agency (APIX)",
-      "url": "https://www.apix.sn"
-    }
-  },
-  "HKG": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://hk.usconsulate.gov"
-    },
-    "us_guide": {
-      "name": "Hong Kong SAR, China Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/hong-kong"
-    },
-    "invest_agency": {
-      "name": "InvestHK",
-      "url": "https://www.investhk.gov.hk"
-    }
-  },
-  "GNQ": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://gq.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Ministry of Mines, Industry & Energy",
+      "name": "Center for Investment Promotion (CPI)",
       "url": null
     }
   },
-  "HUN": {
+  "ISR": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://hu.usembassy.gov"
+      "url": "https://il.usembassy.gov"
     },
     "us_guide": {
-      "name": "Hungary Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/hungary"
+      "name": "Israel Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/israel-market-overview"
     },
     "invest_agency": {
-      "name": "Hungarian Investment Promotion Agency (HIPA)",
-      "url": "https://hipa.hu/en"
-    }
-  },
-  "IRQ": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://iq.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "IRQ Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/iraq"
-    },
-    "invest_agency": {
-      "name": "National Investment Commission (NIC Iraq)",
-      "url": "http://www.investpromo.gov.iq"
-    }
-  },
-  "PER": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://pe.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Peru Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/peru"
-    },
-    "invest_agency": {
-      "name": "Private Investment Promotion Agency (ProInversi\u00f3n)",
-      "url": "https://www.proinversion.gob.pe"
+      "name": "Invest in Israel",
+      "url": "https://investinisrael.gov.il/en"
     }
   },
   "DJI": {
@@ -2331,18 +291,70 @@
       "url": "https://www.djiboutinvest.com"
     }
   },
-  "LVA": {
+  "MDG": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://lv.usembassy.gov"
+      "url": "https://mg.usembassy.gov"
     },
     "us_guide": {
-      "name": "Latvia Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/latvia"
+      "name": "Madagascar Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/madagascar-market-overview"
     },
     "invest_agency": {
-      "name": "Investment & Development Agency of Latvia (LIAA)",
-      "url": "https://www.liaa.gov.lv/en"
+      "name": "Economic Development Board of Madagascar (EDBM)",
+      "url": "https://edbm.mg"
+    }
+  },
+  "TZA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://tz.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Tanzania Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/tanzania-market-overview"
+    },
+    "invest_agency": {
+      "name": "Tanzania Investment Centre (TIC)",
+      "url": "https://www.tic.go.tz"
+    }
+  },
+  "URY": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://uy.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Uruguay Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/uruguay-market-overview"
+    },
+    "invest_agency": {
+      "name": "Uruguay XXI",
+      "url": "https://www.uruguayxxi.gub.uy/en"
+    }
+  },
+  "BIH": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ba.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Bosnia and Herzegovina Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/bosnia-and-herzegovina-market-overview"
+    },
+    "invest_agency": {
+      "name": "Foreign Investment Promotion Agency of BiH (FIPA)",
+      "url": "https://www.fipa.gov.ba"
+    }
+  },
+  "YEM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ye.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "General Investment Authority of Yemen",
+      "url": "https://yeminvest.org"
     }
   },
   "PNG": {
@@ -2352,11 +364,531 @@
     },
     "us_guide": {
       "name": "Papua New Guinea Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/papua-new-guinea"
+      "url": "https://www.trade.gov/country-commercial-guides/papua-new-guinea-market-overview"
     },
     "invest_agency": {
       "name": "Investment Promotion Authority PNG (IPA)",
       "url": "https://www.investpng.com"
+    }
+  },
+  "IRL": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ie.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Ireland Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/ireland-market-overview"
+    },
+    "invest_agency": {
+      "name": "IDA Ireland",
+      "url": "https://www.idaireland.com"
+    }
+  },
+  "DEU": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://de.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "DEU Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/germany-market-overview"
+    },
+    "invest_agency": {
+      "name": "Germany Trade & Invest (GTAI)",
+      "url": "https://www.gtai.de/en"
+    }
+  },
+  "TLS": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://tl.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "TradeInvest Timor-Leste",
+      "url": "https://www.tradeinvest.tl"
+    }
+  },
+  "ROU": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ro.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Romania Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/romania-market-overview"
+    },
+    "invest_agency": {
+      "name": "InvestRomania",
+      "url": "https://investromania.gov.ro/web"
+    }
+  },
+  "PAK": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://pk.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Pakistan Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/pakistan-market-overview"
+    },
+    "invest_agency": {
+      "name": "Board of Investment Pakistan",
+      "url": "https://invest.gov.pk"
+    }
+  },
+  "AGO": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ao.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Angola Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/angola-market-overview"
+    },
+    "invest_agency": {
+      "name": "Angola Private Investment & Export Promotion Agency (AIPEX)",
+      "url": null
+    }
+  },
+  "HND": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://hn.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "HND Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/honduras-market-overview"
+    },
+    "invest_agency": {
+      "name": "National Investment Council (CNI)",
+      "url": "https://www.cni.hn/language/en"
+    }
+  },
+  "KGZ": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://kg.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Kyrgyz Republic Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/kyrgyz-republic-market-overview"
+    },
+    "invest_agency": {
+      "name": "National Investments Agency of Kyrgyzstan",
+      "url": "https://invest.gov.kg"
+    }
+  },
+  "SGP": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sg.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Singapore Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/singapore-market-overview"
+    },
+    "invest_agency": {
+      "name": "Singapore Economic Development Board (EDB)",
+      "url": "https://www.edb.gov.sg"
+    }
+  },
+  "STP": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ga.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "STP Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/sao-tome-and-principe-market-overview"
+    },
+    "invest_agency": {
+      "name": "S\u00e3o Tom\u00e9 & Pr\u00edncipe Trade & Investment Promotion Agency (APCI)",
+      "url": "https://www.apci.gov.st"
+    }
+  },
+  "CIV": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ci.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Centre for Investment Promotion in C\u00f4te d'Ivoire (CEPICI)",
+      "url": "https://www.cepici.gouv.ci"
+    }
+  },
+  "LCA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bb.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Saint Lucia Investment Development Authority (SLINVEST)",
+      "url": "https://www.slinvest.org"
+    }
+  },
+  "TON": {
+    "invest_agency": {
+      "name": "Invest in Tonga",
+      "url": "https://www.investtonga.gov.to"
+    }
+  },
+  "DNK": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://dk.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "DNK Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/denmark-market-overview"
+    },
+    "invest_agency": {
+      "name": "Invest in Denmark",
+      "url": "https://investindk.com"
+    }
+  },
+  "LSO": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ls.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Lesotho Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/lesotho-market-overview"
+    },
+    "invest_agency": {
+      "name": "Lesotho National Development Corporation (LNDC)",
+      "url": "https://lndc.org.ls"
+    }
+  },
+  "BFA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bf.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Burkina Faso Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/burkina-faso-market-overview"
+    },
+    "invest_agency": {
+      "name": "Burkinabe Investment Agency (ABI)",
+      "url": "https://www.investburkina.com"
+    }
+  },
+  "NER": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ne.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Agency for Promotion of Investments in Niger (ANIPEX)",
+      "url": "https://www.anipex.ne"
+    }
+  },
+  "PRY": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://py.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Paraguay Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/paraguay-market-overview"
+    },
+    "invest_agency": {
+      "name": "Network of Investment & Exports (REDIEX)",
+      "url": null
+    }
+  },
+  "ESP": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://es.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Spain Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/spain-market-overview"
+    },
+    "invest_agency": {
+      "name": "ICEX Invest in Spain",
+      "url": "https://www.investinspain.org"
+    }
+  },
+  "SUR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sr.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "SUR Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/suriname-market-overview"
+    },
+    "invest_agency": {
+      "name": "Suriname Investment & Trade Agency (SITA)",
+      "url": "https://sita.sr"
+    }
+  },
+  "KHM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://kh.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Cambodia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/cambodia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Council for the Development of Cambodia (CDC)",
+      "url": "https://cdc.gov.kh"
+    }
+  },
+  "GIN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://gn.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "GIN Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/guinea-market-overview"
+    },
+    "invest_agency": {
+      "name": "Agency for the Promotion of Private Investments (APIP-Guinea)",
+      "url": null
+    }
+  },
+  "GHA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://gh.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Ghana Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/ghana-market-overview"
+    },
+    "invest_agency": {
+      "name": "Ghana Investment Promotion Centre (GIPC)",
+      "url": "https://gipc.gov.gh"
+    }
+  },
+  "ETH": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://et.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "ETH Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/ethiopia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Ethiopian Investment Commission (EIC)",
+      "url": "https://www.investethiopia.gov.et"
+    }
+  },
+  "ERI": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://er.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Eritrea Investment Center",
+      "url": null
+    }
+  },
+  "DMA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bb.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Invest Dominica Authority (IDA)",
+      "url": "https://investdominica.dm"
+    }
+  },
+  "CHE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ch.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "CHE Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/switzerland-market-overview"
+    },
+    "invest_agency": {
+      "name": "Switzerland Global Enterprise (S-GE)",
+      "url": "https://www.s-ge.com/en"
+    }
+  },
+  "IRN": {
+    "invest_agency": {
+      "name": "Organization for Investment, Economic & Technical Assistance (OIETAI)",
+      "url": "https://investiniran.ir"
+    }
+  },
+  "EST": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ee.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Estonia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/estonia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Enterprise Estonia",
+      "url": "https://www.eas.ee/en"
+    }
+  },
+  "CAF": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cf.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Ministry of Commerce, Industry & SMEs",
+      "url": "https://www.gouvernement.cf"
+    }
+  },
+  "BRA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://br.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Apex-Brasil",
+      "url": "https://www.apexbrasil.com.br/en"
+    }
+  },
+  "RUS": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ru.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "RUS Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/russia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Russian Direct Investment Fund (RDIF)",
+      "url": null
+    }
+  },
+  "LIE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ch.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Liechtenstein Economic Affairs",
+      "url": "https://www.llv.li/en/private-persons/economy"
+    }
+  },
+  "SLB": {
+    "invest_agency": {
+      "name": "InvestSolomons",
+      "url": "https://www.investsolomons.gov.sb"
+    }
+  },
+  "SLE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sl.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Sierra Leone Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/sierra-leone-market-overview"
+    },
+    "invest_agency": {
+      "name": "Sierra Leone Investment & Export Promotion Agency (SLIEPA)",
+      "url": "https://www.sliepa.gov.sl"
+    }
+  },
+  "SWZ": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sz.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Eswatini Investment Promotion Authority (EIPA)",
+      "url": "https://investeswatini.org.sz"
+    }
+  },
+  "LBR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://lr.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "LBR Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/liberia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Liberia National Investment Commission",
+      "url": "https://www.investliberia.gov.lr"
+    }
+  },
+  "BDI": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bi.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Burundi Development Agency (ADB)",
+      "url": "https://investburundi.bi"
+    }
+  },
+  "IDN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://id.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Indonesia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/indonesia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Ministry of Investment / BKPM Indonesia",
+      "url": "https://bkpm.go.id"
+    }
+  },
+  "BGR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bg.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Bulgaria Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/bulgaria-market-overview"
+    },
+    "invest_agency": {
+      "name": "InvestBulgaria Agency",
+      "url": "https://www.investbg.government.bg"
+    }
+  },
+  "PER": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://pe.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Peru Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/peru-market-overview"
+    },
+    "invest_agency": {
+      "name": "Private Investment Promotion Agency (ProInversi\u00f3n)",
+      "url": "https://www.proinversion.gob.pe"
+    }
+  },
+  "KWT": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://kw.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "KWT Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/kuwait-market-overview"
+    },
+    "invest_agency": {
+      "name": "Kuwait Foreign Investment Bureau (KFIB)",
+      "url": "https://www.kfib.com.kw"
     }
   },
   "LBN": {
@@ -2366,11 +898,1083 @@
     },
     "us_guide": {
       "name": "LBN Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/lebanon"
+      "url": "https://www.trade.gov/country-commercial-guides/lebanon-market-overview"
     },
     "invest_agency": {
       "name": "Investment Development Authority of Lebanon (IDAL)",
       "url": "https://www.idal.com.lb"
+    }
+  },
+  "SSD": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ss.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "South Sudan Ministry of Investment",
+      "url": "https://investment.eservices.gov.ss"
+    }
+  },
+  "VNM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://vn.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Foreign Investment Agency (FIA) \u2014 Ministry of Planning & Investment",
+      "url": "https://mpi.gov.vn/en"
+    }
+  },
+  "MDV": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mv.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Invest Maldives",
+      "url": "https://investmaldives.gov.mv"
+    }
+  },
+  "LKA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://lk.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "LKA Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/sri-lanka-market-overview"
+    },
+    "invest_agency": {
+      "name": "Board of Investment Sri Lanka (BOI)",
+      "url": "https://investsrilanka.com"
+    }
+  },
+  "EGY": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://eg.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "EGY Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/egypt-market-overview"
+    },
+    "invest_agency": {
+      "name": "General Authority for Investment & Free Zones (GAFI)",
+      "url": "https://www.gafi.gov.eg"
+    }
+  },
+  "GUY": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://gy.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "GUY Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/guyana-market-overview"
+    },
+    "invest_agency": {
+      "name": "Guyana Office for Investment (GO-Invest)",
+      "url": "https://www.guyanainvest.gov.gy"
+    }
+  },
+  "DZA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://dz.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "DZA Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/algeria-market-overview"
+    },
+    "invest_agency": {
+      "name": "National Agency for Investment Development (ANDI)",
+      "url": "https://www.andi.dz"
+    }
+  },
+  "CZE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cz.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Czechia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/czech-republic-market-overview"
+    },
+    "invest_agency": {
+      "name": "CzechInvest",
+      "url": "https://www.czechinvest.org/en"
+    }
+  },
+  "BBD": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bb.usembassy.gov"
+    }
+  },
+  "TTO": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://tt.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Trinidad and Tobago Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/trinidad-and-tobago-market-overview"
+    },
+    "invest_agency": {
+      "name": "InvesTT",
+      "url": "https://www.investt.co.tt"
+    }
+  },
+  "LAO": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://la.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Lao PDR Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/laos-market-overview"
+    },
+    "invest_agency": {
+      "name": "Investment Promotion Department (IPD)",
+      "url": "https://www.investlaos.gov.la"
+    }
+  },
+  "KSV": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://xk.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "KSV Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/kosovo-market-overview"
+    },
+    "invest_agency": {
+      "name": "Kosovo Investment & Enterprise Support Agency (KIESA)",
+      "url": "https://kiesa.rks-gov.net"
+    }
+  },
+  "CMR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cm.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Cameroon Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/cameroon-market-overview"
+    },
+    "invest_agency": {
+      "name": "Cameroon Investment Promotion Agency (CIPA)",
+      "url": "https://www.prc.cm/en/invest-in-cameroon/api"
+    }
+  },
+  "MCO": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://fr.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Monaco Economic Board \u2014 Invest Monaco",
+      "url": "https://www.meb.mc/en/invest-monaco"
+    }
+  },
+  "BHR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bh.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Bahrain Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/bahrain-market-overview"
+    },
+    "invest_agency": {
+      "name": "Bahrain Economic Development Board (EDB)",
+      "url": "https://bahrainedb.com"
+    }
+  },
+  "TGO": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://tg.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Investment Promotion & Free Zone Agency (API-ZF)",
+      "url": "https://investirautogo.tg"
+    }
+  },
+  "MOZ": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mz.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "MOZ Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/mozambique-market-overview"
+    },
+    "invest_agency": {
+      "name": "Agency for Investment & Business Facilitation (APIEX)",
+      "url": "https://www.apiex.gov.mz"
+    }
+  },
+  "NIC": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ni.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "NIC Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/nicaragua-market-overview"
+    },
+    "invest_agency": {
+      "name": "Nicaragua Investment Promotion Agency (ProNicaragua)",
+      "url": "https://pronicaragua.gob.ni"
+    }
+  },
+  "SEN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sn.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Senegal Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/senegal-market-overview"
+    },
+    "invest_agency": {
+      "name": "Investment Promotion & Major Works Agency (APIX)",
+      "url": "https://www.apix.sn"
+    }
+  },
+  "LBY": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ly.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Libya Investment Authority",
+      "url": "https://lia.ly"
+    }
+  },
+  "BRB": {
+    "us_guide": {
+      "name": "Barbados Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/barbados-market-overview"
+    },
+    "invest_agency": {
+      "name": "Invest Barbados",
+      "url": "https://investbarbados.org"
+    }
+  },
+  "ZWE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://zw.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "ZWE Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/zimbabwe-market-overview"
+    },
+    "invest_agency": {
+      "name": "Zimbabwe Investment & Development Agency (ZIDA)",
+      "url": "https://zidainvest.com"
+    }
+  },
+  "PRK": {
+    "invest_agency": {
+      "name": "Korea National Economic Development Agency",
+      "url": null
+    }
+  },
+  "MKD": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mk.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "North Macedonia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/north-macedonia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Agency for Foreign Investments & Export Promotion (AFIEPM)",
+      "url": "https://www.investnorthmacedonia.gov.mk"
+    }
+  },
+  "ALB": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://al.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "ALB Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/albania-market-overview"
+    },
+    "invest_agency": {
+      "name": "Albanian Investment Development Agency (AIDA)",
+      "url": "https://aida.gov.al"
+    }
+  },
+  "CAN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ca.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Invest Canada",
+      "url": "https://www.investcanada.ca"
+    }
+  },
+  "COL": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://co.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Colombia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/colombia-market-overview"
+    },
+    "invest_agency": {
+      "name": "ProColombia",
+      "url": "https://procolombia.co/en"
+    }
+  },
+  "CUB": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cu.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "ProCuba \u2014 Investment Portal",
+      "url": "https://inviertaencuba.mincex.gob.cu/en"
+    }
+  },
+  "MRT": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mr.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "MRT Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/mauritania-market-overview"
+    },
+    "invest_agency": {
+      "name": "National Agency for Investment Promotion in Mauritania (ANIP)",
+      "url": "https://www.aniprim.mr"
+    }
+  },
+  "MEX": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mx.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Secretar\u00eda de Econom\u00eda (Mexico)",
+      "url": "https://www.economia.gob.mx"
+    }
+  },
+  "BGD": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bd.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Bangladesh Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/bangladesh-market-overview"
+    },
+    "invest_agency": {
+      "name": "Bangladesh Investment Development Authority (BIDA)",
+      "url": "https://bida.gov.bd"
+    }
+  },
+  "TUR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://tr.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "T\u00fcrkiye Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/turkey-market-overview"
+    },
+    "invest_agency": {
+      "name": "Presidency of the Republic of T\u00fcrkiye Investment Office",
+      "url": "https://www.invest.gov.tr/en"
+    }
+  },
+  "AUT": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://at.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "AUT Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/austria-market-overview"
+    },
+    "invest_agency": {
+      "name": "Austrian Business Agency (ABA)",
+      "url": "https://www.aba.gv.at/en"
+    }
+  },
+  "KIR": {
+    "invest_agency": {
+      "name": "Investment Promotion Division, Kiribati",
+      "url": "https://mcic.gov.ki/investment-promotion-office"
+    }
+  },
+  "LTU": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://lt.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "LTU Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/lithuania-market-overview"
+    },
+    "invest_agency": {
+      "name": "Invest Lithuania",
+      "url": "https://www.investlithuania.com"
+    }
+  },
+  "GTM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://gt.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "GTM Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/guatemala-market-overview"
+    },
+    "invest_agency": {
+      "name": "Invest Guatemala",
+      "url": "https://investguatemala.com"
+    }
+  },
+  "TCD": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://td.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Chad Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/chad-market-overview"
+    },
+    "invest_agency": {
+      "name": "Agency for Promotion of Investments (APIJ)",
+      "url": "https://www.apijtchad.org"
+    }
+  },
+  "SLV": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sv.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "El Salvador Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/el-salvador-market-overview"
+    },
+    "invest_agency": {
+      "name": "INVEST El Salvador",
+      "url": "https://investinelsalvador.gob.sv"
+    }
+  },
+  "PRT": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://pt.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Portugal Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/portugal-market-overview"
+    },
+    "invest_agency": {
+      "name": "AICEP Portugal Global",
+      "url": "https://www.portugalglobal.pt/en"
+    }
+  },
+  "SDN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sd.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "SDN Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/sudan-market-overview"
+    },
+    "invest_agency": {
+      "name": "Sudanese Investment Authority",
+      "url": "https://www.sudaneseinvestment.com"
+    }
+  },
+  "USA": {
+    "invest_agency": {
+      "name": "SelectUSA \u2014 US Dept of Commerce",
+      "url": "https://www.trade.gov/selectusa"
+    }
+  },
+  "BWA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bw.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Botswana Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/botswana-market-overview"
+    },
+    "invest_agency": {
+      "name": "Botswana Investment & Trade Centre (BITC)",
+      "url": "https://www.bitc.co.bw"
+    }
+  },
+  "LVA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://lv.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Latvia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/latvia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Investment & Development Agency of Latvia (LIAA)",
+      "url": "https://www.liaa.gov.lv/en"
+    }
+  },
+  "BHS": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bs.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "BHS Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/bahamas-market-overview"
+    },
+    "invest_agency": {
+      "name": "Bahamas Investment Authority",
+      "url": "https://www.bahamas.gov.bs/bia"
+    }
+  },
+  "MLI": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ml.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Mali Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/mali-market-overview"
+    },
+    "invest_agency": {
+      "name": "Mali Investment Promotion Agency (API-Mali)",
+      "url": "https://apimali.gov.ml/en"
+    }
+  },
+  "JAM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://jm.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Jamaica Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/jamaica-market-overview"
+    },
+    "invest_agency": {
+      "name": "Jamaica Promotions Corporation (JAMPRO)",
+      "url": "https://dobusinessjamaica.com"
+    }
+  },
+  "MNG": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mn.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Investment and Trade Agency of Mongolia",
+      "url": "https://investmongolia.gov.mn"
+    }
+  },
+  "SMR": {
+    "invest_agency": {
+      "name": "San Marino Agency for Economic Development",
+      "url": "https://www.agency.sm/en"
+    }
+  },
+  "COM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://km.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Agency for the Promotion of Investments (API Comores)",
+      "url": "https://www.apicomores.com"
+    }
+  },
+  "VEN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ve.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Ministry of Industries & National Production",
+      "url": "https://mippci.gob.ve"
+    }
+  },
+  "WSM": {
+    "invest_agency": {
+      "name": "Ministry of Commerce, Industry & Labour",
+      "url": "https://mcil.gov.ws"
+    }
+  },
+  "HUN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://hu.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Hungary Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/hungary-market-overview"
+    },
+    "invest_agency": {
+      "name": "Hungarian Investment Promotion Agency (HIPA)",
+      "url": "https://hipa.hu/en"
+    }
+  },
+  "CYP": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cy.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Cyprus Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/cyprus-market-overview"
+    },
+    "invest_agency": {
+      "name": "Invest Cyprus",
+      "url": "https://www.investcyprus.org.cy"
+    }
+  },
+  "PAN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://pa.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "PAN Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/panama-market-overview"
+    },
+    "invest_agency": {
+      "name": "ProPanam\u00e1",
+      "url": "https://propanama.org/en"
+    }
+  },
+  "SAU": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://sa.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "SAU Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/saudi-arabia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Ministry of Investment Saudi Arabia (MISA)",
+      "url": "https://misa.gov.sa/en"
+    }
+  },
+  "BLZ": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bz.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "BLZ Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/belize-market-overview"
+    },
+    "invest_agency": {
+      "name": "Belize Trade & Investment Development Service (BELTRAIDE)",
+      "url": "https://beltraide.bz"
+    }
+  },
+  "NAM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://na.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Namibia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/namibia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Namibia Investment Promotion & Development Board (NIPDB)",
+      "url": "https://www.nipdb.com"
+    }
+  },
+  "KNA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bb.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "St. Kitts Investment Promotion Agency (SKIPA)",
+      "url": "https://www.skipa.kn"
+    }
+  },
+  "VCT": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bb.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Invest SVG",
+      "url": "https://www.investsvg.com"
+    }
+  },
+  "HTI": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ht.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "HTI Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/haiti-market-overview"
+    },
+    "invest_agency": {
+      "name": "Center for Investment Facilitation (CFI)",
+      "url": null
+    }
+  },
+  "BEN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bj.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Benin Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/benin-market-overview"
+    },
+    "invest_agency": {
+      "name": "Agency for the Promotion of Investments & Exports (APIEX)",
+      "url": "https://www.apiex.bj"
+    }
+  },
+  "IRQ": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://iq.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "IRQ Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/iraq-market-overview"
+    },
+    "invest_agency": {
+      "name": "National Investment Commission (NIC Iraq)",
+      "url": "http://www.investpromo.gov.iq"
+    }
+  },
+  "ARG": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ar.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "ARG Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/argentina-market-overview"
+    },
+    "invest_agency": {
+      "name": "Secretar\u00eda de Industria y Comercio (Argentina)",
+      "url": "https://www.argentina.gob.ar/economia/industria-y-comercio"
+    }
+  },
+  "NGA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ng.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "NGA Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/nigeria-market-overview"
+    },
+    "invest_agency": {
+      "name": "Nigerian Investment Promotion Commission (NIPC)",
+      "url": "https://www.nipc.gov.ng"
+    }
+  },
+  "FJI": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://fj.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "FJI Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/fiji-market-overview"
+    },
+    "invest_agency": {
+      "name": "Investment Fiji",
+      "url": "https://www.investmentfiji.org.fj"
+    }
+  },
+  "ISL": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://is.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Iceland Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/iceland-market-overview"
+    },
+    "invest_agency": {
+      "name": "Invest in Iceland",
+      "url": "https://www.invest.is"
+    }
+  },
+  "MAR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ma.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Morocco Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/morocco-market-overview"
+    },
+    "invest_agency": {
+      "name": "Moroccan Investment & Export Development Agency (AMDIE)",
+      "url": "https://amdie.gov.ma/en"
+    }
+  },
+  "SOM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://so.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "SOM Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/somalia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Somalia Investment Promotion Office (SOMINVEST)",
+      "url": "https://sominvest.gov.so"
+    }
+  },
+  "BLR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://by.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "National Agency of Investment & Privatization",
+      "url": "https://www.investinbelarus.by/en"
+    }
+  },
+  "NRU": {
+    "invest_agency": {
+      "name": "Nauru Agency Corporation",
+      "url": null
+    }
+  },
+  "GMB": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://gm.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Gambia, The Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/gambia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Gambia Investment & Export Promotion Agency (GIEPA)",
+      "url": "https://www.giepa.gm"
+    }
+  },
+  "AZE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://az.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Azerbaijan Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/azerbaijan-market-overview"
+    },
+    "invest_agency": {
+      "name": "Azerbaijan Export & Investment Promotion Agency (AZPROMO)",
+      "url": "https://azpromo.az/en"
+    }
+  },
+  "GAB": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ga.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "GAB Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/gabon-market-overview"
+    },
+    "invest_agency": {
+      "name": "Gabon National Investment Promotion Agency (ANPI-GABON)",
+      "url": "https://investingabon.ga"
+    }
+  },
+  "ARM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://am.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Armenia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/armenia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Enterprise Armenia",
+      "url": "https://enterprisearmenia.am"
+    }
+  },
+  "CRI": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cr.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Costa Rica Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/costa-rica-market-overview"
+    },
+    "invest_agency": {
+      "name": "Costa Rican Coalition for Development Initiatives (CINDE)",
+      "url": "https://www.cinde.org"
+    }
+  },
+  "CHL": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cl.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "CHL Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/chile-market-overview"
+    },
+    "invest_agency": {
+      "name": "InvestChile",
+      "url": "https://investchile.gob.cl/en"
+    }
+  },
+  "GEO": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ge.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Georgia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/georgia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Enterprise Georgia",
+      "url": "https://www.enterprisegeorgia.gov.ge/en"
+    }
+  },
+  "SVN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://si.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Slovenia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/slovenia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Spirit Slovenia",
+      "url": "https://www.spirit.si/en"
+    }
+  },
+  "MMR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mm.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "MMR Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/burma-market-overview"
+    },
+    "invest_agency": {
+      "name": "Directorate of Investment & Company Administration (DICA)",
+      "url": "https://dica.gov.mm/en"
+    }
+  },
+  "MLT": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mt.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Malta Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/malta-market-overview"
+    },
+    "invest_agency": {
+      "name": "Malta Enterprise",
+      "url": "https://www.maltaenterprise.com"
+    }
+  },
+  "HRV": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://hr.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Croatia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/croatia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Agency for Investments & Competitiveness (AIK)",
+      "url": "https://www.aik-invest.hr"
+    }
+  },
+  "TUV": {
+    "invest_agency": {
+      "name": "Pacific Islands Trade & Invest (Regional)",
+      "url": null
+    }
+  },
+  "ARE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ae.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "ARE Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/united-arab-emirates-market-overview"
+    },
+    "invest_agency": {
+      "name": "Abu Dhabi Investment Office (ADIO) / Dubai FDI",
+      "url": "https://adio.gov.ae"
+    }
+  },
+  "IND": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://in.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Invest India",
+      "url": "https://www.investindia.gov.in"
+    }
+  },
+  "AFG": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://af.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "AFG Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/afghanistan-market-overview"
+    },
+    "invest_agency": {
+      "name": "Ministry of Commerce & Industries",
+      "url": "https://moci.gov.af"
+    }
+  },
+  "SRB": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://rs.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Serbia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/serbia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Development Agency of Serbia (RAS)",
+      "url": "https://ras.gov.rs/en"
     }
   },
   "MHL": {
@@ -2383,48 +1987,108 @@
       "url": "https://www.ocit.mh"
     }
   },
-  "DMA": {
+  "BEL": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://dm.usembassy.gov"
-    },
-    "invest_agency": {
-      "name": "Invest Dominica Authority (IDA)",
-      "url": "https://investdominica.dm"
-    }
-  },
-  "JAM": {
-    "us_embassy": {
-      "name": "U.S. Embassy",
-      "url": "https://jm.usembassy.gov"
+      "url": "https://be.usembassy.gov"
     },
     "us_guide": {
-      "name": "Jamaica Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/jamaica"
+      "name": "Belgium Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/belgium-market-overview"
     },
     "invest_agency": {
-      "name": "Jamaica Promotions Corporation (JAMPRO)",
-      "url": "https://dobusinessjamaica.com"
+      "name": "Flanders Investment & Trade / Brussels Invest & Export",
+      "url": "https://www.flandersinvestmentandtrade.com"
     }
   },
-  "USA": {
+  "KEN": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://us.usembassy.gov"
+      "url": "https://ke.usembassy.gov"
     },
     "invest_agency": {
-      "name": "SelectUSA \u2014 US Dept of Commerce",
-      "url": "https://www.selectusa.gov"
+      "name": "Kenya Investment Authority (KenInvest)",
+      "url": "https://invest.go.ke"
     }
   },
-  "GIN": {
+  "BOL": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://gn.usembassy.gov"
+      "url": "https://bo.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "BOL Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/bolivia-market-overview"
     },
     "invest_agency": {
-      "name": "Agency for the Promotion of Private Investments (APIP-Guinea)",
-      "url": null
+      "name": "Ministry of Productive Development & Plural Economy",
+      "url": "https://www.mpc.gob.bo"
+    }
+  },
+  "PHL": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ph.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Philippines Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/philippines-market-overview"
+    },
+    "invest_agency": {
+      "name": "Board of Investments Philippines (BOI)",
+      "url": "https://boi.gov.ph"
+    }
+  },
+  "SWE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://se.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Sweden Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/sweden-market-overview"
+    },
+    "invest_agency": {
+      "name": "Business Sweden",
+      "url": "https://businesssweden.com/en"
+    }
+  },
+  "UKR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ua.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "UKR Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/ukraine-market-overview"
+    },
+    "invest_agency": {
+      "name": "UkraineInvest",
+      "url": "https://ukraineinvest.gov.ua/en"
+    }
+  },
+  "GBR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://uk.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Department for Business & Trade (DBT)",
+      "url": "https://www.gov.uk/government/organisations/department-for-business-and-trade"
+    }
+  },
+  "FRA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://fr.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "FRA Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/france-market-overview"
+    },
+    "invest_agency": {
+      "name": "Business France",
+      "url": "https://www.businessfrance.fr/en"
     }
   },
   "COD": {
@@ -2434,67 +2098,379 @@
     },
     "us_guide": {
       "name": "Congo, Dem. Rep. Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/democratic-republic-congo"
+      "url": "https://www.trade.gov/country-commercial-guides/democratic-republic-congo-market-overview"
     },
     "invest_agency": {
       "name": "National Agency for Investment Promotion (ANAPI)",
       "url": "https://anapi.cd/en"
     }
   },
-  "CYP": {
+  "GNQ": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://cy.usembassy.gov"
-    },
-    "us_guide": {
-      "name": "Cyprus Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/cyprus"
+      "url": "https://gq.usembassy.gov"
     },
     "invest_agency": {
-      "name": "Invest Cyprus",
-      "url": "https://www.investcyprus.org.cy"
+      "name": "Ministry of Mines, Industry & Energy",
+      "url": null
     }
   },
-  "DNK": {
+  "TWN": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://dk.usembassy.gov"
+      "url": "https://www.ait.org.tw"
     },
     "us_guide": {
-      "name": "DNK Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/denmark"
+      "name": "Taiwan, China Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/taiwan-market-overview"
     },
     "invest_agency": {
-      "name": "Invest in Denmark",
-      "url": "https://investindk.com"
+      "name": "Invest Taiwan (MOEA)",
+      "url": "https://investtaiwan.nat.gov.tw/home?lang=en"
     }
   },
-  "IND": {
+  "NZL": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://in.usembassy.gov"
+      "url": "https://nz.usembassy.gov"
     },
     "us_guide": {
-      "name": "IND Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/india"
+      "name": "New Zealand Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/new-zealand-market-overview"
     },
     "invest_agency": {
-      "name": "Invest India",
-      "url": "https://www.investindia.gov.in"
+      "name": "New Zealand Trade & Enterprise (NZTE)",
+      "url": "https://www.nzte.govt.nz"
     }
   },
-  "POL": {
+  "UZB": {
     "us_embassy": {
       "name": "U.S. Embassy",
-      "url": "https://pl.usembassy.gov"
+      "url": "https://uz.usembassy.gov"
     },
     "us_guide": {
-      "name": "Poland Commercial Guide",
-      "url": "https://www.trade.gov/country-commercial-guides/poland"
+      "name": "Uzbekistan Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/uzbekistan-market-overview"
     },
     "invest_agency": {
-      "name": "Polish Investment & Trade Agency (PAIH)",
-      "url": "https://www.paih.gov.pl/en"
+      "name": "Agency for Promotion of Investments (API Uzbekistan)",
+      "url": "https://invest.gov.uz/en"
+    }
+  },
+  "MYS": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://my.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Malaysia Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/malaysia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Malaysian Investment Development Authority (MIDA)",
+      "url": "https://www.mida.gov.my"
+    }
+  },
+  "THA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://th.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "THA Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/thailand-market-overview"
+    },
+    "invest_agency": {
+      "name": "Thailand Board of Investment (BOI)",
+      "url": "https://www.boi.go.th/en"
+    }
+  },
+  "MWI": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mw.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "MWI Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/malawi-market-overview"
+    },
+    "invest_agency": {
+      "name": "Malawi Investment & Trade Centre (MITC)",
+      "url": "https://mitc.mw"
+    }
+  },
+  "MNE": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://me.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Montenegro Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/montenegro-market-overview"
+    },
+    "invest_agency": {
+      "name": "Montenegrin Investment Agency (MIA)",
+      "url": "https://mia.gov.me/en"
+    }
+  },
+  "JOR": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://jo.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Jordan Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/jordan-market-overview"
+    },
+    "invest_agency": {
+      "name": "Jordan Investment Commission (JIC)",
+      "url": "https://www.jic.gov.jo"
+    }
+  },
+  "VUT": {
+    "invest_agency": {
+      "name": "Vanuatu Investment Promotion Authority (VIPA)",
+      "url": "https://investvanuatu.vu"
+    }
+  },
+  "TKM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://tm.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Turkmenistan Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/turkmenistan-market-overview"
+    },
+    "invest_agency": {
+      "name": "Ministry of Finance & Economy of Turkmenistan",
+      "url": "https://www.minfin.gov.tm"
+    }
+  },
+  "ATG": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bb.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Antigua & Barbuda Investment Authority (ABIA)",
+      "url": "https://www.investantiguabarbuda.org"
+    }
+  },
+  "NLD": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://nl.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "NLD Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/netherlands-market-overview"
+    },
+    "invest_agency": {
+      "name": "Netherlands Foreign Investment Agency (NFIA)",
+      "url": "https://investinholland.com"
+    }
+  },
+  "OMN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://om.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "OMN Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/oman-market-overview"
+    },
+    "invest_agency": {
+      "name": "Invest Easy \u2014 Ministry of Commerce, Industry & Investment Promotion",
+      "url": "https://www.investeasy.gov.om"
+    }
+  },
+  "MUS": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://mu.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Mauritius Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/mauritius-market-overview"
+    },
+    "invest_agency": {
+      "name": "Economic Development Board Mauritius (EDB)",
+      "url": "https://edbmauritius.org"
+    }
+  },
+  "NPL": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://np.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Nepal Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/nepal-market-overview"
+    },
+    "invest_agency": {
+      "name": "Investment Board Nepal (IBN)",
+      "url": "https://ibn.gov.np"
+    }
+  },
+  "LUX": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://lu.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "LUX Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/luxembourg-market-overview"
+    },
+    "invest_agency": {
+      "name": "Luxinnovation",
+      "url": "https://www.luxinnovation.lu"
+    }
+  },
+  "RWA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://rw.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Rwanda Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/rwanda-market-overview"
+    },
+    "invest_agency": {
+      "name": "Rwanda Development Board (RDB)",
+      "url": "https://rdb.rw"
+    }
+  },
+  "ZMB": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://zm.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "ZMB Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/zambia-market-overview"
+    },
+    "invest_agency": {
+      "name": "Zambia Development Agency (ZDA)",
+      "url": "https://zda.org.zm"
+    }
+  },
+  "ECU": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://ec.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Ecuador Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/ecuador-market-overview"
+    },
+    "invest_agency": {
+      "name": "PRO ECUADOR",
+      "url": "https://www.proecuador.gob.ec"
+    }
+  },
+  "MDA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://md.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Moldova Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/moldova-market-overview"
+    },
+    "invest_agency": {
+      "name": "Moldova Investment Agency (MIA)",
+      "url": "https://mia.md/en"
+    }
+  },
+  "DOM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://do.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "DOM Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/dominican-republic-market-overview"
+    },
+    "invest_agency": {
+      "name": "Center for Export & Investment (CEI-RD)",
+      "url": "https://cei.gob.do"
+    }
+  },
+  "FSM": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://fm.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Micronesia Investment & Development Corporation (MIDC)",
+      "url": null
+    }
+  },
+  "ITA": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://it.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Italy Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/italy-market-overview"
+    },
+    "invest_agency": {
+      "name": "ITA \u2014 Italian Trade Agency",
+      "url": "https://www.ice.it/en"
+    }
+  },
+  "COG": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cg.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Congo, Rep. Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/congo-republic-market-overview"
+    },
+    "invest_agency": {
+      "name": "Agency for Promotion of Investments (API)",
+      "url": "https://apicongo.cg/index.php?lang=en"
+    }
+  },
+  "CPV": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://cv.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "Cabo Verde Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/cabo-verde-market-overview"
+    },
+    "invest_agency": {
+      "name": "Cabo Verde TradeInvest (CVTI)",
+      "url": "https://www.cvtradeinvest.cv"
+    }
+  },
+  "PLW": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://pw.usembassy.gov"
+    },
+    "invest_agency": {
+      "name": "Palau Foreign Investment Board",
+      "url": "https://www.palaugov.pw/fib"
+    }
+  },
+  "BRN": {
+    "us_embassy": {
+      "name": "U.S. Embassy",
+      "url": "https://bn.usembassy.gov"
+    },
+    "us_guide": {
+      "name": "BRN Commercial Guide",
+      "url": "https://www.trade.gov/country-commercial-guides/brunei-market-overview"
+    },
+    "invest_agency": {
+      "name": "Brunei Economic Development Board (BEDB)",
+      "url": "https://www.bedb.gov.bn"
     }
   }
 }

@@ -1,0 +1,45 @@
+{
+  "_notes": "ITAR/Allied Nation status for general guidance only. Actual ITAR compliance requires qualified legal counsel. Sources: ITAR Part 126.1, US State Dept MNNA list, NATO membership as of 2025.",
+
+  "five_eyes": {
+    "label": "Five Eyes",
+    "description": "Core intelligence-sharing alliance. Highest trust for defense operations.",
+    "countries": ["USA","GBR","CAN","AUS","NZL"]
+  },
+
+  "nato": {
+    "label": "NATO Ally",
+    "description": "NATO member state. Article 5 mutual defense commitment.",
+    "countries": [
+      "ALB","BEL","BGR","HRV","CZE","DNK","EST","FIN","FRA","DEU",
+      "GRC","HUN","ISL","ITA","LVA","LTU","LUX","MNE","NLD","MKD",
+      "NOR","POL","PRT","ROU","SVK","SVN","ESP","SWE","TUR"
+    ]
+  },
+
+  "ally": {
+    "label": "US Treaty Ally",
+    "description": "Major Non-NATO Ally (MNNA) or equivalent close US partner. Favorable for defense cooperation.",
+    "countries": [
+      "ARG","BHR","BRA","COL","EGY","ISR","JPN","JOR","KWT",
+      "MAR","PAK","PHL","QAT","SAU","KOR","TWN","THA","TUN",
+      "ARE","UKR","GEO","MNG"
+    ]
+  },
+
+  "caution": {
+    "label": "Caution",
+    "description": "Strategic competitor or significant export control concerns. Not embargoed but substantial restrictions apply. Legal review strongly advised.",
+    "countries": ["CHN","MAC","HKG","RUS"]
+  },
+
+  "restricted": {
+    "label": "Restricted / ITAR",
+    "description": "ITAR Part 126.1 embargoed, UN arms embargo, or comprehensive US sanctions in effect. Defense-related activity generally prohibited without specific license.",
+    "countries": [
+      "PRK","IRN","SYR","BLR","CUB","VEN","MMR","SDN","SSD",
+      "LBY","SOM","YEM","AFG","ERI","CAF","MLI","ZWE","NIC",
+      "HTI","IRQ","LBN"
+    ]
+  }
+}

@@ -1,12 +1,15 @@
-import { ScoreCategory, DataFreshness } from '../types'
+import { ScoreCategory, DataFreshness, UserPreferences } from '../types'
 import DataFreshnessWidget from './DataFreshness'
+import IndustrySelector from './IndustrySelector'
 
 interface HeaderProps {
-  activeView: 'map' | 'rankings' | 'compare';
-  setActiveView: (v: 'map' | 'rankings' | 'compare') => void;
+  activeView: 'map' | 'rankings' | 'compare' | 'about';
+  setActiveView: (v: 'map' | 'rankings' | 'compare' | 'about') => void;
   scoreCategory: ScoreCategory;
   setScoreCategory: (c: ScoreCategory) => void;
   freshness: DataFreshness | null;
+  userPrefs: UserPreferences;
+  onUpdatePrefs: (prefs: UserPreferences) => void;
 }
 
 const SCORE_LABELS: Record<ScoreCategory, string> = {
@@ -18,7 +21,7 @@ const SCORE_LABELS: Record<ScoreCategory, string> = {
   govt_effectiveness: 'Govt Effectiveness',
 }
 
-export default function Header({ activeView, setActiveView, scoreCategory, setScoreCategory, freshness }: HeaderProps) {
+export default function Header({ activeView, setActiveView, scoreCategory, setScoreCategory, freshness, userPrefs, onUpdatePrefs }: HeaderProps) {
   return (
     <header className="bg-gray-900 border-b border-gray-800 px-6 py-3 flex items-center gap-6 flex-wrap">
       <div className="flex items-center gap-3 mr-4">
@@ -31,20 +34,23 @@ export default function Header({ activeView, setActiveView, scoreCategory, setSc
 
       {/* View tabs */}
       <div className="flex gap-1 bg-gray-800 rounded-lg p-1">
-        {(['map', 'rankings', 'compare'] as const).map(view => (
+        {(['map', 'rankings', 'compare', 'about'] as const).map(view => (
           <button
             key={view}
             onClick={() => setActiveView(view)}
-            className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors capitalize ${
+            className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
               activeView === view
                 ? 'bg-blue-600 text-white'
                 : 'text-gray-400 hover:text-gray-200'
             }`}
           >
-            {view === 'map' ? 'World Map' : view === 'rankings' ? 'Rankings' : 'Compare'}
+            {view === 'map' ? 'World Map' : view === 'rankings' ? 'Rankings' : view === 'compare' ? 'Compare' : 'About & Sources'}
           </button>
         ))}
       </div>
+
+      {/* Industry selector */}
+      <IndustrySelector userPrefs={userPrefs} onUpdate={onUpdatePrefs} />
 
       {/* Score selector */}
       <div className="flex items-center gap-2 ml-auto">
